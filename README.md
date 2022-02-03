@@ -1,4 +1,24 @@
 # EveryTrade - Release Notes
+NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel https://t.me/everytrade.
+
+## Version 2022-02-03T1528   
+### New Features   
+ETD-321 [connectors] Support for reading ERC-20 tokens from the Ethereum Blockchain.   
+ETD-309 [support] EveryTrade Release Notes and link from navigation.   
+  
+### Improvements   
+ETD-326 [reports] Trading statement in accounting currency returns total profit / - loss for the reporting period.   
+ETD-300 [support]Documentation disclosure of EveryTrade API & CSV format v3.1.   
+ETD-234 [containers] CoinMate CSV support for DEPOSIT & WITHDRAWAL transactions.   
+ETD-225 [connectors] CoinMate API DEPOSIT & WITHDRAWAL have no address.   
+ETD-205 [accounts] CoinMate CSV imports transaction addresses.   
+   
+### Bug Fixes   
+ETD-319 [transactions] Cannot save REBATE changes.   
+ETD-265 [portfolio] While hovering with mouse on ET portfolio dashboard page contains disappears.   
+ETD-254 [portfolio] Empty portfolio with balances not showing values.   
+ETD-27 [connectors] Blockchain ETH limited API response to 10000 transactions.   
+   
 ## Version 2022-01-27T1409
 ### Bug Fixes   
 ETD-318 [transactions] Downloaded deposit from Kraken API does not appear in transactions.   
