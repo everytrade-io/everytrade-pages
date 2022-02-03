@@ -1,7 +1,7 @@
 # EveryTrade - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel https://t.me/everytrade.
 
-## Version 2022-02-03T1709   
+## Version 2022-02-03T1528   
 ### New Features   
 ETD-321 [connectors] Support for reading ERC-20 tokens from the Ethereum Blockchain.   
 ETD-309 [support] EveryTrade Release Notes and link from navigation.   
