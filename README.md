@@ -1,23 +1,23 @@
 # EveryTrade - Release Notes
-NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel https://t.me/everytrade.
+NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
 
 ## Version 2022-02-03T1528   
 ### New Features   
-ETD-321 [connectors] Support for reading ERC-20 tokens from the Ethereum Blockchain.   
+ETD-321 [connectors] Support for reading ERC-20 tokens from the Ethereum Blockchain. (Resync your APIs. Support for additional tokens in currency pairs will be gradually added.)   
 ETD-309 [support] EveryTrade Release Notes and link from navigation.   
   
 ### Improvements   
 ETD-326 [reports] Trading statement in accounting currency returns total profit / - loss for the reporting period.   
-ETD-300 [support]Documentation disclosure of EveryTrade API & CSV format v3.1.   
-ETD-234 [containers] CoinMate CSV support for DEPOSIT & WITHDRAWAL transactions.   
-ETD-225 [connectors] CoinMate API DEPOSIT & WITHDRAWAL have no address.   
-ETD-205 [accounts] CoinMate CSV imports transaction addresses.   
+ETD-300 [support] Documentation disclosure of EveryTrade [API](https://everytrade.io/help/api#everytrade) & [CSV](https://everytrade.io/help/csv#everytrade) format v3.1   
+ETD-234 [containers] CoinMate CSV support for DEPOSIT & WITHDRAWAL transactions. (re-import your CSVs)   
+ETD-225 [connectors] CoinMate API DEPOSIT & WITHDRAWAL have no address. (resync your APIs)   
+ETD-205 [accounts] CoinMate CSV imports transaction addresses. (re-import your CSVs)   
    
 ### Bug Fixes   
 ETD-319 [transactions] Cannot save REBATE changes.   
-ETD-265 [portfolio] While hovering with mouse on ET portfolio dashboard page contains disappears.   
+ETD-265 [portfolio] While hovering with mouse on ET portfolio dashboard page contains disappears. (Linux)   
 ETD-254 [portfolio] Empty portfolio with balances not showing values.   
-ETD-27 [connectors] Blockchain ETH limited API response to 10000 transactions.   
+ETD-27 [connectors] Blockchain ETH limited API response to 10 000 transactions. (resync your APIs)   
    
 ## Version 2022-01-27T1409
 ### Bug Fixes   
@@ -34,7 +34,7 @@ ETD-287 [portfolios] Stretched portfolio currency switcher.
 ### New Features   
 ETD-196 [audit] Inclusion of fees in the purchase price.   
 ETD-148 [accounts] Report account movements to CSV file.   
-ETD-209 [connectors] Extension EveryTrade CSV V3.1 format, DEPOSIT & WITHDRAWAL transactions.   
+ETD-209 [connectors] Extension EveryTrade CSV v3.1 format, DEPOSIT & WITHDRAWAL transactions.   
 ETD-256 [pairs] Support for new 139 symbols.   
 ACE, AGLD, AIOZ, ALICE, ALPHA, AMP, ANCT, AOA, ARDR, ARK, ARPA, ATA, AVAX, AWC, AXS, BAKE, BETA, BETH, BNT, BNX, BOND, BTG, BTR, BUNNY, C98, CLV, COTI, CSPR, CTK, DAR, DCR, DEGO, DERC, DOCK, DODO, DYDX, EFI, ELA, ELON, ELONGATE, ENG, ENJ, ENS, EURS, EWT, FIO, FORTH, FOX, FTM, FXS, GALA, GAS, GNT, GRIN, GTO, HBAR, HIVE, HNT, IGNIS, INJ, IOTX, KAR, KAU, KEEP, KLAY, LCX, LINA, LIT, LOCG, LOOM, LTO, MAID, MBOX, MEPAD, MFT, MIR, MITH, MOVR, MTL, NAV, NEAR, NEBL, NEXO, NPXS, NU, OCEAN, OMI, ORN, OXT, PHA, PIVX, POLY, QKC, QNT, QUICK, RAD, RDN, REEF, REQ, REVV, RLY, ROSE, RSR, RUNE, SAFEMOON, SALT, SDN, SHIB, SIB, SKL, SLP, SOLO, SPARTA, STEEM, STMX, STRAX, STRONG, SYS, TCT, TFUEL, TLM, TONCOIN, TRB, TWT, UOS, VIA, VITE, VOXEL, VRM, VTHO, WABI, WAN, WIN, WING, WPR, XCH, XHV, XMY, XVS.   
    
