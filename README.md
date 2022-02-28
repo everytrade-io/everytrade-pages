@@ -1,6 +1,35 @@
 # EveryTrade - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
-
+   
+## Version 2022-02-28T0919   
+### New Features   
+ETD-52 [languages] Add Spanish and German language support.   
+ETD-251 [portfolio] Portfolio time period and movement calculations.   
+ETD-309 [support] EveryTrade Release Notes.   
+ETD-336 [containers] Anycoin exchange exports CSV in native EveryTrade format.   
+   
+### Improvements   
+ETD-191 [connectors] Coinbase API - support deposits and withdrawals transactions.   
+ETD-192 [connectors] Coinbase Pro API - support deposits and withdrawals transactions.   
+ETD-324 [transactions] Address from / to in transaction details.   
+ETD-338 [account] Crypto-accounting support query.   
+ETD-350 [support] Update communication channel links from the footer.   
+ETD-352 [pairs] Add new symbols and tokens 22/02.   
+0xBTC, ARAW, AZ, BSOV, CPRO, CWV, CYFM, DREP, DTA, EKT, ELEC, ETHMNY, ETHPLO, EVC, FLOT, GVE, HEX, KICK, LPT, LXT, MNE, ODEX, POPCOIN, POWR, PYRO, RNT, SHE, SHIT, SHR, SINGH, SLV, ZLA, ADC, ADX, AGIX, AION, AMB, ANC, ATM, AUDIO, BADGER, BELT, BNC, BRD, BTS, BURGER, BZRX, CDT, CELO, CHR, COCOS, CREAM, CTXC, CVP, DATA, ELF, ETHOS, FLUX, FOR, GNO, HIGH, HODL, IDEX, IQ, JASMY, JST, JUV, KEY, LAZIO, LPT, MBL, MC, MDT, MINA, MLN, NBS, NFT, NKN, NULS, NXS, OHM, OHMv2, OM, PERL, POKT, PORTO, POWR, PSG, QI, RAMP, RARI, REPV2, SFP, SKY, STX, SUN, TBTC, TRU, TUSD, TVK, VR, VRT, WBTC, WTC, YFII, ACA, ALPINE, BCPT, BOBA, BSD, BTCST, BTTC, COP, DON, GRS, MEETONE, ONG, PURSE, SCRT, SGB, TKO, UST, VGX, WAXP, XN.   
+ETD-353 [transactions] Receiver and sender address resolution in the transaction input.   
+ETD-367 [portfolio] Update portfolio help.   
+ETD-368 [portfolio] Rename Portfolio currency to Accounting currency.   
+   
+### Bug Fixes   
+ETD-235 [connectors] Coinbase API block non-standard transactions.   
+ETD-265 [portfolio] When you hover over the portfolio chart, the page content disappears.   
+ETD-343 [connectors] Binance API duplicates DEPOSIT, WITHDRAWAL, FAILED transactions. (Fix automatically removes duplicate transactions.)   
+ETD-344 [containers] EveryTrade CSV v3.1 import crashes when reading the transactions address.   
+ETD-354 [transactions] Saving a bundled fee and discount returns error 400 for DEPOSIT and WITHDRAWAL transactions.   
+ETD-363 [layout] Alignment of fees in the mobile version.   
+ETD-365 [portfolio] Clicking on the end of the time period chart resets the time period.   
+ETD-366 [portfolio] The portfolio chart shows the previous day of the selected portfolio time period.   
+   
 ## Version 2022-02-03T1528   
 ### New Features   
 ETD-321 [connectors] Support for reading ERC-20 tokens from the Ethereum Blockchain. (Resync your APIs. Support for additional tokens in currency pairs will be gradually added.)   
