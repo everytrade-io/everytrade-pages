@@ -1,6 +1,26 @@
 # EveryTrade - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-03-08T1405   
+### New Features   
+ETD-342 [portfolio] Calendar filters.   
+   
+### Improvements   
+ETD-378 [transactions] Default view of all transactions in datamanager.   
+ETD-373 [support] Kraken API help update.   
+ETD-372 [containers] Update Binance CSV format.   
+ETD-350 [support] Update communication channel links from the footer.   
+ETD-345 [containers] EveryTrade format import symbol XDG as DOGE.   
+ETD-285 [accounts] Change the order of tabs in the account detail.   
+ETD-284 [connectors] Sort accounts by name in connector.   
+   
+### Bug Fixes   
+ETD-375 [transactions] Deleting the WITHDRAWAL transaction returns error 500.   
+ETD-371 [containers] CSV container shows bad portfolio inclusion.   
+ETD-369 [containers] EveryTrade CSV import errors.   
+ETD-192 [connectors] Coinbase PRO - deposits and withdrawals.   
+ETD-191 [connectors] Coinbase - deposits and withdrawals.   
+   
 ## Version 2022-02-28T0919   
 ### New Features   
 ETD-52 [languages] Add Spanish and German language support.   
