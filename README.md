@@ -1,6 +1,13 @@
 # EveryTrade - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-03-11T1058   
+### Improvements   
+ETD-341 [transactions] Improved control of the mobile transaction statement.   
+   
+### Bug Fixes   
+ETD-383 [connectors] Transaction count flashes when resynchronizing the connector.   
+   
 ## Version 2022-03-08T1405   
 ### New Features   
 ETD-342 [portfolio] Calendar filters.   
