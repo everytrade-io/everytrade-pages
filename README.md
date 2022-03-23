@@ -1,6 +1,22 @@
 # EveryTrade - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-03-22T1454   
+### New Features   
+ETD-329 [pairs] Convert pairs to accounting currency. (Requires manual activation in portfolio settings. More information in the newsletter.)   
+ETD-310 [portfolio] Last used portfolio.   
+   
+### Improvements   
+ETD-370 [connectors] Bittrex API v3 support.   
+ETD-96 [pairs] Closing crypto positions.   
+   
+### Bug Fixes   
+ETD-389 [transactions] Division 0 in transaction detail.   
+ETD-387 [transactions] Transaction filter is active but shows no entries.   
+ETD-358 [fee] Under portfolio the sell fee not recognized.   
+ETD-328 [reports] Incorrect currency and quantity is displayed for deposits and withdrawals in one of the reports.   
+ETD-327 [portfolio] Your Fiat assets are ignoring deposits and withdrawals.   
+   
 ## Version 2022-03-11T1058   
 ### Improvements   
 ETD-341 [transactions] Improved control of the mobile transaction statement.   
