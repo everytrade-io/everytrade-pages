@@ -1,6 +1,16 @@
 # EveryTrade - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-03-24T0856   
+### Improvements   
+ETD-400 [reports] Amount of fee in the currency of the trade.   
+ETD-399 [reports] Rename transactions of initial balance as opening balance. Originally Deposit.   
+ETD-370 [connectors] Bittrex API v3 support - correct reporting of API invalid key to the log.   
+   
+### Bug Fixes   
+Minor improvements and corrections to changes in the previous release.   
+ETD-357 [portfolio] Invalid value for EpochDay - Error when copying FIFO portfolio balances.   
+   
 ## Version 2022-03-22T1454   
 ### New Features   
 ETD-329 [pairs] Convert pairs to accounting currency. (Requires manual activation in portfolio settings. More information in the newsletter.)   
