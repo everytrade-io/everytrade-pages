@@ -1,6 +1,17 @@
 # EveryTrade - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-03-29T1209   
+### New Features   
+**Please follow the instructions in the newsletter on how to properly migrate to the new features.**   
+ETD-398 [portfolio] Switch to convert traded pairs to accounting currency.   
+ETD-396 [connectors] Allow Binance API & CSV to load a fee in a third trade currency.   
+ETD-392 [transactions] Third currency trade FEE transactions.   
+ETD-305 [transactions] Last used pairs.   
+   
+### Improvements   
+ETD-401 [help] EveryTrade CSV 3.1.1 specification expanded to include third currency fees.      
+   
 ## Version 2022-03-24T0856   
 ### Improvements   
 ETD-400 [reports] Amount of fee in the currency of the trade.   
