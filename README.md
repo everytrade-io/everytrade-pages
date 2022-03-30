@@ -1,7 +1,7 @@
 # EveryTrade - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
-## Version 2022-03-30Txxxx   
+## Version 2022-03-30T1523   
 ### Improvements   
 **Please follow the instructions in the newsletter on how to properly migrate to the new features.**   
 ETD-405 [account] Exclude all FEE transactions from the transaction limit by subscription type.   
