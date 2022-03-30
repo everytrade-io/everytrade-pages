@@ -1,6 +1,17 @@
 # EveryTrade - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-03-30Txxxx   
+### Improvements   
+**Please follow the instructions in the newsletter on how to properly migrate to the new features.**   
+ETD-405 [account] Exclude all FEE transactions from the transaction limit by subscription type.   
+ETD-397 [pairs] Extending the list of cryptocurrency pairs in BASE with QUOTE /BUSD, /USDT, /USDC, /DAI, /XRP. (We recommend re-synchronizing the API connectors or re-importing the CSV files. For API connectors with downloaded pairs, add new pairs.)   
+ETD-390 [portfolio] Copying balances reflect DEPOSIT and WITHDRAWAL transactions. (We recommend deleting the portfolio balances and reloading them from the previous period.)   
+ETD-394 [connectors] Optimizing the mobile API connector interface.   
+ETD-391 [portfolio] Account sorting in balance copying.   
+ETD-346 [connectors] Kraken API optimization "EAPI:Rate limit exceeded" + download address from DEPOSIT & WITHDRAWAL transactions. (Operation of overloaded connectors will be automatically bypassed.)   
+ETD-286 [accounts] Quick account switching. (From the account details.)   
+   
 ## Version 2022-03-29T1209   
 ### New Features   
 **Please follow the instructions in the newsletter on how to properly migrate to the new features.**   
