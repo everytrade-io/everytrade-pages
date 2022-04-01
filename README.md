@@ -1,6 +1,12 @@
 # EveryTrade - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-04-01T0824   
+### Improvements   
+ETD-407 [reports] Third-party fee in reports and portfolio calculation.   
+ETD-404 [containers] Enable third currency fee on CSV import.   
+ETD-402 [reports] Delete lines in the report where 0 appears in all columns.   
+   
 ## Version 2022-03-30T1523   
 ### Improvements   
 **Please follow the instructions in the newsletter on how to properly migrate to the new features.**   
