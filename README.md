@@ -1,6 +1,34 @@
 # EveryTrade - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-04-27T1616  
+This update brings many new pairs, fixes for API connectors and CSV imports. To maintain the health of your portfolios, we recommend performing manual maintenance. Re-sync your API connectors, and re-import your CSVs. Make sure your portfolios have Accounting Currency Conversion turn on. Delete and reload new opening balances for pairs and accounts in your portfolios. Load the balances in the direction from the oldest portfolio to the newest. Your results may change. Contact our support whenever you need help.  
+  
+### New Features  
+ETD-436 [pairs] Add new crypto quotes 22/04.  
+ADA, CRO, FRAX, HUSD, LINK, LTC, LUNA, LUSD, MANA, SOL, TUSD, USDN, UST  
+ETD-434 [portfolio] Extension of the list of accounting currencies.  
+ALL, ARS, BAM, BGN, BRL, BSD, BYN, CLP, CNY, COP, CRC, CUP, DKK, ECS, HRK, HUF, CHF, ILS, INR, ISK, JMD, JPY, KZT, MDL, MKD, MXN, NOK, PEN, PLN, RSD, SEK, TRY, UAH, VEF, ZAR  
+ETD-419 [pairs] Add new currencies 22/04.  
+1ST, ACH, AE, AEON, ALPACA, ANY, APE, APPC, AR, ARN, ARRR, ASR, AST, ATLAS, AUTO, BAR, BAY, BC, BCD, BCHA, BCN, BEPRO, BIA, BSW, BUY, CFX, CHAT, CHESS, CLOAK, CMT, CND, CSX, CVC, CWAR, DCT, DEXE, DGD, DLT, DNXC, DPI, DUSK, EDO, EMC2, EPS, EQZ, EVX, FARM, FIS, FLM, FRAX, FTX, FUEL, GAME, GEO, GMT, GO, GVT, HARD, HC, HORD, HUSD, INS, ISP, KCS, KDA, LEND, LUN, LUSD, MCO, MDA, MDX, MONA, MORE, MTH, MXM, NAS, NCASH, NXT, OAX, OG, OK, OST, PAY, PHB, POA, POE, POLS, PPT, PTOY, QLC, QRL, QSP, QWARK, RAY, RCN, RDD, RIF, RNDR, ROOK, RUB, SANTOS, SNGLS, SNM, SNT, SOLR, SPELL, STOPELON, STORM, STPT, SUB, SUPER, TNT, TRIBE, TRY, TUBE, UNFI, USDN, VIB, VIBE, VIDT, VRC, WIN, WRX, XCP, XTZ, XYM, ZCL  
+  
+### Improvements  
+ETD-430 [portfolio] Edit the appearance of the portfolio.  
+ETD-418 [help] Exchanges logos update.  
+ETD-416 [connectors] Renaming OKEX to OKX.  
+ETD-283 [containers] Add Bitstamp CSV support for DEPOSIT and WITHDRAWAL transactions. (Re-import your CSVs)  
+  
+### Bug Fixes  
+ETD-438 [connectors] Bitstamp API downloads duplicate DEPOSIT & WITHDRAWAL transactions. (Re-sync your APIs)  
+ETD-432 [connectors] Binance API duplicates transactions. (Re-sync your APIs)  
+ETD-431 [connectors] Binance API does'nt download DEPOSIT & WITHDRAWAL older than 90 days. (Re-sync your APIs)  
+ETD-423 [connectors] Coinbase Pro API reads pending transactions. (Re-sync your APIs)  
+ETD-422 [portfolio] DOP accounting currency doesn't work.  
+ETD-417 [portfolio] Scroll bar in the chart & crypto positions.  
+ETD-415 [connectors] Kraken API "EGeneral:Internal error". (Re-sync your APIs)  
+ETD-414 [connectors] Coinbase API "Unable to acquire JDBC Connection". (Re-sync your APIs)  
+ETD-192 [connectors] Coinbase Pro API fix for DEPOSIT & WITHDRAWAL transaction downloads. (Re-sync your APIs)  
+   
 ## Version 2022-04-01T0824   
 ### Improvements   
 ETD-407 [reports] Third-party fee in reports and portfolio calculation.   
