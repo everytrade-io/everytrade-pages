@@ -1,4 +1,4 @@
-# EveryTrade - Release Notes
+# [EveryTrade](https://everytrade.io/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
 ## Version 2022-04-27T1616  
@@ -165,7 +165,7 @@ ETD-315 [transactions] Incorrectly identified additionally added commitment fee.
 ETD-311 [transactions] Binding fee is included 2 times in the purchase price.   
 ETD-308 [portfolio] Shared portfolio will not display accounts without login.   
 ETD-307 [portfolio] Portfolio sharing returns a 401 error.   
-ETD-297 [pairs] Import symbol XDG as DOGE.   
+ETD-297 [pairs] Kraken CSV import symbol XDG as DOGE.   
 ETD-287 [portfolios] Stretched portfolio currency switcher.   
    
 ## Version 2022-01-24T1532
