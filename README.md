@@ -7,12 +7,12 @@ ETD-446 [organizations] Management of Organizations.
 ETD-445 [navigation] New menu item Organizations.  
 ETD-435 [reports] New report: TAX Statement in Accounting Currency. (Only available when calculating the portfolio in accounting currency.)  
    
-## Improvements   
+### Improvements   
 ETD-444 [portfolio] Accounting currencies flags.   
 ETD-443 [accounts] Rename "Accounts" to "Asset Accounts".   
 ETD-437 [reports] Edit interface page Reports.   
    
-## Bug Fixes   
+### Bug Fixes   
 ETD-433 [connectors] Some API connectors do’nt do automatic synchronization.   
 ETD-425 [FEE] Under portfolio the buy fee not included in sumarization.   
 ETD-412 [reports] Confusing boxes with FIAT summarization for end-users.   
