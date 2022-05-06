@@ -1,6 +1,24 @@
 # [EveryTrade](https://everytrade.io/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-05-06T1235   
+### New Features   
+ETD-446 [organizations] Management of Organizations.  
+ETD-445 [navigation] New menu item Organizations.  
+ETD-435 [reports] New report: TAX Statement in Accounting Currency. (Only available when calculating the portfolio in accounting currency.)  
+   
+## Improvements   
+ETD-444 [portfolio] Accounting currencies flags.   
+ETD-443 [accounts] Rename "Accounts" to "Asset Accounts".   
+ETD-437 [reports] Edit interface page Reports.   
+   
+## Bug Fixes   
+ETD-433 [connectors] Some API connectors do’nt do automatic synchronization.   
+ETD-425 [FEE] Under portfolio the buy fee not included in sumarization.   
+ETD-412 [reports] Confusing boxes with FIAT summarization for end-users.   
+ETD-411 [reports] Adjust reporting numbers under columns Proceeds and Cost basis.   
+ETD-381 [reports] Totals for realized profit/loss for use in tax return.   
+   
 ## Version 2022-04-27T1616  
 This update brings many new pairs, fixes for API connectors and CSV imports. To maintain the health of your portfolios, we recommend performing manual maintenance. Re-sync your API connectors, and re-import your CSVs. Make sure your portfolios have Accounting Currency Conversion turn on. Delete and reload new opening balances for pairs and accounts in your portfolios. Load the balances in the direction from the oldest portfolio to the newest. Your results may change. Contact our support whenever you need help.  
   
