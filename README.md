@@ -4,7 +4,7 @@ NOTE: To get notified quickly about new releases and other important information
 ## Version 2022-05-12T1136   
 ### New Features   
 ETD-447 [organizations] Organization settings.   
-ETD-252 [containers] KRAKEM ledgers CSV import. Only DEPOSIT & WITHDRAWAL transactions.   
+ETD-252 [containers] KRAKEN ledgers CSV import. Only DEPOSIT & WITHDRAWAL transactions.   
    
 ### Improvements   
 ETD-471 [asset acccounts] Adding XPUB to the input name of the asset account address.   
