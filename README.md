@@ -1,6 +1,26 @@
 # [EveryTrade](https://everytrade.io/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-05-25T0916      
+### New Features   
+ETD-477 [pairs] Add new currencies 22/05.   
+APE, BABY, CFI, CVC, EBST, EXP, HT, MXC, OCN, SRN, SUPER, UBQ, XEL   
+   
+### Improvements   
+ETD-454 [portfolio] A clickable link to the data manager from an empty portfolio.   
+ETD-421 [reports] Account Statemets report translations.   
+   
+### Bug Fixes   
+ETD-487 [organizations] Changing Organization is not reflected in the asset accounts page.   
+ETD-486 [organization] Useless scrollbar in organization detail.   
+ETD-461 [portfolio] Values of initial asset account balances in non-edit mode are not formatted.   
+ETD-459 [pairs] Pair selection interface performance optimization.   
+ETD-453 [portfolio] Limitation of writing to the Accounting period input.   
+ETD-395 [transactions] For BUY / SELL transactions, remove pairs with the same BASE / QUOTE.   
+ETD-348 [accounts] Portfolio tags don't filter asset account transactions.   
+ETD-301 [reports] Correction of diacritics in report file names.   
+ETD-136 [containers] Diacritics in CSV file name.   
+   
 ## Version 2022-05-12T1136   
 ### New Features   
 ETD-447 [organizations] Organization settings.   
