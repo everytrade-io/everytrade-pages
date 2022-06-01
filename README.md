@@ -1,7 +1,18 @@
 # [EveryTrade](https://everytrade.io/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
-## Version 2022-05-25T0916      
+## Version 2022-06-01T1157   
+### Improvements   
+ETD-502 [reports] Unifi terminology fee application Fully > Immediate.   
+ETD-488 [portfolio] Portfolio calculation performance optimization.   
+ETD-450 [transactions] Rounding of decimals for FIAT.   
+ETD-410 [connectors] Optimization of connector detail loading.   
+   
+### Bug Fixes   
+ETD-518 [portfolio] Zero market price portfolio with open future period.   
+ETD-512 [pairs] Improving input pair performance in pop-up bulk operations.   
+   
+## Version 2022-05-25T0916   
 ### New Features   
 ETD-477 [pairs] Add new currencies 22/05.   
 APE, BABY, CFI, CVC, EBST, EXP, HT, MXC, OCN, SRN, SUPER, UBQ, XEL   
