@@ -1,6 +1,21 @@
 # [EveryTrade](https://everytrade.io/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-06-09T1146 
+### New Features   
+ETD-393 [containers] Binance CSV Transaction History.   
+   
+### Improvements   
+ETD-513 [transactions] Quick deletion of input content.   
+   
+### Errors   
+ETD-528 [connectors] Unreliable linking of accounts to the connector.   
+ETD-524 [reports] Buying FEE for AVCO wrongly in Real P/-L immediately.   
+ETD-509 [reports] Buy transaction - realized profit/loss in the TAX report.   
+ETD-507 [reports] Tax Statement in Accounting Currency - correct Totals for type of Immediate fees.   
+ETD-503 [reports] Correct amount of Immediate fees.   
+ETD-494 [accounting] The search for a certified accountant ends in error.   
+   
 ## Version 2022-06-01T1157   
 ### Improvements   
 ETD-502 [reports] Unifi terminology fee application Fully > Immediate.   
