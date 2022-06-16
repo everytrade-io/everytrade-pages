@@ -1,6 +1,24 @@
 # [EveryTrade](https://everytrade.io/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-06-16T1228   
+### New Features   
+ETD-531 [pairs] Add new symbols 22/06.   
+BICO, CITY, GTC, PYR, XDC, GAL   
+   
+### Improvements   
+ETD-514 [portfolio] Currency addition for initial portfolio balances.   
+   
+### Bux Fixes   
+ETD-530 [portfolio] New empty portfolio returns error 500.   
+ETD-527 [containers] CSV in ET format fails on unexpected data.   
+ETD-526 [datamanager] Cannot save connector name change.   
+ETD-522 [connectors] Optimizing select query for Asset Accounts and Pairs bookmarks.   
+ETD-497 [portfolio] Internal Error 500 without conversion of pairs to accounting currency.   
+ETD-496 [portfolio] After changing transactions, the portfolio does not restore the cached results.   
+ETD-495 [fee] Portfolio without conversion of pairs to accounting currency does not calculate the crypto/crypto exchange fee on the portfolio page.   
+ETD-384 [containers] ROW_PARSING_FAILED 'Date(UTC)'.   
+   
 ## Version 2022-06-09T1146 
 ### New Features   
 ETD-393 [containers] Binance CSV Transaction History.   
@@ -8,7 +26,7 @@ ETD-393 [containers] Binance CSV Transaction History.
 ### Improvements   
 ETD-513 [transactions] Quick deletion of input content.   
    
-### Errors   
+### Bux Fixes   
 ETD-528 [connectors] Unreliable linking of accounts to the connector.   
 ETD-524 [reports] Buying FEE for AVCO wrongly in Real P/-L immediately.   
 ETD-509 [reports] Buy transaction - realized profit/loss in the TAX report.   
