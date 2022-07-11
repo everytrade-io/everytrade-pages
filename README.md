@@ -1,6 +1,35 @@
 # [EveryTrade](https://everytrade.io/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-07-11T1402   
+The Chart of Accounts and the Accounting Report will be available to users later this month.   
+   
+### New Features   
+The Chart of Accounts and the Accounting Report will be available to users later this month.   
+ETD-549 [pairs] Add new symbols 22/07.   
+AIR, AMM, BCPT, DF, DOV, GAS, KIN, LUNC, NWC, ONG, ONT, VEN, VET, VTHO, WETH, GXC   
+ETD-540 [reports] Accounting Report.   
+ETD-493 [organizations] Chart of Account.   
+ETD-492 [accounting] Computation methods LIFO, HIFO.   
+ETD-448 [organizations] Members of the Organization.   
+ETD-252 [containers] KRAKEN Ledgers CSV import.  
+   
+### Improvements   
+ETD-543 [components] The This Portfolio option in the calendar component does not return any periods to the input.   
+ETD-534 [accounting] Prioritising the search for a certified accountant.   
+ETD-505 [portfolio] Accounting currency input don't search and alphabet sort by currency.   
+ETD-501 [portfolio] Sorting the statement of asset accounts in subgroups by currency.   
+ETD-476 [containers] Support for Ignored transactions in CSV containers.   
+ETD-474 [organizations] Welcome to EveryTrade pop-up.   
+   
+### Bux Fixes   
+ETD-548 [transactions] Pair search in bulk operation dialog does not work.   
+ETD-547 [organizations] The user does not have permissions to manage members.   
+ETD-545 [portfolio] Loading portfolio balances does not load fees correctly.   
+ETD-541 [mobility] Mobile view fixes.   
+ETD-537 [containers] CSV import takes too long.   
+ETD-266 [connectors] Mining fees associated with Withdrawals or Deposits are not imported by blockchain connectors.   
+   
 ## Version 2022-06-16T1228   
 ### New Features   
 ETD-531 [pairs] Add new symbols 22/06.   
