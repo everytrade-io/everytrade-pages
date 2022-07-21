@@ -1,11 +1,28 @@
 # [EveryTrade](https://everytrade.io/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
-## Version 2022-07-11T1402   
-The Chart of Accounts and the Accounting Report will be available to users later this month.   
+## Version 2022-07-21T1238   
+**The Chart of Accounts and the Accounting Report are now available to everyone! The Chart of Accounts settings can be found in the Organization detail.**   
    
 ### New Features   
-The Chart of Accounts and the Accounting Report will be available to users later this month.   
+ETD-538 [containers] Add SimpleCoin CSV import.   
+   
+### Improvements  
+ETD-564 [help] Add SimpleCoin exchange logo.   
+ETD-563 [reports] Period restriction when exporting an Accounting report.   
+ETD-554 [organizations] The Chart of Account requires Tax Residency.   
+ETD-551 [containers] Coinbase Pro update CSV format.   
+   
+### Bux Fixes   
+ETD-566 [transactions] Improvements in transaction details.   
+ETD-559 [organizations] Inviting a member of an organization with admin rights returns an error.   
+ETD-553 [portfolio] Exclude the current portfolio from the balance copy dialog.   
+ETD-552 [browsers] CSV import does not work in Firefox browser on Windows OS.   
+   
+## Version 2022-07-11T1402   
+**The Chart of Accounts and the Accounting Report will be available to users later this month.**   
+   
+### New Features     
 ETD-549 [pairs] Add new symbols 22/07.   
 AIR, AMM, BCPT, DF, DOV, GAS, KIN, LUNC, NWC, ONG, ONT, VEN, VET, VTHO, WETH, GXC   
 ETD-540 [reports] Accounting Report.   
