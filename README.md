@@ -1,6 +1,31 @@
 # [EveryTrade](https://everytrade.io/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-08-02T0918   
+   
+**Tax Rules can be found in Organizations > Organization detail > Tax Rules. If you cannot find your Tax Residency, select Other and make your own settings. Always make sure that the rules you select match your legislation. New Residencies and Tax Rules will be added over time.**   
+   
+### New Features   
+ETD-568 [portfolio] Tax Base.   
+ETD-567 [containers] Coinbase Advanced Trade CSV support.   
+ETD-560 [reports] Add TAX Rules to PDF reports.   
+ETD-539 [organizations] TAX Residency preferences & Tax Rules.   
+ETD-489 [accounting] Time test.   
+ETD-376 [connectors] Blockchain SegWit address support.   
+   
+### Improvements   
+ETD-583 [reports] Rename the Tax Statement in Accounting Currency report to Tax Statement.   
+ETD-582 [portfolio] Innactivate the Convert Pairs to Accounting Currency switch.   
+ETD-580 [containers] ET doesn't parse properly LTC/USD and LTC/EUR pairs.   
+ETD-575 [reports] Adapting the TAX Statement report to the TAX Rules.   
+ETD-571 [reports] Footer - HIFO & LIFO explanation.   
+   
+### Bux Fixes   
+ETD-569 [reports] Bad transactions merge in Tax Report.   
+ETD-565 [reports] Fee in crypto wrongly calculated in Reports.   
+ETD-562 [connectors] BTC Blockchain connector downloads duplicate transactions.   
+ETD-56 [connectors] Blockchain BTC limited API response too many txs.   
+   
 ## Version 2022-07-21T1238   
 **The Chart of Accounts and the Accounting Report are now available to everyone! The Chart of Accounts settings can be found in the Organization detail.**   
    
@@ -102,7 +127,7 @@ ETD-421 [reports] Account Statemets report translations.
    
 ### Bug Fixes   
 ETD-487 [organizations] Changing Organization is not reflected in the asset accounts page.   
-ETD-486 [organization] Useless scrollbar in organization detail.   
+ETD-486 [organizations] Useless scrollbar in organization detail.   
 ETD-461 [portfolio] Values of initial asset account balances in non-edit mode are not formatted.   
 ETD-459 [pairs] Pair selection interface performance optimization.   
 ETD-453 [portfolio] Limitation of writing to the Accounting period input.   
