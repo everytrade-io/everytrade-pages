@@ -1,5 +1,30 @@
-# [EveryTrade](https://everytrade.io/) - Release Notes
-NOTE: To get notified quickly about new releases and other important information join our EVERY TRADE Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
+# [WhaleBooks](https://whalebooks.com/) - Release Notes
+NOTE: To get notified quickly about new releases and other important information join our WhaleBooks Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
+   
+## Version 2022-08-03T1333
+
+**We are happy to announce that we are now the [WhaleBooks](https://whalebook.com).**   
+Although it's been a good time under the EveryTrade name, it's time to move on to a more emotional branding that reveals the essence of the product.
+
+**What is [WhaleBooks](https://whalebook.com)?**   
+It's a powerful accounting and tax tool for companies and traders who operate with cryptocurrencies.   
+Do you see the **green visor** on the logo? It's a tribute to accountants who spent days and nights doing their best to make companies capable of planning and operating finance well. They used to wear **green visors** to protect their eyes from the bright light. And yes, it's a cool item.   
+   
+[WhaleBooks](https://whalebook.com) is able to transform your crypto flow to required reports and protect you from uncertainty in the crypto ocean.   
+**More functions are about to come.**   
+   
+### New Features   
+**ETD-587 [brand] Rename EveryTrade to WhaleBooks.**   
+   
+### Improvements   
+ETD-591 [brand] Transaction e-mails rebranding.   
+ETD-590 [brand] Reports rebranding.   
+ETD-589 [brand] Name change information pop-up.   
+ETD-588 [brand] EveryTrade logo change to WhaleBooks.   
+   
+### Bux Fixes   
+ETD-595 [containers] LBTC currency (BTC) is not supported in Expense Currency field of GB CSV.   
+ETD-586 [reports] Rebate in crypto wrongly calculated in Reports.   
    
 ## Version 2022-08-02T0918   
    
