@@ -16,9 +16,6 @@ ETD-550 [reports] TAX Report results don't match portfolio results due to short 
 ### Improvements   
 ETD-597 [my profile] GoogleAuth library update.   
    
-### Non Public   
-ETD-572 [rebranding] Google Log in switch to new domain.   
-   
 ## Version 2022-08-03T1333
 
 **We are happy to announce that we are now the [WhaleBooks](https://whalebook.com).**   
