@@ -1,6 +1,24 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our WhaleBooks Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
    
+## Version 2022-08-12T1417   
+### New Features   
+ETD-596 [brand] Updating the application style.   
+ETD-593 [brand] TOP banner update at public homepage.   
+ETD-490 [accounting] Taxation of crypto/crypto.   
+   
+### Bux Fixes   
+ETD-592 [brand] Small content updates.   
+ETD-578 [plugins] Failing connectors tests.   
+ETD-550 [reports] TAX Report results don't match portfolio results due to short positions from previous accounting periods.   
+   
+## Version 2022-08-08T0858   
+### Improvements   
+ETD-597 [my profile] GoogleAuth library update.   
+   
+### Non Public   
+ETD-572 [rebranding] Google Log in switch to new domain.   
+   
 ## Version 2022-08-03T1333
 
 **We are happy to announce that we are now the [WhaleBooks](https://whalebook.com).**   
