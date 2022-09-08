@@ -3,19 +3,19 @@ NOTE: To get notified quickly about new releases and other important information
    
 ## Version 2022-09-08T142
    
-**A major summer update!**   
+### A major summer update!   
    
-**You can now record STAKING and STAKING REWARDS taxation with us. Portfolio will display the locked STAKING in a chart. We have a new widget for Staking and Rewards!**   
+You can now record **STAKING** and **STAKING REWARDS** taxation with us. Portfolio will display the locked STAKING in a chart. We have a new widget for Staking and Rewards!   
    
-**We are adding new transaction types: REWARD, AIRDROP, EARN, FORK. All of them work as rewards and their taxation falls into the group of trades.**   
+We are adding new transaction types: **REWARD, AIRDROP, EARN, FORK.** All of them work as rewards and their taxation falls into the group of trades.   
    
-**The TAX REPORT will now calculate a separate TAX BASE for trades and separately for staking. TAX RULES can be applied to everything!**   
+The TAX REPORT will now calculate a separate TAX BASE for trades and separately for staking. TAX RULES can be applied to everything!   
    
-**The pop-up for pulling and portfolio management now responds to the TAX RULES. For this, TAX RESIDENCY and TAX SUBJECT are now mandatory. If you don't have it set up for an organization, it will be required as a mandatory pop-up.**   
+The pop-up for pulling and portfolio management now responds to the TAX RULES. For this, TAX RESIDENCY and TAX SUBJECT are now mandatory. If you don't have it set up for an organization, it will be required as a mandatory pop-up.   
    
-**Due to the large number of changes, new errors may arise. If you will be part of any bugs, please email us. We are working on a fix!**   
+Due to the large number of changes, new errors may arise. If you will be part of any bugs, please email us. We are working on a fix!   
    
-**CSV and API imports may now not support the new transaction types. Support will be added on an ongoing basis. If you are unable to load your data, please email us. We will be happy to add support for other formats.**   
+CSV and API imports may now not support the new transaction types. Support will be added on an ongoing basis. If you are unable to load your data, please email us. We will be happy to add support for other formats.   
    
 ### New Features   
 ETD-630 [transactions] Support for new transaction types - REWARD, AIRDROP, EARN, FORK.   
