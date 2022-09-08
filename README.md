@@ -1,5 +1,44 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
-NOTE: To get notified quickly about new releases and other important information join our WhaleBooks Telegram channel [https://t.me/everytrade](https://t.me/everytrade).
+NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/everytrade).
+   
+## Version 2022-09-08T142
+   
+**A major summer update!**   
+   
+**You can now record STAKING and STAKING REWARDS taxation with us. Portfolio will display the locked STAKING in a chart. We have a new widget for Staking and Rewards!**   
+   
+**We are adding new transaction types: REWARD, AIRDROP, EARN, FORK. All of them work as rewards and their taxation falls into the group of trades.**   
+   
+**The TAX REPORT will now calculate a separate TAX BASE for trades and separately for staking. TAX RULES can be applied to everything!**   
+   
+**The pop-up for pulling and portfolio management now responds to the TAX RULES. For this, TAX RESIDENCY and TAX SUBJECT are now mandatory. If you don't have it set up for an organization, it will be required as a mandatory pop-up.**   
+   
+**Due to the large number of changes, new errors may arise. If you will be part of any bugs, please email us. We are working on a fix!**   
+   
+**CSV and API imports may now not support the new transaction types. Support will be added on an ongoing basis. If you are unable to load your data, please email us. We will be happy to add support for other formats.**   
+   
+### New Features   
+ETD-630 [transactions] Support for new transaction types - REWARD, AIRDROP, EARN, FORK.   
+ETD-622 [reports] Activity statement - Staking / other rewards.   
+ETD-618 [portfolio] Staking Widget + Portfolio Chart.   
+ETD-609 [transactions] Support for new transaction types: STAKE,  UNSTAKE,  STAKE REWARD.   
+ETD-596 [brand] Updating the application style.   
+ETD-561 [organizations] TAX Residency requiret Pop-up.   
+ETD-555 [portfolios] TAX Rules in a Portfolio setting.   
+   
+### Improvements   
+ETD-627 [containers] Coinbase CSV header format update.   
+ETD-626 [transactions] Correct transaction names.   
+ETD-616 [connectors] Kraken API add support for staking transactions. (Only last 90 days!)   
+ETD-542 [transactions] A transaction with quantity = 0 is an ignored transaction.   
+ETD-229 [connectors] API Binance STAKING a 'distribution' transactions types.   
+ETD-162 [containers] Coinbase CSV EARN transactions support.   
+   
+### Bux Fixes   
+ETD-619 [connectors] Coinmate API does not import crypto withdrawal transactions.   
+ETD-615 [portfolio] Error saving portfolio after loading balances + negative fiat position.   
+ETD-611 [connector] WhaleBooks universal API connector integration error.   
+ETD-605 [containers] WhaleBooks CSV format imports BUY / SELL transaction with incorrect pair notation.   
    
 ## Version 2022-08-12T1417   
 ### New Features   
