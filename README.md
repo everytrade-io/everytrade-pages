@@ -1,6 +1,13 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/everytrade).
    
+## Version 2022-09-15T1146   
+### New Features   
+ETD-607 [containers] Support Convert transactions in Coinbase CSV. (The Conbase API does not have a convert enpoint!)   
+   
+### Bug Fixes   
+ETD-614 [portfolios] Staking balances take over to the new portofilo.   
+   
 ## Version 2022-09-08T142
    
 ### A major summer update!   
