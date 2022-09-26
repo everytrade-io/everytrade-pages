@@ -1,6 +1,18 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/everytrade).
    
+## Version 2022-09-23T1320   
+   
+### Improvements   
+ETD-424 [connectors] Binance API CONVERT transaction.   
+   
+### Bug Fixes   
+ETD-661 [portfolios] Shared portfolio returns an error.   
+ETD-647 [reports] Tax Statement is not generated.   
+ETD-640 [containers] BitFlyer CSV format update.   
+ETD-639 [connectors] CoinMate API Trying to import too many transactions.   
+ETD-603 [reports] Short positions changes in Tax Statement.   
+   
 ## Version 2022-09-15T1146   
 ### New Features   
 ETD-607 [containers] Support Convert transactions in Coinbase CSV. (The Conbase API does not have a convert enpoint!)   
