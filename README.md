@@ -1,5 +1,22 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
-NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/everytrade).
+NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
+   
+## Version 2022-10-05T1201   
+   
+### Improvements   
+ETD-665 [containers] Coinbase CSV SEND transaction.   
+ETD-660 [portfolios] Activate calculation switch for portfolios with inactive calculation.   
+ETD-650 [organizations] Access to organization settings from the menu.   
+ETD-637 [help] Add Accounting Report to Report Help.   
+ETD-629 [transactions] Arrangement of controls and new style of add transaction button.   
+ETD-557 [reports] Add TAX Rule Sets.   
+ETD-556 [portfolio] Add TAX Rule Set name.   
+ETD-207 [containers] CoinMate CSV reward for referrals.   
+   
+### Bug Fixes   
+ETD-624 [organizations] Disable editing and deleting the default Rule Set in the Other residence.   
+ETD-608 [VR] Portfolio does not show results.   
+ETD-573 [mobile] Required input.   
    
 ## Version 2022-09-23T1320   
    
