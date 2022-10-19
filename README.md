@@ -1,6 +1,31 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2022-10-19T0935   
+   
+**This version migrates the backend to the new framework. You can get a faster response. If you find bugs, please let us know.**   
+   
+**The new version of the WhaleBooks Universal Format 3.2 includes new Staking and other rewards transaction types. It adds new columns: NOTE, LABELS.**   
+   
+### New Features   
+ETD-636 [containers] OpenNode CSV Support.   
+   
+### Improvements   
+ETD-672 [transactions] Changes in transaction statement columns.   
+ETD-668 [connectors] WhaleBooks format 3.2 API update.   
+ETD-658 [connectainers] WhaleBooks format 3.2 CSV update.   
+ETD-472 [my profile] Translation of the application language selection.   
+ETD-457 [transactions] Marking of the bound subtransaction on the transaction statement.   
+   
+### Bux Fixes   
+ETD-670 [organizations] Capital letters in the address of a new member's invitation.   
+ETD-655 [reports] Tax Statement - Short position transfer to long position and vice versa.   
+ETD-654 [reports] Tax Statement - Short position tax base INCL. fee.   
+ETD-645 [asset accounts] Edit bulk address entry on account entry.   
+ETD-644 [transactions] Incorrect pagination during filtering.   
+ETD-594 [reports] Rebate & fee in third-party wrongly calculated in Reports.   
+ETD-574 [frontend] Invalidating the navigation cache after adding an organization.   
+   
 ## Version 2022-10-05T1201   
    
 ### Improvements   
@@ -32,16 +57,16 @@ ETD-603 [reports] Short positions changes in Tax Statement.
    
 ## Version 2022-09-15T1146   
 ### New Features   
-ETD-607 [containers] Support Convert transactions in Coinbase CSV. (The Conbase API does not have a convert enpoint!)   
+ETD-607 [containers] Support Convert transactions in Coinbase CSV. (The Coinbase API does not have a convert enpoint!)   
    
 ### Bug Fixes   
-ETD-614 [portfolios] Staking balances take over to the new portofilo.   
+ETD-614 [portfolios] Staking balances take over to the new portfolio.   
    
 ## Version 2022-09-08T142
    
 ### A major summer update!   
    
-You can now record **STAKING** and **STAKING REWARDS** taxation with us. Portfolio will display the locked STAKING in a chart. We have a new widget for Staking and Rewards!   
+You can now record **STAKE** and **STAKE REWARDS** taxation with us. Portfolio will display the locked STAKING in a chart. We have a new widget for Staking and Rewards!   
    
 We are adding new transaction types: **REWARD, AIRDROP, EARN, FORK.** All of them work as rewards and their taxation falls into the group of trades.   
    
