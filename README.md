@@ -1,5 +1,9 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
+      
+## Version 2022.11.091229   
+   
+**This version migrates the database to the new type. You can get a faster response. Focused performance optimizations will be delivered later. If you find bugs, please let us know.**
    
 ## Version 2022-10-19T0935   
    
