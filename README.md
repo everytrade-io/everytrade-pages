@@ -1,9 +1,81 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
-      
+   
+## Version 2023.01.071155 
+   
+**The main innovation of this version is the setting of the decisive moment of taxation of the received reward. We distinguish between taxation On Acquisition and On Sale. As it is not clear by law when rewards are taxed, the default value is set On Acquisition. Change the preference in Organization settings > Tax rules > Rewards. This version may contain errors that we will fix later.**   
+
+### New Features   
+ETD-174 [connectors] Kucoin.com API & CSV support.   
+ETD-667 [organizations] Timing of taxation of rewards.   
+ETD-673 [transactions] Stake Rewards / Other Rewards in taxation On Acquisition.   
+ETD-678 [portfolios] Preference for taxation of Rewards.   
+ETD-680 [transactions] Acquisition Price of Reward transactions.   
+ETD-684 [portfolios] Portfolio Summary and includes rewards.   
+   
+### Improvements   
+ETD-110 [transactions] Evidence time of recording new records.   
+ETD-464 [transactions] In connected transfers we should display in summary target asset account name.   
+ETD-621 [reports] Accounting report - Staking/other rewards.   
+ETD-633 [organizations] Chart of Account - new account for rewards.   
+ETD-658 [containers] WhaleBooks format 3.2 CSV update.   
+ETD-663 [portfolios] Improving the relevance of portfolio sharing dialogue.   
+ETD-681 [portfolios] Taxation of other rewards in trades.   
+ETD-682 [help] OpenNode CSV support.   
+ETD-683 [help] WhaleBooks format 3.2.   
+ETD-686 [reports] Taxation of Rewards and Portfolio Summary.   
+ETD-688 [organizations] Chart of Account - new accounts USA.   
+ETD-689 [reports] Accounting report - Staking/other rewards - On Sale.   
+ETD-692 [connectors] Use the Transaction History endpoint for the CoinMate API to support new transaction types.   
+ETD-695 [portfolios] Market value of STAKED funds in the portfolio chart.   
+ETD-696 [asset accounts] Adding an action to copy a crypto address.   
+ETD-710 [reports] Accounting Report - format 1.1   
+ETD-712 [asset accounts] Adding transaction note and transform export CSV to XLSX format.   
+ETD-714 [reports] Accounting report - Unbounded FEE - Chart of account.   
+ETD-718 [users] In the new password settings dialog, add password verification input.   
+ETD-721 [connectors] Save hash of blockchain (BTC, ETH, LTC) transaction.   
+ETD-722 [connectors] Quick access to connector settings.   
+ETD-727 [help] KuCoin screenshots.   
+ETD-733 [transactions] Minor improvements to transaction details.   
+ETD-735 [organizations] Saving a selected preference for using analytics sub-accounts.   
+ETD-739 [organizations] Sorting the list of accounts by account number.   
+ETD-741 [organizations] Adding FIAT currency to account 568 - Unbound Fees.   
+ETD-743 [pairs] Add ATOM to quote currency.   
+ETD-752 [help] Gate.io logo   
+ETD-756 [reports] Specify tax report terminology depending on the type of tax entity.   
+ETD-758 [organizations] Update Sub-Accounts list.   
+ETD-767 [pairs] Support for new symbols 22/12.   
+ETD-773 [pairs] Add GRT, AMP, NEAR to quote.   
+   
+### Bug Fixes   
+ETD-291 [Reports] Accounting report - Unbound fees.   
+ETD-676 [containers] CSV file case sensitivity in file format.   
+ETD-691 [pairs] To search for pairs in filtering it is necessary to enter a space around the slash.   
+ETD-693 [connectors] Starting automatic API synchronization does not work correctly.   
+ETD-700 [reports] TAX Statement - invalid counting 31.10.2022.   
+ETD-701 [transactions] Unpaired transaction is not created.   
+ETD-703 [administration] Pagination of the user listing.   
+ETD-704 [organizations] Duplications in list of members of the organization.   
+ETD-705 [support] The attachment from the contact form is not available on the link in the support ticket.   
+ETD-706 [frontend] Minor bug fixes.   
+ETD-707 [reports] Bounded fee for deposit/withdrawal.   
+ETD-708 [organizations] Updating the end date of the trial version is not working.   
+ETD-713 [reports] Tax Statement - bounded fee make incorrect calculation of cost/revenues.   
+ETD-715 [frontend] Multiple minor bug fixes & changes.   
+ETD-716 [connectors] Loading separate outgoing transactions on the BTC and LTC Blockchain.   
+ETD-717 [organizations] The organization member edit dialog does not contain an active role.   
+ETD-725 [portfolio] Copying AVCO portfolio balances returns an error.   
+ETD-729 [organizations] White screen when inviting a member of the organization.   
+ETD-731 [portfolio] Minor improvements taxation of rewards.   
+ETD-736 [portfolio] When Tax Residency is Other, the portfolio doesn't return any Accounting Currency.   
+ETD-738 [reports] Quantity rounding and Bound Fees in the Accounting Report.   
+ETD-754 [connectors] Coinbase API timeout if there are too many wallets in the account.   
+ETD-771 [portfolio] Undefined pair when copying AVCO portfolio balances.   
+ETD-772 [containers] API containers not synchronizing.   
+   
 ## Version 2022.11.091229   
    
-**This version migrates the database to the new type. You can get a faster response. Focused performance optimizations will be delivered later. If you find bugs, please let us know.**
+**This version migrates the database to the new type. You can get a faster response. Focused performance optimizations will be delivered later. If you find bugs, please let us know.**   
    
 ## Version 2022-10-19T0935   
    
@@ -21,7 +93,7 @@ ETD-658 [connectainers] WhaleBooks format 3.2 CSV update.
 ETD-472 [my profile] Translation of the application language selection.   
 ETD-457 [transactions] Marking of the bound subtransaction on the transaction statement.   
    
-### Bux Fixes   
+### Bug Fixes   
 ETD-670 [organizations] Capital letters in the address of a new member's invitation.   
 ETD-655 [reports] Tax Statement - Short position transfer to long position and vice versa.   
 ETD-654 [reports] Tax Statement - Short position tax base INCL. fee.   
