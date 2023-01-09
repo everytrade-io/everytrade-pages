@@ -1,7 +1,7 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
-## Version 2022.11.091229   
+## Version 2023.01.071155 
    
 **The main innovation of this version is the setting of the decisive moment of taxation of the received reward. We distinguish between taxation On Acquisition and On Sale. As it is not clear by law when rewards are taxed, the default value is set On Acquisition. Change the preference in Organization settings > Tax rules > Rewards. This version may contain errors that we will fix later.**   
 
