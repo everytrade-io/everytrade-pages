@@ -1,6 +1,28 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.01.131629   
+   
+**This release includes corrections to some known portfolio errors in relation to the timing of taxation of rewards.**   
+   
+### Improvements   
+   
+ETD-692 [connectors] Use the Transaction History endpoint for the CoinMate API to support new transaction types.   
+ETD-774 [containers] Binance CSV - Transaction type DISTRIBUTION identify as REWARD.   
+ETD-775 [containers] Binance CSV - Transaction type FIAT DEPOSIT / WITHDRAWAL identify as DEPOSIT / WITHDRAWAL.   
+ETD-791 [transactions] Remove the option to add a REBATE subtransaction from the transaction listing.   
+   
+### Bug Fixes   
+   
+ETD-778 [containers] The list of accounts is not loaded by opening the container detail.   
+ETD-782 [portfolio] Correction of the calculation of rewards on the front end of the portfolio.   
+ETD-784 [rate-server] Server returns error when downloading new currency rates.   
+ETD-785 [transactions] The transaction detail is closed when I click on help.   
+ETD-788 [frontend] Some buttons only respond on the second click.   
+ETD-792 [transactions] The currency of the bound transaction does not respond to a change from the transaction detail.   
+ETD-793 [portfolios] Unclear decimal point operations on charges.   
+ETD-796 [transactions] Rewards do not call for a unit rate requirement.   
+   
 ## Version 2023.01.071155 
    
 **The main innovation of this version is the setting of the decisive moment of taxation of the received reward. We distinguish between taxation On Acquisition and On Sale. As it is not clear by law when rewards are taxed, the default value is set On Acquisition. Change the preference in Organization settings > Tax rules > Rewards. This version may contain errors that we will fix later.**   
@@ -22,7 +44,7 @@ ETD-658 [containers] WhaleBooks format 3.2 CSV update.
 ETD-663 [portfolios] Improving the relevance of portfolio sharing dialogue.   
 ETD-681 [portfolios] Taxation of other rewards in trades.   
 ETD-682 [help] OpenNode CSV support.   
-ETD-683 [help] WhaleBooks format 3.2.   
+ETD-683 [help] [WhaleBooks format 3.2](https://whalebooks.com/help/csv#whalebooks).   
 ETD-686 [reports] Taxation of Rewards and Portfolio Summary.   
 ETD-688 [organizations] Chart of Account - new accounts USA.   
 ETD-689 [reports] Accounting report - Staking/other rewards - On Sale.   
@@ -81,7 +103,7 @@ ETD-772 [containers] API containers not synchronizing.
    
 **This version migrates the backend to the new framework. You can get a faster response. If you find bugs, please let us know.**   
    
-**The new version of the WhaleBooks Universal Format 3.2 includes new Staking and other rewards transaction types. It adds new columns: NOTE, LABELS.**   
+**The new version of the [WhaleBooks Universal Format 3.2](https://whalebooks.com/help/csv#whalebooks) includes new Staking and other rewards transaction types. It adds new columns: NOTE, LABELS.**   
    
 ### New Features   
 ETD-636 [containers] OpenNode CSV Support.   
@@ -89,7 +111,7 @@ ETD-636 [containers] OpenNode CSV Support.
 ### Improvements   
 ETD-672 [transactions] Changes in transaction statement columns.   
 ETD-668 [connectors] WhaleBooks format 3.2 API update.   
-ETD-658 [connectainers] WhaleBooks format 3.2 CSV update.   
+ETD-658 [connectainers] [WhaleBooks format 3.2 CSV update](https://whalebooks.com/help/csv#whalebooks).   
 ETD-472 [my profile] Translation of the application language selection.   
 ETD-457 [transactions] Marking of the bound subtransaction on the transaction statement.   
    
