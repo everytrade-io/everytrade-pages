@@ -1,6 +1,27 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.01.171755   
+   
+**It is recommended to re-synchronize the Coinmate API connector. Fixed a bug with the fee currency causing incorrect balances for your assets on previously downloaded transactions.**   
+   
+### New Features   
+   
+ETD-651 [containers] Export container to WhaleBooks format.   
+   
+### Improvements   
+   
+ETD-779 [containers] Binance CSV - Simple Earn.   
+ETD-786 [portfolios] Deactivate switch Conversion of pairs to accounting currency for newly created portfolios.   
+   
+### Bug Fixes   
+   
+ETD-730 [containers] Errors when deleting and resynchronizing a container.   
+ETD-789 [portfolios] Improvement mobile view of portfolio.   
+ETD-795 [portfolios] Closed positions with zero amount at stake rewards and tax time On Acquisition.   
+ETD-798 [portfolios] Warning message is not displayed when validating a transferred negative portfolio balances.   
+ETD-800 [connectors] CoinMate API incorrectly identifies fee currency.   
+   
 ## Version 2023.01.131629   
    
 **This release includes corrections to some known portfolio errors in relation to the timing of taxation of rewards.**   
