@@ -1,6 +1,21 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.01.201623   
+   
+**The Binance API prefers WhiteListing IP addresses. Otherwise, it will limit the key validity period. To authenticate access from WhaleBooks.com, use these IP addresses 104.248.131.14 and 139.59.136.33. Please note that IP addresses may change over time. We will try to find a solution to prevent this from happening.**   
+   
+### New Features   
+ETD-745 [organizations] Accounting software settings.   
+   
+### Bug Fixes   
+ETD-768 [containers] Coinbase & Binance CSV - import ignores transactions wrapped "".   
+ETD-777 [organizations] Date of creation of the Organization.   
+ETD-801 [portfolio] Stake / Other Rewards does not show in closed positions of trades when taxed On Acquisition.   
+ETD-803 [connectors] API Connector does not return an error message in the synchronization log.   
+ETD-804 [connectors] Coinmate API - can not download last tx timestamp Index 0 out of bounds for length 0.   
+ETD-809 [organizations] The newly created user will be shown the default settings in the wrong priority and will not get to Walkthrough.       
+   
 ## Version 2023.01.171755   
    
 **It is recommended to re-synchronize the Coinmate API connector. Fixed a bug with the fee currency causing incorrect balances for your assets on previously downloaded transactions.**   
