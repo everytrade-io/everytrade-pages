@@ -1,6 +1,23 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.01.251457   
+   
+**If you have experienced problems recently with automatic synchronization of connectors, or resetting API connector counters, this release fixes all known bugs.**   
+   
+### Improvements   
+ETD-100 [containers] Coinbase CSV - Transaction type RECEIVE identify as DEPOSIT.   
+ETD-757 [organizations] Update accounts list.   
+ETD-760 [organizations] Update Chart of Account list.   
+ETD-799 [containers] Coinmate CSV - Transaction type AFFILIATE identify as REWARD.   
+ETD-808 [connectors] Coinmate API - Transaction type AFFILIATE identify as REWARD.   
+   
+### Bug Fixes   
+ETD-800 [connectors] CoinMate API incorrectly identifies fee currency.   
+ETD-811 [users] Minor frontend fixes at login.   
+ETD-815 [connectors] API Re-sync does not erase transactions and fees error counters.   
+ETD-823 [connectors] Error in synchronization on connector creation leads to a stuck state.   
+   
 ## Version 2023.01.201623   
    
 **The Binance API prefers WhiteListing IP addresses. Otherwise, it will limit the key validity period. To authenticate access from WhaleBooks.com, use these IP addresses 104.248.131.14 and 139.59.136.33. Please note that IP addresses may change over time. We will try to find a solution to prevent this from happening.**   
