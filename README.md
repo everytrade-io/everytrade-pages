@@ -1,6 +1,20 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.01.271459   
+   
+**We are adding the first ever support for importing into accounting software. For the pilot project we have chosen Stormware Pohoda accounting software. This is the majority software used in the Czech and Slovak Republics. If you are interested in trying the connection with Pohoda, please contact us at support. It is necessary to clarify the functioning and make the initial setup on the accounting software side. Keep in mind that this is a pilot project and make sure your accounting data is securely backed up before importing.**   
+   
+### New Features   
+ETD-749 [reports] Accounting Report in the Stormware Pohoda XLSX format.   
+   
+### Improvements   
+ETD-746 [reports] Select the format of Accounting Report.   
+ETD-787 [containers] Coinmate CSV - Transaction type MARKET_BUY / SELL identify as BUY / SELL.   
+   
+### Bug Fixes   
+ETD-815 [connectors] API Re-sync does not erase transactions and fees error counters.   
+   
 ## Version 2023.01.251457   
    
 **If you have experienced problems recently with automatic synchronization of connectors, or resetting API connector counters, this release fixes all known bugs.**   
