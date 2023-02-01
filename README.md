@@ -1,6 +1,26 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.02.011522   
+   
+**This release completes the expansion of the Chart of Accounts to include tax practices. And we've added a new tab with a preview of pre-accounting. All known deficiencies of the accounting report for Pohoda have been resolved. And the process of selecting accounting software and export parameters has been improved. They are now considered stable.**   
+   
+### New Features   
+ETD-759 [organizations] New Pre-Accounting list.   
+   
+### Improvements   
+ETD-581 [connectors] XPUB address pagination.   
+ETD-751 [reports] Select the format of Accounting Report for Stormware Pohoda.   
+ETD-786 [portfolios] Deactivate switch Conversion of pairs to accounting currency for newly created portfolios.   
+ETD-830 [reports] Addition of accounting report for Pohoda with and without analytical accounts.   
+ETD-832 [pairs] Identify symbol ETH2 as ETH.   
+   
+### Bug Fixes   
+ETD-829 [organizations] Error when inviting a new member.   
+ETD-831 [reports] The numbering of new pre configurations for Pohoda must be related to existing.   
+ETD-833 [portfolio] Data are multiplied somehow AVCO.   
+ETD-834 [reports] Prefix of the number series of internal documents of the accounting report for Pohoda.   
+   
 ## Version 2023.01.271459   
    
 **We are adding the first ever support for importing into accounting software. For the pilot project we have chosen Stormware Pohoda accounting software. This is the majority software used in the Czech and Slovak Republics. If you are interested in trying the connection with Pohoda, please contact us at support. It is necessary to clarify the functioning and make the initial setup on the accounting software side. Keep in mind that this is a pilot project and make sure your accounting data is securely backed up before importing.**   
