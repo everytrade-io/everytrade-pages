@@ -12,6 +12,7 @@ ETD-759 [organizations] New Pre-Accounting list.
 ETD-581 [connectors] XPUB address pagination.   
 ETD-751 [reports] Select the format of Accounting Report for Stormware Pohoda.   
 ETD-786 [portfolios] Deactivate switch Conversion of pairs to accounting currency for newly created portfolios.   
+ETD-797 [pairs] Support for new Symbols & Quotas 23/01.   
 ETD-830 [reports] Addition of accounting report for Pohoda with and without analytical accounts.   
 ETD-832 [pairs] Identify symbol ETH2 as ETH.   
    
