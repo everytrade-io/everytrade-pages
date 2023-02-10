@@ -1,6 +1,24 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.02.101407   
+   
+### Improvements   
+ETD-664 [portfolios] Extension of the Staking widget to include the moment of taxation of rewards.   
+ETD-685 [reports] Setting rules for US - TAX/Accounting Report.   
+ETD-687 [reports] Add Taxation of Rewards to TAX Statement.   
+ETD-762 [containers] Coinbase CSV - Transaction type LEARNING REWARD identify as EARN.   
+ETD-780 [containers] Binance CSV - Spot statement distinguishes BUY / SELL.   
+ETD-839 [pairs] Add new symbols 23/02.   
+ETD-852 [reports] Accounting Report - very small amounts visible as 0.00.   
+   
+### Bug Fixes   
+ETD-838 [portfolio] - Your FIAT Assets - transfer balances to new portfolio.   
+ETD-840 [connectors] Kraken API - Download user staking history failed [EGeneral:Internal error].   
+ETD-841 [containers] In some cases, the insert CSV file button in Chrome browser does not work.   
+ETD-844 [container] Some failed transaction logs are not downloaded and return an error 500.   
+ETD-845 [accountant] Looking for accountant don't return results.   
+   
 ## Version 2023.02.011522   
    
 **This release completes the expansion of the Chart of Accounts to include tax practices. And we've added a new tab with a preview of pre-accounting. All known deficiencies of the accounting report for Pohoda have been resolved. And the process of selecting accounting software and export parameters has been improved. They are now considered stable.**   
