@@ -1,6 +1,23 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.02.151606   
+   
+**Fixes a bug with the Binance connector library. And at the same time problems with crashed connector queues. If your connectors are in an "In Progress" state, they will be automatically suspended within 12 hours of release. We expect the next automatic syncs to be seamless.**   
+   
+### Improvements   
+ETD-770 [containers] Binance CSV - Transaction type Large OTC trading identify as BUY / SELL.   
+ETD-776 [containers] Binance CSV - Transaction type CARD CASHBACK identify as REBATE.   
+ETD-813 [containers] Binance CSV - Transaction type Commission Rebate identify as REBATE.   
+ETD-827 [frontend] Minor improvements.   
+ETD-836 [connectors] Kraken API - Identify transactions with description "bonding" as STAKE.   
+ETD-848 [transactions] Minor improvements to the transaction filter.   
+   
+### Bug Fixes
+ETD-429 [portfolio] Open position not closed due to excluding deposit.   
+ETD-853 [connectors] The Binance API will not connect in this specific case.   
+ETD-860 [containers] Container content is not loaded in case of a connector queue error.   
+   
 ## Version 2023.02.101407   
    
 ### Improvements   
