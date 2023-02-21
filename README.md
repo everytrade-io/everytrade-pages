@@ -1,6 +1,31 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.02.212018   
+   
+**We are adding API synchronization designed for two-way data exchange with third-party applications. You can use it, for example, if you are the developer of such an application. The current state of the API is experimental. For suggestions on how to use it, please contact us at support.**   
+   
+### New Features   
+ETD-724 [api] API for receiving external instructions.   
+ETD-814 [containers] Binance CSV - Transaction type Small Assets Exchange BNB identify as BUY.   
+ETD-816 [containers] Binance CSV - Transaction type Simple Earn Flexible Interest identify as EARN.   
+ETD-858 [users] Manage API Permissions.   
+
+### Improvements   
+ETD-847 [organizations] Limitation of content type in the inputs of the chart of accounts, accounting software, accounting report.   
+ETD-854 [reports] Accounting report - change name of transactions Stock-IN and Stock-Off.   
+ETD-862 [reports] Tax Statement - Rebate calculation.   
+ETD-867 [portfolio] Hide distribution chart.   
+   
+### Bug Fixes   
+ETD-828 [organizations] Control of sub-accounts generation, pre-accounting in the accounting report Pohoda.   
+ETD-859 [portfolios] Change in opening balances is not saved.   
+ETD-863 [asset accounts] Some transaction types have no naming.   
+ETD-868 [transactions] The reward does not load the unit price if the container is not part of the portfolio.   
+ETD-869 [organizations] Sub-accounts sorted by number.   
+ETD-871 [organizations] Error in account description.   
+ETD-872 [portfolios] Deficiencies in copying balances.   
+   
 ## Version 2023.02.151606   
    
 **Fixes a bug with the Binance connector library. And at the same time problems with crashed connector queues. If your connectors are in an "In Progress" state, they will be automatically suspended within 12 hours of release. We expect the next automatic syncs to be seamless.**   
