@@ -1,9 +1,30 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.03.021351   
+   
+**Coinbase API connector adds support for Advanced Trading Endpoint. Synchronization will be done automatically. Unfortunately, Coinbase does not have an API Endpoint for Staking and Rewards. These still need to be imported via CSV. For the Slovak Tax Residency, we have changed the synthetic account numbers to match the practice of accounting for cryptocurrencies as assets. We are also adding a few fixes. The main ones are correct calculations of the portfolio with a cryptocurrency bound fee.**   
+   
+### New Features   
+ETD-755 [connectors] Coinbase API - Add support for Advanced Trading Endpoint.   
+   
+### Improvements   
+ETD-855 [organizations] Update to the Chart of Account for Slovak Tax Residency - Accounting for Cryptocurrencies as Assets.   
+   
+### Bug Fixes   
+ETD-846 [portfolio] Decimal places in the amount of cryptocurrencies.   
+ETD-850 [portfolio] Portfolio calculation - Fee in crypto.   
+ETD-864 [asset accounts] Sorting of bound transactions.   
+ETD-875 [portfolio] White screen when creating a new portfolio.   
+ETD-876 [portfolio] Unrealized profit/loss calculation for staking.   
+ETD-877 [reports] Error when generating a TAX Report.   
+ETD-881 [portfolio] Firefox sends 2 requests to create a new portfolio.   
+ETD-882 [portfolio] When a new user logs in for the first time, no new portfolio is created.   
+ETD-884 [portfolio] Error 500 at the FIFO portfolio.   
+   
 ## Version 2023.02.212018   
    
-**We are adding API synchronization designed for two-way data exchange with third-party applications. You can use it, for example, if you are the developer of such an application. The current state of the API is experimental. For suggestions on how to use it, please contact us at support.**   
+**We are adding API synchronization designed for two-way data exchange with third-party applications. [Documentation](https://whalebooks.com/open-api) for developers. You can use it, for example, if you are the developer of such an application. The current state of the API is experimental. For suggestions on how to use it, please contact us at support.**   
    
 ### New Features   
 ETD-724 [api] API for receiving external instructions.   
