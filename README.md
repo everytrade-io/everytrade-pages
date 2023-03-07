@@ -1,6 +1,16 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.03.071005   
+   
+### Improvements   
+ETD-866 [containers] Binance CSV - Transaction type CONVERT identify as BUY / SELL.   
+ETD-878 [containers] Binance CSV - Transaction type Deposit + Transactions Related identify as Deposit + BUY.   
+   
+### Bug Fixes   
+ETD-856 [fee] Bounded fee for Deposit/Withdrawal.   
+ETD-887 [portfolio] Change from a paired and unpaired transaction is not updated.   
+   
 ## Version 2023.03.021351   
    
 **Coinbase API connector adds support for Advanced Trading Endpoint. Synchronization will be done automatically. Unfortunately, Coinbase does not have an API Endpoint for Staking and Rewards. These still need to be imported via CSV. For the Slovak Tax Residency, we have changed the synthetic account numbers to match the practice of accounting for cryptocurrencies as assets. We are also adding a few fixes. The main ones are correct calculations of the portfolio with a cryptocurrency bound fee.**   
