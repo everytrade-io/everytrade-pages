@@ -1,6 +1,16 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.03.101430   
+   
+We present the possibility of creating dynamic combinations of traded pairs. Thanks to this, you can load more of your transactions. This is a major milestone for WhaleBooks.   
+   
+### New Features   
+ETD-897 [asset accounts] Highlighting negative running balance.   
+   
+### Improvements   
+ETD-879 [pairs] Open base and quote combination.   
+   
 ## Version 2023.03.071005   
    
 ### Improvements   
