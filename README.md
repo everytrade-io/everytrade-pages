@@ -6,10 +6,10 @@ NOTE: To get notified quickly about new releases and other important information
 We present the possibility of creating dynamic combinations of traded pairs. Thanks to this, you can load more of your transactions. This is a major milestone for WhaleBooks.   
    
 ### New Features   
-ETD-897 [asset accounts] Highlighting negative running balance.   
+ETD-879 [pairs] Dynamic base and quote combination.   
    
 ### Improvements   
-ETD-879 [pairs] Open base and quote combination.   
+ETD-897 [asset accounts] Highlighting negative running balance.   
    
 ## Version 2023.03.071005   
    
