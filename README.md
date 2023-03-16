@@ -1,9 +1,19 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.03.141526   
+   
+**The optimization results in 2-3 times faster loading of rates. This has a positive impact on reducing the time required to calculate portfolio results.**   
+   
+### Improvements   
+ETD-806 [rates] Improved speed of rates loading.   
+   
+### Bug Fixes   
+ETD-899 [containers] The CSV container does not contain information about the creation date.   
+   
 ## Version 2023.03.101430   
    
-We present the possibility of creating dynamic combinations of traded pairs. Thanks to this, you can load more of your transactions. This is a major milestone for WhaleBooks.   
+**We present the possibility of creating dynamic combinations of traded pairs. Thanks to this, you can load more of your transactions. This is a major milestone for WhaleBooks.**   
    
 ### New Features   
 ETD-879 [pairs] Dynamic base and quote combination.   
