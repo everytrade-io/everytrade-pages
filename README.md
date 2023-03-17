@@ -1,6 +1,14 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.03.171513   
+
+### Bug Fixes   
+ETD-870 [portfolios] Stake / Unstake trx - impact on calculations.   
+ETD-873 [portfolios] Stake error calculation.   
+ETD-896 [transactions] Changing the transaction type does not update the unit price currency.   
+ETD-902 [portfolios] Abnormal values in an open position caused by multiplication.   
+   
 ## Version 2023.03.141526   
    
 **The optimization results in 2-3 times faster loading of rates. This has a positive impact on reducing the time required to calculate portfolio results.**   
