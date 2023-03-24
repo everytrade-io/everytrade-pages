@@ -3,7 +3,7 @@ NOTE: To get notified quickly about new releases and other important information
    
 ## Version 2023.03.241539   
    
-### Vylepšení   
+### Improvements   
 ETD-857 [transactions] Filtering by time.   
 ETD-865 [containers] Binance CSV - If the commitment fee is zero, it's not a mistake.   
 ETD-874 [connectors] Correct identification of the MATIC02 and KSM07 symbols from the Kraken API.   
