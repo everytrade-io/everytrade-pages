@@ -1,6 +1,24 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.03.241539   
+   
+### Vylepšení   
+ETD-857 [transactions] Filtering by time.   
+ETD-865 [containers] Binance CSV - If the commitment fee is zero, it's not a mistake.   
+ETD-874 [connectors] Correct identification of the MATIC02 and KSM07 symbols from the Kraken API.   
+ETD-888 [containers] Binance CSV - Transaction type Buy Crypto as Deposit + BUY.   
+ETD-889 [containers] Binance CSV - Transaction types Buy + Spend and Sold + Revenue indentify as BUY and SELL.   
+ETD-903 [help] Updates to Coinmate help and branding.   
+ETD-908 [asset accounts] Shortening of addresses in the asset accounts statement.   
+ETD-909 [pairs] Add new symbols 23/03.   
+   
+### Bug Fixes   
+ETD-898 [reports] LIFO valuation error.   
+ETD-904 [portfolios] FIAT widget include Withdrawal & Deposit Trx.   
+ETD-907 [reports] Tax Statement - Short position - totals not correct.   
+ETD-912 [transactions] Opening the transaction detail retrieves the market rate without request.   
+   
 ## Version 2023.03.171513   
 
 ### Bug Fixes   
