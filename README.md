@@ -1,6 +1,19 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.03.281443   
+   
+### Improvements   
+ETD-824 [containers] Binance CSV - Transaction type Staking Rewards identify as STAKE REWARD.   
+ETD-825 [containers] Binance CSV - Transaction type Staking Redemption identify as UNSTAKE.   
+ETD-900 [containers] Binance CSV - Transaction type Staking Purchase identify as STAKE.   
+ETD-910 [pairs] Last used currency, symbols and currency names.   
+ETD-916 [pairs] Symbols of all cryptocurrencies.   
+   
+### Bug Fixes   
+ETD-358 [portfolios] Under portfolio the sell fee not recognized.   
+ETD-914 [transactions] Minor bug fixes and improvements.      
+   
 ## Version 2023.03.241539   
    
 ### Improvements   
