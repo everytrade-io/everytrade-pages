@@ -1,6 +1,23 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.03.311929   
+   
+### Improvements   
+ETD-814 [containers] Binance CSV - Transaction type Small Assets Exchange BNB identify as BUY.   
+ETD-820 [containers] Binance CSV - Transaction type Saving distribution + Simple Earn Flexible Subscription identify as DEPOSIT Binance EARN + WITHDRAWAL.   
+ETD-821 [containers] Binance CSV - Transaction type Simple Earn Flexible Redemption identify as DEPOSIT / WITHDRAWAL.   
+ETD-901 [containers] Binance CSV - Transaction type Simple Earn Locked Rewards identify as EARN.   
+ETD-905 [containers] Binance CSV - Transaction type CASHBACK VOUCHER identify as REBATE.   
+ETD-928 [containers] Binance CSV - Transaction type BNB Vault Rewards identify as REWARD.   
+   
+### Bug Fixes   
+ETD-835 [reports] Tax Statement - new calculation errors.   
+ETD-920 [reports] Sell Fee Crypto calculation.   
+ETD-923 [portfolio] Portfolio error.   
+ETD-924 [transactions] Not loading unit price.   
+ETD-927 [portfolios] Bounded fee for Deposit/Withdrawal v2.   
+   
 ## Version 2023.03.281443   
    
 ### Improvements   
