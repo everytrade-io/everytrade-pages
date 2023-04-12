@@ -1,6 +1,16 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.04.091914   
+   
+### Improvements   
+ETD-932 [pairs] Add new symbols 23/04.   
+ETD-938 [containers] Kraken CSV in ledger format to import record DEPOSIT & TRANSFER as DEPOSIT.   
+   
+### Bug Fixes   
+ETD-930 [containers] Binance CSV import does not distinguish between 2 different transaction types within a time tolerance of 1 s.   
+ETD-937 [containers] Kraken CSV in ledger format imports negative unit prices.   
+   
 ## Version 2023.03.311929   
    
 ### Improvements   
