@@ -1,6 +1,16 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.04.141451   
+   
+### Improvements   
+ETD-934 [containers] Binance CSV - Transaction type FIAT WITHDRAW identify as WITHDRAWAL.   
+ETD-936 [containers] Binance CSV - Transaction type C2C Transfer identify as WITHDRAWAL.   
+ETD-939 [containers] Binance CSV - Transaction type Simple Earn Locked Redemption identify as WITHDRAWAL / DEPOSIT.   
+   
+### Bug Fixes   
+ETD-942 [api] Calling with transaction ID returns an error.   
+   
 ## Version 2023.04.091914   
    
 ### Improvements   
