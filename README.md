@@ -1,6 +1,22 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.04.191844   
+   
+### Improvements   
+ETD-187 [organizations] Transactions of the organization.   
+ETD-921 [portfolio] Extend asset accounts by Type.   
+ETD-951 [asset accounts] Update currency listing.   
+ETD-953 [containers] Bitrex CSV - identify transaction MARKET_BUY as BUY.   
+ETD-956 [pricing] Individual price offer.   
+   
+### Bug Fixes   
+ETD-931 [portfolios] Portfolio search.   
+ETD-944 [portfolios] New portfolio does not randomly load tax residency data.   
+ETD-949 [portfolios] Portfolio returns error 500.   
+ETD-952 [containers] Binance CSV import does not recognize 1INCHUSDT pair.   
+ETD-955 [containers] GB CAS CSV does not import.   
+   
 ## Version 2023.04.141451   
    
 ### Improvements   
