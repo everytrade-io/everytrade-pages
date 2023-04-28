@@ -4,6 +4,19 @@ NOTE: To get notified quickly about new releases and other important information
 ## Version 2023.04.191844   
    
 ### Improvements   
+ETD-926 [connectors] Coinmate API - Balance move Credit / Debit identify as DEPOSIT / WITHDRAWAL.   
+ETD-956 [pricing] Individual price offer.   
+ETD-959 [transactions] Data retention when converting from a single currency to a pair transaction.   
+ETD-963 [containers] Binance CSV - Transaction type Referral Commission identify as REWARD.   
+ETD-964 [reports] Add column Label to accounting report.   
+   
+### Bug Fixes   
+ETD-925 [connectors] Broken Coinmate API sub-account connection.   
+ETD-962 [reports] Error downloading TAX report.   
+   
+## Version 2023.04.191844   
+   
+### Improvements   
 ETD-187 [organizations] Transactions of the organization.   
 ETD-921 [portfolio] Extend asset accounts by Type.   
 ETD-951 [asset accounts] Update currency listing.   
