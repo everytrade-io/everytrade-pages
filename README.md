@@ -1,7 +1,7 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
-## Version 2023.04.191844   
+## Version 2023.04.281445   
    
 ### Improvements   
 ETD-926 [connectors] Coinmate API - Balance move Credit / Debit identify as DEPOSIT / WITHDRAWAL.   
