@@ -1,6 +1,31 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.07.191222   
+   
+The new version adds a label editing function in the transaction detail. And it allows you to add multiple labels to each transaction! In addition, it optimizes accounting reports for easier use in the accounting software and fixes errors.   
+   
+### New Features   
+ETD-719 [transactions] Multiple transaction labels.   
+   
+### Improvements   
+ETD-535 [transactions] Editable label in transaction detail.   
+ETD-851 [transactions] Bulk action - Set total price - extend optionally with a label.   
+ETD-970 [help] Update Help navigation.   
+ETD-971 [content] New [integration page](https://whalebooks.com/integrations).   
+ETD-972 [help] Content update.   
+ETD-978 [connectors] Import identifies USDTTRON as USDT in GB CAS format - API and CSV.   
+ETD-988 [help] WhaleBooks format 3.2.1 Labels specification update.   
+   
+### Bug Fixes   
+ETD-944 [portfolios] New portfolio does not randomly load tax residency data at Firefox browser.   
+ETD-965 [reports] Error when generating a specific Accounting report.   
+ETD-967 [reports] Bound FEE from the SELL transaction is not deducted from the sales value in the accounting report.   
+ETD-968 [portfolios] Portfolio does not return results or error.   
+ETD-973 [reports] Correction of FIAT pre-contractions in the accounting report.   
+ETD-975 [reports] Exchange crypto/crypto in the accounting report.   
+ETD-976 [reports] Improvement of Accounting report in Pohoda format.   
+   
 ## Version 2023.04.281445   
    
 ### Improvements   
