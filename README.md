@@ -1,6 +1,11 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.07.260915   
+   
+### Bug Fixes   
+ETD-990 [reports] Generation of the Accounting Report will crash if the portfolio contains initial balances.   
+   
 ## Version 2023.07.191222   
    
 The new version adds a label editing function in the transaction detail. And it allows you to add multiple labels to each transaction! In addition, it optimizes accounting reports for easier use in the accounting software and fixes errors.   
