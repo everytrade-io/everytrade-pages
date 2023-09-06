@@ -1,5 +1,22 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
+
+## Version 2023.09.060911   
+   
+### Improvements   
+ETD-994 [help] Coinmate API help update.   
+ETD-995 [reports] Extension of the WhaleBooks Universal Accounting Report with quota information.   
+ETD-1003 [containers] Support for import ZEUR from Kraken CSV.   
+ETD-1005 [containers] Identify SPEND and RECEIVE transactions in KRAKEN API and CSV import.   
+   
+### Bug Fixes   
+ETD-981 [portfolios] Doubling of the crypto fee on transferred balances from a portfolio with a different accounting currency.   
+ETD-991 [portfolios] Graph widget show incorrect (doubled) values for previous timeframe.   
+ETD-992 [portfolio] Initial Balances - AVCO - FEE is counted twice.   
+ETD-993 [reports] Accounting report - quote of transaction to be visible.   
+ETD-996 [reports] Accounting report, WhaleBooks format - subaccount wrongly generated as FIAT instead of crypto.   
+ETD-997 [connectors] Kraken API connector duplicates transactions with similar time.   
+ETD-1002 [frontend] Fix the style of the month toggle control.   
    
 ## Version 2023.07.260915   
    
