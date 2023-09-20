@@ -1,6 +1,21 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
-
+   
+## Version 2023.09.200940   
+   
+The Accounting Report (WhaleBooks format) now supports DEPOSIT and WITHDRAWAL transactions. Their inclusion is manually configured in the Accounting Software Settings. The default is Do not include. We have added two new accounts Money on the Way and Other Receivables to the Chart of Accounts. Pre-accounts have been enhanced with new transaction types in the Accounting Report and description.   
+   
+### New Features   
+ETD-1001 [reports] Link DEPOSIT / WITHDRAWAL transactions to Accounting report at WhaleBooks universal format.   
+   
+### Improvements   
+ETD-1000 [organizations] Update Chart of Account about Money on the Way and Other Receivables.   
+ETD-1004 [organizations] Create a sub-account from the active Accounting currency of the portfolio.   
+ETD-1007 [organizations] Settings for including DEPOSIT / WITHDRAWAL transactions in the Accounting report WhaleBooks universal format.   
+ETD-1009 [organizations] Creating pre-accounting for DEPOSIT / WITHDRAWAL at Krypto, FIAT.   
+ETD-1012 [organizations] US accounts - new set up 261&378.   
+ETD-1016 [pairs] New Symbols 23/09.   
+   
 ## Version 2023.09.060911   
    
 ### Improvements   
