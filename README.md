@@ -1,6 +1,37 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.11.011421   
+   
+The last introduced feature of posting DEPOSIT and WITHDRAWAL to the WhaleBooks accounting report format is now also included in the Stormware Pohoda format. In the WhaleBooks format we have added information about the quantity and currency of Quota. And we have made a few minor fixes to the accounting report.   
+   
+We added a requested feature - Transaction source. You can add it in the container detail, or when creating an API connector. The transaction source information will be overwritten in the transaction list, asset accounts and also in the accounting report in all formats.   
+   
+We have modified the transactions filter so that you can filter by multiple parameters of one type at the same time. For example: BUY and SELL transactions in BTC and LTC currencies.   
+   
+### New Features   
+ETD-1018 [reports] Include DEPOSIT and WITHDRAWAL in the Stormware Pohoda format Accounting Report.   
+ETD-1025 [containers] Extension of container information by Source.   
+ETD-1032 [transactions] Filtering transactions by multiple parameters of one type.   
+   
+### Improvements   
+ETD-995 [reports] Extension of the WhaleBooks Universal Accounting Report with quota information.   
+ETD-1023 [reports] Accounting report - Unit price - change rounding to 8 decimal max.   
+ETD-1026 [reports] Source of transaction for accounting report.   
+ETD-1027 [portfolios] Bulk deletion of balances.   
+ETD-1029 [portfolios] Market value of the asset account.   
+ETD-1030 [connectors] Flag on FIAT currency selection blockchain connector.   
+ETD-1038 [transactions] Store the number of records per page in the session.   
+ETD-1040 [asset-accounts] Account statement grouping by FIAT / Crypto.   
+ETD-1041 [asset-acounts] Link to asset account settings.   
+ETD-1042 [transactions] Link from a bound transaction to the main transaction.   
+   
+### Bug Fixes   
+ETD-1019 [reports] Accounting report - Bound fee for buy/sell.   
+ETD-1021 [frontend] Covering the icon in the main navigation.   
+ETD-1035 [portfolios] White screen to click through from crypto position.   
+ETD-1039 [asset-accounts] Performance issue with asset accounts - lots of transactions and portfolio filter by label.   
+   
 ## Version 2023.09.200940   
    
 The Accounting Report (WhaleBooks format) now supports DEPOSIT and WITHDRAWAL transactions. Their inclusion is manually configured in the Accounting Software Settings. The default is Do not include. We have added two new accounts Money on the Way and Other Receivables to the Chart of Accounts. Pre-accounts have been enhanced with new transaction types in the Accounting Report and description.   
