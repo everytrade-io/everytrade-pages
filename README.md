@@ -1,6 +1,32 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.12.151445   
+   
+In specific cases, the function filtering portfolio by labels can be used. Which can exclude the rule on the bound subtransactions of the affected transactions.   
+   
+We are fixing the Coinmate API timeout. Technology and database structure updates have been made.   
+   
+### New Features   
+ETD-1060 [portfolios] Label filter sub-transaction inclusion control.   
+   
+### Improvements   
+ETD-822 [portfolios] Copying of pair balances to the unsaved portfolio must respect the currently selected cost calculation method.   
+ETD-1040 [asset-accounts] Account statement grouping by FIAT / Crypto.   
+ETD-1049 [reports] Add currency to the description of asset accounts in the report export modal.   
+ETD-1059 [transactions] Add new currencies 23/11.   
+ETD-1062 [transactions] Fixing the position of the Action column.   
+ETD-1077 [pairs] Add new symbols 23/12.   
+   
+### Bug Fixes   
+ETD-969 [reports] Tax Statement - bounded fee - doubled in calculation.   
+ETD-1051 [transactions] Incorrect number of transaction listings depending on the selected number of records per page.   
+ETD-1053 [connectors] WhaleBooks API connector does not download when updating a transaction.   
+ETD-1056 [portfolios] Frontend doesn’t load data from / labels endpoint.   
+ETD-1064 [connectors] Coinmate API timeout.   
+ETD-1067 [containers] Kraken CSV format update.   
+ETD-1079 [transactions] Overwriting the currency of the bound subtransaction.   
+   
 ## Version 2023.11.011421   
    
 The last introduced feature of posting DEPOSIT and WITHDRAWAL to the WhaleBooks accounting report format is now also included in the Stormware Pohoda format. In the WhaleBooks format we have added information about the quantity and currency of Quota. And we have made a few minor fixes to the accounting report.   
