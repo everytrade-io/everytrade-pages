@@ -1,6 +1,25 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2023.12.221508   
+
+We are fixing a bug from the previous version, where the Currency (Symbol) of a Bound transaction could be confused with the BASE Symbol of the parent transaction. This affected only a small number of manually created transactions.   
+   
+And we're adding a few practical interface improvements like Go To Page in the transaction listing. Optimization of transaction detail for TAB key movement. And or making the list of symbols for asset accounts in the container detail clearer.   
+   
+### Improvements   
+ETD-1055 [transactions] Add input to pagination to Go to Page.   
+ETD-1063 [transactions] Optimization of TAB operations in transaction detail.   
+ETD-1088 [pairs] Adding a currency symbol to the container and transaction filter.   
+ETD-1092 [pairs] Add new symbols 23/12_01.   
+   
+### Bug Fixes   
+ETD-1081 [container] WhaleBooks format import does not log ignored zero-value transactions.   
+ETD-1082 [connectors] ZUSD support in Kraken API.   
+ETD-1084 [connectors] API connector logos are not displayed.   
+ETD-1085 [connectors] Container long name width limitation.   
+ETD-1090 [transactions] Spontaneous fee currency change after deploying DB fee currency structure modifications.   
+   
 ## Version 2023.12.151445   
    
 In specific cases, the function filtering portfolio by labels can be used. Which can exclude the rule on the bound subtransactions of the affected transactions.   
