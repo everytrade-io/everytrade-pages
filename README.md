@@ -3,9 +3,9 @@ NOTE: To get notified quickly about new releases and other important information
    
 ## Version 2023.12.221508   
 
-We are fixing a bug from the previous version, where the Currency (Symbol) of a Bound transaction could be confused with the BASE Symbol of the parent transaction. This affected only a small number of manually created transactions.   
+**We are fixing a bug from the previous version, where the Currency (Symbol) of a Bound transaction could be confused with the BASE Symbol of the parent transaction. This affected only a small number of manually created transactions.**   
    
-And we're adding a few practical interface improvements like Go To Page in the transaction listing. Optimization of transaction detail for TAB key movement. And or making the list of symbols for asset accounts in the container detail clearer.   
+**And we're adding a few practical interface improvements like Go To Page in the transaction listing. Optimization of transaction detail for TAB key movement. And or making the list of symbols for asset accounts in the container detail clearer.**   
    
 ### Improvements   
 ETD-1055 [transactions] Add input to pagination to Go to Page.   
@@ -22,9 +22,9 @@ ETD-1090 [transactions] Spontaneous fee currency change after deploying DB fee c
    
 ## Version 2023.12.151445   
    
-In specific cases, the function filtering portfolio by labels can be used. Which can exclude the rule on the bound subtransactions of the affected transactions.   
+**In specific cases, the function filtering portfolio by labels can be used. Which can exclude the rule on the bound subtransactions of the affected transactions.**   
    
-We are fixing the Coinmate API timeout. Technology and database structure updates have been made.   
+**We are fixing the Coinmate API timeout. Technology and database structure updates have been made.**   
    
 ### New Features   
 ETD-1060 [portfolios] Label filter sub-transaction inclusion control.   
@@ -48,11 +48,11 @@ ETD-1079 [transactions] Overwriting the currency of the bound subtransaction.
    
 ## Version 2023.11.011421   
    
-The last introduced feature of posting DEPOSIT and WITHDRAWAL to the WhaleBooks accounting report format is now also included in the Stormware Pohoda format. In the WhaleBooks format we have added information about the quantity and currency of Quota. And we have made a few minor fixes to the accounting report.   
+**The last introduced feature of posting DEPOSIT and WITHDRAWAL to the WhaleBooks accounting report format is now also included in the Stormware Pohoda format. In the WhaleBooks format we have added information about the quantity and currency of Quota. And we have made a few minor fixes to the accounting report.**   
    
-We added a requested feature - Transaction source. You can add it in the container detail, or when creating an API connector. The transaction source information will be overwritten in the transaction list, asset accounts and also in the accounting report in all formats.   
+**We added a requested feature - Transaction source. You can add it in the container detail, or when creating an API connector. The transaction source information will be overwritten in the transaction list, asset accounts and also in the accounting report in all formats.**   
    
-We have modified the transactions filter so that you can filter by multiple parameters of one type at the same time. For example: BUY and SELL transactions in BTC and LTC currencies.   
+**We have modified the transactions filter so that you can filter by multiple parameters of one type at the same time. For example: BUY and SELL transactions in BTC and LTC currencies.**   
    
 ### New Features   
 ETD-1018 [reports] Include DEPOSIT and WITHDRAWAL in the Stormware Pohoda format Accounting Report.   
@@ -79,7 +79,7 @@ ETD-1039 [asset-accounts] Performance issue with asset accounts - lots of transa
    
 ## Version 2023.09.200940   
    
-The Accounting Report (WhaleBooks format) now supports DEPOSIT and WITHDRAWAL transactions. Their inclusion is manually configured in the Accounting Software Settings. The default is Do not include. We have added two new accounts Money on the Way and Other Receivables to the Chart of Accounts. Pre-accounts have been enhanced with new transaction types in the Accounting Report and description.   
+**The Accounting Report (WhaleBooks format) now supports DEPOSIT and WITHDRAWAL transactions. Their inclusion is manually configured in the Accounting Software Settings. The default is Do not include. We have added two new accounts Money on the Way and Other Receivables to the Chart of Accounts. Pre-accounts have been enhanced with new transaction types in the Accounting Report and description.**   
    
 ### New Features   
 ETD-1001 [reports] Link DEPOSIT / WITHDRAWAL transactions to Accounting report at WhaleBooks universal format.   
@@ -116,7 +116,7 @@ ETD-990 [reports] Generation of the Accounting Report will crash if the portfoli
    
 ## Version 2023.07.191222   
    
-The new version adds a label editing function in the transaction detail. And it allows you to add multiple labels to each transaction! In addition, it optimizes accounting reports for easier use in the accounting software and fixes errors.   
+**The new version adds a label editing function in the transaction detail. And it allows you to add multiple labels to each transaction! In addition, it optimizes accounting reports for easier use in the accounting software and fixes errors.**   
    
 ### New Features   
 ETD-719 [transactions] Multiple transaction labels.   
