@@ -1,6 +1,21 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2024.01.040958  
+   
+The portfolio chart now remembers to select a date or interval. It will remain active even if you browse other categories. In addition, its active time period is highlighted for better clarity.   
+   
+### Improvements   
+ETD-1057 [portfolios] Saving a time interval or portfolio point.   
+ETD-1100 [pairs] Add new symbols 23/12_02.   
+   
+### Bug Fixes   
+ETD-1020 [portfolios] Portfolio error.   
+ETD-1080 [portfolio] Portfolio error - bad ID of AXL Cryptocurrency.   
+ETD-1094 [transactions] Transaction filter does not go to the first page of the transaction list after filtering.   
+ETD-1095 [frontend] Link and button indentation depending on breakpoint.   
+ETD-1097 [containers] The transaction source for a manually created container is not saved.   
+   
 ## Version 2023.12.221508   
 
 **We are fixing a bug from the previous version, where the Currency (Symbol) of a Bound transaction could be confused with the BASE Symbol of the parent transaction. This affected only a small number of manually created transactions.**   
