@@ -2,8 +2,13 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
 ## Version 2024.01.040958  
+
+**New functional currencies EUR, USD, GBP portfolios and reporting. We are adding a new Tax Rule for legal persons in the Czech Republic. The activation occurs automatically for the entity with the portfolio as of 1.1.2024.**   
    
 **The portfolio chart now remembers to select a date or interval. It will remain active even if you browse other categories. In addition, its active time period is highlighted for better clarity.**   
+
+### New Features
+ETD-1037 [organizations] Legislative changes in CZ from 1/1/2024 - EUR, USD, GBP - functional currency.
    
 ### Improvements   
 ETD-1057 [portfolios] Saving a time interval or portfolio point.   
