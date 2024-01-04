@@ -3,7 +3,7 @@ NOTE: To get notified quickly about new releases and other important information
    
 ## Version 2024.01.040958  
    
-The portfolio chart now remembers to select a date or interval. It will remain active even if you browse other categories. In addition, its active time period is highlighted for better clarity.   
+**The portfolio chart now remembers to select a date or interval. It will remain active even if you browse other categories. In addition, its active time period is highlighted for better clarity.**   
    
 ### Improvements   
 ETD-1057 [portfolios] Saving a time interval or portfolio point.   
