@@ -1,6 +1,34 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2024.01.260819   
+   
+You will find a new Lists tab in the Organization Settings. It is used to create References that can be associated with a data container. Transactions marked in this way will get a new dimension in the Accounting Report marked as References. In the Accounting Software Settings, you can also map the reference by meaning. Currently only as a Cost Center.   
+   
+We have now decided to limit the functionality of the Accounting Report for FREE plans. Namely, a maximum of 50 lines of posted transactions per query. If you are interested in this functionality, please contact us for an individual plan offer.   
+   
+We are working on updating the user interface Feature Wizard. Updates and corrections have now been made to the information. In the future, we will expand the description with new features and an easy to run wizard whenever needed.   
+   
+### New Features   
+ETD-1109 [organizations] List of transaction references.   
+ETD-1110 [containers] Linking a reference to a container.   
+ETD-1111 [reports] Export reference to WhaleBooks accounting report format.   
+ETD-1112 [reports] Export reference to Stormware Pohoda accounting report format.   
+ETD-1113 [organizations] Mapping of the Reference parameter in the accounting report.   
+   
+### Improvements   
+ETD-1101 [pairs] Add new symbols 24/01.   
+ETD-1103 [containers] Link from the asset account menu in the container to create a new asset account.   
+ETD-1104 [reports] Call for price plan upgrade for accounting report for FREE plan.   
+ETD-1105 [portfolio] Default state of label preferences.   
+ETD-1106 [portfolio] Show asset accounts on the portfolio that are not attached to any container but have a carried balance on the portfolio.   
+ETD-1108 [portfolio] Hide toggle to convert pairs to accounting currency.   
+ETD-1114 [help] To update information in the application wizard.   
+ETD-1116 [reports] Limit the number of Accounting Report records for the FREE plan.   
+   
+### Bug Fixes   
+ETD-1102 [reports] Accounting report does not respect time constraints.   
+   
 ## Version 2024.01.040958  
 
 **New functional currencies EUR, USD, GBP portfolios and reporting. We are adding a new Tax Rule for legal persons in the Czech Republic. The activation occurs automatically for the entity with the portfolio as of 1.1.2024.**   
