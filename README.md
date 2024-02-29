@@ -3,13 +3,13 @@ NOTE: To get notified quickly about new releases and other important information
    
 ## Version 2024.02.290951   
    
-The Kraken API connector has undergone a complete overhaul and now fetches transactions from Ledger Endpoint. This means that your transactions will now be more accurate, especially in terms of the corresponding currency and fee amount. We recommend you perform a manual resync of the Kraken connectors. We have also made some minor improvements to the identification of transactions downloaded in the Kraken API, as well as when importing Ledger CSV. We are also now importing Stake transactions from Ledger CSV.   
+**The Kraken API connector has undergone a complete overhaul and now fetches transactions from Ledger Endpoint. This means that your transactions will now be more accurate, especially in terms of the corresponding currency and fee amount. We recommend you perform a manual resync of the Kraken connectors. We have also made some minor improvements to the identification of transactions downloaded in the Kraken API, as well as when importing Ledger CSV. We are also now importing Stake transactions from Ledger CSV.**   
    
-The Coinbase API connector has also been modified to accommodate the changes and now communicates correctly with the Coinbase exchange again.   
+**The Coinbase API connector has also been modified to accommodate the changes and now communicates correctly with the Coinbase exchange again.**   
    
-We have made several changes to the transaction interface. We are introducing the availability of an extended context menu on their listing. This means you can quickly access more features without having to go into the transaction details. For example, deleting, adding a note, or tagging a transaction. This will not only speed up your work in the desktop interface, but also in the mobile interface. Later on, these contextual menus will be available across the entire interface. In the transaction details, we have optimized the performance of the currency symbol menu. It is now much faster and therefore easier to work with and less load on the web browser.   
+**We have made several changes to the transaction interface. We are introducing the availability of an extended context menu on their listing. This means you can quickly access more features without having to go into the transaction details. For example, deleting, adding a note, or tagging a transaction. This will not only speed up your work in the desktop interface, but also in the mobile interface. Later on, these contextual menus will be available across the entire interface. In the transaction details, we have optimized the performance of the currency symbol menu. It is now much faster and therefore easier to work with and less load on the web browser.**   
    
-The Asset Accounts widget is displayed on the portfolio page by default. This is even if you don't have asset accounts created and linked to the connectors. The empty widget displays recommendations and instructions on how to set everything up. We hope this helps you improve your portfolio setup and get an even better view of your portfolio performance.   
+**The Asset Accounts widget is displayed on the portfolio page by default. This is even if you don't have asset accounts created and linked to the connectors. The empty widget displays recommendations and instructions on how to set everything up. We hope this helps you improve your portfolio setup and get an even better view of your portfolio performance.**   
    
 ### Improvements   
 ETD-1089 [transactions] Transaction context menu.   
@@ -36,11 +36,11 @@ ETD-1145 [reports] Negative values in the accounting report / reversed sign.
    
 ## Version 2024.01.260819   
    
-You will find a new Lists tab in the Organization Settings. It is used to create References that can be associated with a data container. Transactions marked in this way will get a new dimension in the Accounting Report marked as References. In the Accounting Software Settings, you can also map the reference by meaning. Currently only as a Cost Center.   
+**You will find a new Lists tab in the Organization Settings. It is used to create References that can be associated with a data container. Transactions marked in this way will get a new dimension in the Accounting Report marked as References. In the Accounting Software Settings, you can also map the reference by meaning. Currently only as a Cost Center.**   
    
-We have now decided to limit the functionality of the Accounting Report for FREE plans. Namely, a maximum of 50 lines of posted transactions per query. If you are interested in this functionality, please contact us for an individual plan offer.   
+**We have now decided to limit the functionality of the Accounting Report for FREE plans. Namely, a maximum of 50 lines of posted transactions per query. If you are interested in this functionality, please contact us for an individual plan offer.**   
    
-We are working on updating the user interface Feature Wizard. Updates and corrections have now been made to the information. In the future, we will expand the description with new features and an easy to run wizard whenever needed.   
+**We are working on updating the user interface Feature Wizard. Updates and corrections have now been made to the information. In the future, we will expand the description with new features and an easy to run wizard whenever needed.**   
    
 ### New Features   
 ETD-1109 [organizations] List of transaction references.   
