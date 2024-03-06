@@ -1,6 +1,22 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2024.03.061226   
+   
+**Portfolio balances - Pairs and Asset Accounts now show the source portfolio of copied balances. And the copy time. In the future, there will be a one-click option to update balances.**   
+   
+**We have made another update to the application wizard and expanded it to include missing sections. You will now find a "Start Walkthrough" link in the main navigation, which you can use to activate the guide at any time. In the future, we plan to extend this feature even further for better customer support.**   
+   
+**You will now find the context menu available across all Asset Accounts integrations.**   
+   
+### Improvements   
+ETD-1142 [portfolios] Listing of source portfolio balances for AVCO pairs and asset accounts.   
+ETD-1147 [help] To update information in the application wizard, ver. 2.   
+ETD-1148 [transactions] Edit container context menu.   
+ETD-1149 [asset accounts] Context menu across Asset Accounts.   
+ETD-1152 [pairs] Add new symbols 24/03.   
+ETD-1157 [help] Start walkthrough included in navigation.   
+   
 ## Version 2024.02.290951   
    
 **The Kraken API connector has undergone a complete overhaul and now fetches transactions from Ledger Endpoint. This means that your transactions will now be more accurate, especially in terms of the corresponding currency and fee amount. We recommend you perform a manual resync of the Kraken connectors. We have also made some minor improvements to the identification of transactions downloaded in the Kraken API, as well as when importing Ledger CSV. We are also now importing Stake transactions from Ledger CSV.**   
