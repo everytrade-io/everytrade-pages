@@ -1,6 +1,40 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
+
+## Version 2024.03.282241
+
+**This version contains the first part of refactoring code for calculations with crypt fees. Changes include portfolio and the Tax Report. This change will continue in later versions.**   
    
+**The frontend behavior has been changed and the application interface now adapts to the full width of the browser window. You will get more space for portfolio and transaction management.**   
+   
+**We are trying to improve the clarity of the portfolio opening balance records. That's why the basic balance record is now listed on the portfolio page with the ability to click through to the record. At the same time, the balances have been merged under one Initial Balances tab in the Portfolio Settings detail. In balance management, all controls have been merged into context menus. A link to the source portfolio is also now available.**    
+    
+### Improvements    
+ETD-1044 [connectors] WhaleBooks API connector support extension with note and label.    
+ETD-1151 [transactions] Context menu for a new container.    
+ETD-1153 [interface] Adjust the layout of the client application content to the current browser window width.    
+ETD-1154 [portfolio] Navigation & Portfolio mobile layout optimization.    
+ETD-1155 [transactions] Containers & Transactions mobile layout optimization.    
+ETD-1162 [pairs] Add new symbols 24/03_2.    
+ETD-1163 [portfolios] Presentation of initial portfolio balances.    
+ETD-1168 [portfolios] Context menus for initial portfolio balances.    
+ETD-1170 [asset-accounts] Update contextual actions of asset accounts.    
+ETD-1171 [asset-accounts] Standardizing the layout of asset account settings.    
+ETD-1176 [pairs] Add new symbols 24/03_3.    
+ETD-1193 [pairs] Add new symbols 24/03_4.    
+    
+### Bug Fixes    
+ETD-1172 [connectors] Rewards from the WhaleBooks API Connector are not valued at tax on acquisition after importation.    
+ETD-1175 [containers] Failure to export transactions from a container.    
+ETD-1177 [frontend] Scroll bar on Windows interferes with content.    
+ETD-1178 [portfolio] Chart value indicators have lost their labels.    
+ETD-1180 [containers] Unsupported time format in CSV Coinbase.    
+ETD-1183 [containers] Error importing CSV file does not trigger toaster notification and does not complete import.    
+ETD-1184 [containers] Optimization for long asset account names.    
+ETD-1185 [containers] WhaleBooks CSV format transaction not logged.    
+ETD-1186 [transactions] Portfolio currency incorrectly listed in the Reward transaction detail instead of USD.    
+ETD-1189 [portfolios] Manually creating the opening balance of an asset account returns an error.    
+    
 ## Version 2024.03.061226   
    
 **Portfolio balances - Pairs and Asset Accounts now show the source portfolio of copied balances. And the copy time. In the future, there will be a one-click option to update balances.**   
