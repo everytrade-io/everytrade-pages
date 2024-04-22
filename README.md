@@ -1,6 +1,49 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
-
+   
+## Version 2024.04.191425   
+   
+The main improvements in this version are an increase in the size of supported numbers to 20 orders of magnitude (originally 10) and an increase in precision to 17 tenths (originally 10). As a result, newly imported transactions can give more accurate results.   
+   
+We are adding red highlighting of negative states and portfolios. Typically these are negative balances in the asset account in open and closed positions or in the portfolio summary. These alerts are to catch your attention where to start looking for missing transactions for calculations.   
+   
+In addition, you will find small useful features in the interface such as sticky transaction listing headers, or collapsing additional information in open and closed positions.   
+   
+You can now import Anycoin exchange transactions from CSV in Transactions format. We're also adding small fixes to imports of already supported formats.   
+   
+### New Features   
+ETD-1191 [containers] Anycoin CSV Transactions format support.   
+   
+### Improvements   
+ETD-817 [containers] Binance CSV - Transaction type ETH 2.0 Staking Rewards identify as Stake Reward + Stake.   
+ETD-818 [containers] Binance CSV - Transaction type ETH 2.0 Staking identify as BUY / SELL + STAKE / UNSTAKE.   
+ETD-1143 [connectors] OpenNode CSV format update.   
+ETD-1173 [transactions] Sticky header of transactions.   
+ETD-1174 [account assets] Sticky header of account assets.   
+ETD-1192 [reports] Initial portfolio balances in the quick report overview.   
+ETD-1195 [transactions] Extending the length of transaction numbers to 20 lines and 17 decimal places.   
+ETD-1198 [alerts] Warning on negative balances of pairs, asset accounts and initial balances.   
+ETD-1201 [portfolios] Position listing control - rows / table.   
+ETD-1202 [containers] Import a REFERRAL transaction as REWARD from Coinmate CSV format.   
+ETD-1212 [account assets] In the asset account deletion confirmation dialog, add a notification of active relations that will be deleted.   
+ETD-1213 [user account] Change the layout of the user profile settings.   
+ETD-1214 [pairs] Add new symbols 24/04.   
+   
+### Bug Fixes   
+ETD-1043 [connectors] Coinmate API gives the transaction hash instead of the withdrawal and deposit address.   
+ETD-1187 [asset accounts] Deleting asset accounts does not remove the link to the portfolio and container.   
+ETD-1188 [reports] Accounting report - bounded crypto fee - SC4.   
+ETD-1194 [connectors] Import Deposit and Withdrawal as Buy and Sell does not reflect the selected FIAT currency for the Unit Price.   
+ETD-1196 [portfolios] Unexpected crypto entry fee causes FIFO portfolio crash.   
+ETD-1199 [asset accounts] The first click does not start the download of the asset statement.   
+ETD-1204 [containers] FIAT Currency List does not appear when editing a Blockchain Connector.   
+ETD-1207 [containers] Fix support for Coinbase CSV format.   
+ETD-1208 [notifications] Fix notification toaster style.   
+ETD-1210 [portfolio] Set the Show Full History link as inactive if the filter is not active.   
+ETD-1216 [transactions] Correction of rounding accuracy in statements.   
+ETD-1217 [portfolios] Copy pair balance dialog shows incorrect currency takers.   
+ETD-1218 [transactions] Sticky header problems with responsiveness.   
+   
 ## Version 2024.03.282241
 
 **This version contains the first part of refactoring code for calculations with crypt fees. Changes include portfolio and the Tax Report. This change will continue in later versions.**   
