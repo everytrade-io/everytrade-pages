@@ -1,6 +1,49 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2024.05.101410   
+   
+We continue to harmonize portfolio calculations and reports for different fee types. Cumulative calculations with rewards in the AVCO portfolio have also been corrected.   
+   
+We are extending the negative value diagnostic alerts to the portfolio chart. Negative status is now indicated by an orange color on the chart. And, as part of the education, we have updated the Application Guide and given it a new visual look including whale illustrations.   
+   
+We've added highlighting of the active row in the lists to make them easier to read and work with. We've also made the style of the lists consistent throughout the application.   
+   
+Working with Asset Accounts in Container Detail. When creating new asset accounts in parallel with linking to a container. You can now manually trigger a one-click update of asset account lists directly in the container. Asset accounts now add information about the currency name and type.   
+   
+Fixed a bugs when retrieving transactions from supported blockchains BTC, ETH, LTC. Mainly fixes duplication, accuracy and correct weighting of fees. We also added additional fixes when importing Coinbase, Binance, Kraken and KuCoin.   
+   
+### Improvements   
+ETD-1200 [help] To update information in the application wizard, ver. 3.   
+ETD-1203 [connectors] Irregularity in BTC Blockchain import.   
+ETD-1206 [help] To update the interface design in the application wizard.   
+ETD-1219 [containers] Refresh list of asset accounts in container + currency name.   
+ETD-1220 [portfolios] Deactivate dialog controls to retrieve balances.   
+ETD-1225 [pairs] Add new symbols 24/04_1.   
+ETD-1226 [portfolios] Graphical modification of the empty Asset Accounts widget.   
+ETD-1227 [portfolios] Highlighting the negative market value of the portfolio chart.   
+ETD-1228 [layout] Unified style of line separators and hover state.   
+ETD-1232 [containers] Update KuCoin Trade CSV format.   
+ETD-1240 [containers] Add Binance CSV support for Airdrop Assets transaction type.   
+   
+### Bug Fixes   
+ETD-720 [connectors] LTC Blockchain synchronizes duplicate transactions.   
+ETD-812 [connectors] API Blockchain BTC makes some WITHDRAWAL transactions with a negative value.   
+ETD-837 [connectors] No address info found for crypto 'LTC'.   
+ETD-1068 [portfolio] Change calculation of FEE from Acquisition cost to profit.   
+ETD-1118 [portfolio] SC3 - Change in calculation with FIAT fees.   
+ETD-1119 [reports] SC8 - Correction of file "portfolio calculation" for bounded fee in another sheet than main pair.   
+ETD-1124 [portfolio] AVCO Rewards/Stake rewards with combination of SPOT within the same cryptocurrency.   
+ETD-1229 [containers] Coinbase CSV ignores FIAT withdrawal Fee.   
+ETD-1231 [portfolios] Validation of the negative value of the Fee in the initial balances of AVCO pairs.   
+ETD-1234 [portfolios] Negative amount of unrealised charges when copying pair balances on deployment scenarios 3 and 8.   
+ETD-1238 [connectors] Kraken API Error Can't invoke because the return value is null.   
+ETD-1239 [containers] Binance CSV format support for "" between columns.   
+ETD-1244 [containers] Kraken CSV ledger adds a currency pair separator.   
+ETD-1245 [containers] Support for KuCoin CSV format conversions.   
+ETD-1246 [containers] Support for KuCoin CSV format Deposits.   
+ETD-1247 [containers] Support date format without time in WhaleBooks CSV format.   
+   
 ## Version 2024.04.191425   
    
 The main improvements in this version are an increase in the size of supported numbers to 20 orders of magnitude (originally 10) and an increase in precision to 17 tenths (originally 10). As a result, newly imported transactions can give more accurate results.   
