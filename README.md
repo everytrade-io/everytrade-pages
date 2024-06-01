@@ -1,6 +1,44 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2024.05.311637   
+   
+We now introduce the Immediate Moment of Acquisition into the Accounting Report. This will be the default value. Until now, the Acquisition was only at the moment On Sale. In the Accounting Software settings, you will now find the Moment of Acquisition preference where you can select the optimal value.   
+   
+The Top navigation has received several improvements. We've added a new Settings item that gives you easy access to all your Tax and Accounting preferences in one place. We've also redesigned the usability of the Organization drop-down menu. It now displays the active organization first, including its schedule and its usage.   
+   
+The Portfolio Actions context menu now includes links to manage your portfolio in one place. You can now also access portfolio balances from the menu. A summary of portfolio results is now easier to read and identify on the portfolio page. This also applies to sub-reports such as Trades and Staking.   
+   
+To make it easier to work better with large portfolios, we have optimized the import of CSV files. Processing is now up to 3.5 times faster! Look out for more performance improvements in the future. In particular, transaction listing when filtering containers.   
+   
+### New Features   
+ETD-1258 [reports] Moment of Acquisition in the Accounting report.   
+ETD-1277 [containers] Add support for BlockFI CSV format.   
+   
+### Improvement   
+ETD-933 [containers] Binance CSV - Transaction type Binance Card Spending identify as WITHDRAWAL (FIAT) or SEL (Crypto).   
+ETD-1181 [containers] CSV OKX format support update.   
+ETD-1182 [connectors] Add support for Deposit, Send, Recive transactions in Coinbase API.   
+ETD-1243 [frontend] Minor fixes.   
+ETD-1249 [navigation] Highlighting the current organization in the switch.   
+ETD-1250 [portfolios] Portfolio management context menu.   
+ETD-1252 [portfolios] Portfolio Summary Style Update.   
+ETD-1259 [asset accounts] Modal window for creating a new asset account called from the container detail open in transactions and do not go to asset accounts.   
+ETD-1260 [portfolios] Unifying the style of opening balance listing lists and accommodating overly long names.   
+ETD-1266 [frontend] Minor fixes.   
+ETD-1273 [containers] Transaction Support Convert Fiat to Crypto OCBS from Binance CSV.   
+ETD-1279 [containers] Optimize CSV import for a large numbers of transactions.   
+ETD-1280 [containers] Add Stake transaction after Stake Reward transaction on Binance CSV.   
+ETD-1281 [containers] Poloniex CSV format update.   
+ETD-1282 [containers] Support for deduction of BNB fees from Binance CSV.   
+   
+### Bug Fixes   
+ETD-763 [connectors] ETH Blockchain - transaction history download failed - unrealised transaction.   
+ETD-1169 [containers] Binance CSV import ignores fees.   
+ETD-1236 [portfolios] Error when copying pair balances.   
+ETD-1264 [reports] Time-Out of Accounting statement.   
+ETD-1271 [connectors] Incorrectly identified Fee Currency for ERC-20 Tokens.   
+   
 ## Version 2024.05.101410   
    
 We continue to harmonize portfolio calculations and reports for different fee types. Cumulative calculations with rewards in the AVCO portfolio have also been corrected.   
