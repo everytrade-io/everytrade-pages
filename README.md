@@ -1,6 +1,60 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
    
+## Version 2024.06.300658   
+   
+We want to work efficiently. That's why it's important to optimize the application response. This time we have optimized the speed of loading the transaction list. The sheet now loads on average 5 times faster.   
+   
+We have completed the planned changes to the main navigation. The account drop-down menu structure has been redesigned. An interesting improvement is the quick availability of the language switch. More sections have been merged into the account settings, such as subscriptions and API management. The Organization drop-down menu has been improved. The active organization and other organizations are easier to read.   
+   
+The original settings category included organization management and accounting preferences. Now these settings are separated into their own categories. Now we can find a total of 3 settings in the application: Accouning Preferences, Organization Settings, Account Settings. In the menu you will find them logically assigned to the corresponding sections.   
+      
+The Coinbase connector now supports CDP API Key authentication. Based on feedback, we are improving support for Coinbase download transactions. Newly supported import formats include the Czech exchange Coinbank & Coinbank Trader and the Dominican exchange BitcoinRD.   
+   
+We can now list currencies that are not yet listed on official rate sources, such as Coinpaprika.com or Coinmarketcup.com. In the future, we will provide a custom API specification for reading daily rates.   
+   
+### New Features   
+ETD-677 [containers] Add Coinbank & Coinbank Trader CSV support.   
+ETD-1299 [containers] Add CSV support for BitcoinRD Exchange.   
+ETD-1322 [pairs] Add unlisted cryptocurrencies with custom rates.   
+   
+### Improvements   
+ETD-280 [containers] User-friendly naming of the error status of an unsupported pair.   
+ETD-890 [connectors] Kraken CSV - new transaction type Receive & Spend (buy from Crypto widget).   
+ETD-1141 [containers] Add a Reference field to the connector / container creation wizard.   
+ETD-1237 [connectors] Coinbase CDP API Key authentication (Cloud Developer Platform).   
+ETD-1261 [transactions] Small improvements to transactions and containers.   
+ETD-1262 [containers] Kraken CSV ledger format adds support for the Earn transaction type.   
+ETD-1267 [navigation] Improving the Organizations menu.   
+ETD-1268 [navigation] Optimize menu for tablet breakpoint.   
+ETD-1269 [account] Splitting account settings into tabs.   
+ETD-1270 [navigation] Improving the User Account menu.   
+ETD-1274 [containers] Log "Transfer Between Main and Funding Wallet" transactions as ignored from Binance CSV.   
+ETD-1286 [navigation] Separate preference settings and organization settings.   
+ETD-1287 [rates] When loading the portfolio, do not repeatedly download zero rates.   
+ETD-1289 [pairs] Add new symbols 24/06.   
+ETD-1290 [connectors] WhaleBooks identification in Coinmate API call.   
+ETD-1292 [lists] Show quick actions only for the active row.   
+ETD-1293 [transactions] Bulk actions and transaction filter improvement.   
+ETD-1300 [containers] Update HUOBI CSV format.   
+ETD-1316 [portfolio] Improve performance.   
+ETD-1317 [organizations] Add background to active organization from drop-down menu.   
+ETD-1333 [transactions] Optimize transaction list performance.   
+   
+### Bug Fixes   
+ETD-764 [connectors] Check why specific Coinbase API client connector is out of sync.   
+ETD-1052 [transactions] Optimization of transaction listing loading speed when selecting a large number of containers.   
+ETD-1179 [connectors] Fixed bug when downloading Advanced Trade transactions.   
+ETD-1284 [connectors] Kraken API - Correctly naming the reason for the logged unrealised Withdrawal transaction.   
+ETD-1285 [connectors] Coinbase API review - missing rewards, earn, send and convert transactions.   
+ETD-1291 [API] API connection errors.   
+ETD-1295 [settings] The Create New Rule Set button does not work.   
+ETD-1296 [containers] Wrong MATIC/BTC identifier pair in Kraken Trades CSV.   
+ETD-1297 [containers] More date format flexibility in WhaleBooks 3.2 CSV format.   
+ETD-1319 [database] Typos in project.   
+ETD-1327 [containers] Poloniex CSV - cannot get FEE currency because "base" is null.   
+ETD-1330 [portfolios] Portfolio returns Error 500.   
+   
 ## Version 2024.05.311637   
    
 We now introduce the Immediate Moment of Acquisition into the Accounting Report. This will be the default value. Until now, the Acquisition was only at the moment On Sale. In the Accounting Software settings, you will now find the Moment of Acquisition preference where you can select the optimal value.   
