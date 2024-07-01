@@ -54,6 +54,7 @@ ETD-1297 [containers] More date format flexibility in WhaleBooks 3.2 CSV format.
 ETD-1319 [database] Typos in project.   
 ETD-1327 [containers] Poloniex CSV - cannot get FEE currency because "base" is null.   
 ETD-1330 [portfolios] Portfolio returns Error 500.   
+ETD-1341 [portfolios] AVCO & FIFO portfolio calculation errors.   
    
 ## Version 2024.05.311637   
    
