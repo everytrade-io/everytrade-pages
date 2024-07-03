@@ -9,12 +9,12 @@ We have completed the planned changes to the main navigation. The account drop-d
    
 The original settings category included organization management and accounting preferences. Now these settings are separated into their own categories. Now we can find a total of 3 settings in the application: Accouning Preferences, Organization Settings, Account Settings. In the menu you will find them logically assigned to the corresponding sections.   
       
-The Coinbase connector now supports CDP API Key authentication. Based on feedback, we are improving support for Coinbase download transactions. Newly supported import formats include the Czech exchange Coinbank & Coinbank Trader and the Dominican exchange BitcoinRD.   
+The Coinbase connector now supports CDP API Key authentication. Based on feedback, we are improving support for Coinbase download transactions. Newly supported import formats include the Czech exchange CoinBank & CoinBank Trader and the Dominican exchange BitcoinRD.   
    
 We can now list currencies that are not yet listed on official rate sources, such as Coinpaprika.com or Coinmarketcup.com. In the future, we will provide a custom API specification for reading daily rates.   
    
 ### New Features   
-ETD-677 [containers] Add Coinbank & Coinbank Trader CSV support.   
+ETD-677 [containers] Add CoinBank & CoinBank Trader CSV support.   
 ETD-1299 [containers] Add CSV support for BitcoinRD Exchange.   
 ETD-1322 [pairs] Add unlisted cryptocurrencies with custom rates.   
    
