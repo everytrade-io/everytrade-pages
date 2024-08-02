@@ -1,5 +1,66 @@
-# [WhaleBooks](https://whalebooks.com/) - Release Notes
-NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).
+# [WhaleBooks](https://whalebooks.com/) - Release Notes   
+NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
+NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
+   
+## Version 2024.08.021149   
+   
+After a long time, you can get ready for a bunch of exciting news and improvements that we will be delivering in the coming months.   
+   
+Today we pay off a long unpaid debt! From now on, you can manually change the order of containers in the Data Manager forever. The order is unique for each portfolio. You can change the order of the containers at will.   
+   
+It is now possible to export the transaction sheet. For example, you can select containers, filter the desired transaction types from them and export them. How useful.
+   
+Filter by transaction labels? It is now possible to filter transactions without labels.   
+   
+The Data Manager / Buckets section has undergone a major overhaul. It now contains most of the new features you are used to using in transactions. The contents of buckets can now be exported. We are often asked by users about the purpose of this section. A very good tip is to put all your deposits and withdrawals from your portfolio in the bucket. This gives you an isolated view of these transactions. You then work to identify the transactions. Either you look for transfers within the portfolio, then you look for opposite transactions and link them. This creates a transaction of the type transfer. Or these transactions have other meanings that you need to identify. For example, they could be payments, loans, interest gifts. And we are developing buckets for these purposes. Stay tuned, more news coming soon.   
+   
+### New Features   
+ETD-1126 [transactions] Manually change container ordering in the data manager.   
+ETD-1294 [transactions] Export Transactions List.   
+ETD-1314 [transactions] Filtering transactions without labels.   
+   
+### Improvements   
+ETD-1223 [containers] If the portfolio filter is active, remove the filter application to export transactions from the container.   
+ETD-1326 [help] Add how to export CSV from Bitcoin RD exchange.   
+ETD-1329 [help] Add how to export CSV from CoinBank.   
+ETD-1336 [buckets] Bucket interface improvements.   
+ETD-1346 [help] Update how to export CSV from SimpleCoin.   
+ETD-1347 [help] Update how to export CSV from Anycoin.   
+ETD-1348 [frontend] Context menu style update.   
+ETD-1351 [portfolios] Change the Action button to a split button. Make the primary action Edit the portfolio.   
+ETD-1361 [buckets] Switch portfolio controller in buckets.   
+ETD-1362 [buckets] Sticky transaction list header.   
+ETD-1365 [help] Coinmate API help update.   
+ETD-1366 [help] Extend the Walkthrough with Accounting preferences.   
+ETD-1368 [buckets] Show the source transaction overview in modal dialogs during conversion.   
+ETD-1371 [bucket] Export Bucket Transactions.   
+ETD-1373 [frontend] Disable drop down menu transparency.   
+ETD-1376 [buckets] Link to Add new Bucket.   
+ETD-1377 [forms] Restrict attachment file formats.   
+ETD-1391 [finding] Remove case sensitivity in search.   
+ETD-1393 [pairs] Add new symbols 24/07.   
+   
+### Bug Fixes   
+ETD-1255 [transactions] Filtering by transaction type on multiple containers at the same time incorrectly pages the results list.   
+ETD-1325 [portfolios] Duplicated request to states endpoint.   
+ETD-1331 [frontend] Download / Export icons are permanently black.   
+ETD-1332 [portfolios] Updating initial FIFO balances does not display the update time.   
+ETD-1342 [reports] Accounting report time-outed.   
+ETD-1345 [containers] Simple Earn Locked transaction types in Binance CSV identified as Stake transaction types.   
+ETD-1353 [reports] Accounting report - doubled trx but with 0,01 value and quantity.   
+ETD-1358 [reports] Accounting report - unbound Fee - fill in Quote Value field.   
+ETD-1359 [reports] Accounting report - wrong analytical accounts for exchange crypto/crypto.   
+ETD-1360 [buckets] All selected (filtered) transactions will not be moved to the bucket.   
+ETD-1367 [transactions] Transitioning between buckets and containers clears filter parameters, but the transaction view remains the same.   
+ETD-1369 [buckets] Matching two transactions removes the bucket ID from the target transaction.   
+ETD-1372 [frontend] The file was not available on the Web.   
+ETD-1388 [connectors] Coinmate API does not connect.   
+ETD-1394 [transaction] Takes a long time to display all containers after deselecting a portfolio.   
+   
+### End of Support   
+ETD-885 [connectors] Remove API connector Coinbase Pro.   
+ETD-1349 [VR] Remove specialized VR section.   
+ETD-1370 [help] Remove Coinbase Pro help.   
    
 ## Version 2024.06.300658   
    
