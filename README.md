@@ -2,6 +2,43 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
    
+## Version 2024.09.051024   
+   
+Here are some useful features and enhancements for an advanced way of working.   
+   
+The Asset Accounts widget on the Portfolio page has a new Accounts tab. Here you'll find a comparison of the total of asset accounts by currency and against open positions, so you can quickly see if you're recording a large amount of cryptos without acquiring them.   
+   
+Transactions have received some practical improvements. A left click on a transaction row will take you to its details. A right click brings up the context menu. You can now duplicate a transaction directly from the context menu. The transaction details now always show information about the bound subtransaction.   
+   
+Other enhancements include a modal window control (e.g., Transaction detail) that allows you to hide the transaction background overlay and to hide and the then freely move the home window. It is no longer necessary to tag containers to access the transaction filter and bulk actions. You can now use a quick action to set notes on selected transactions.   
+   
+Labels can now be managed by the user. The list of labels can now be found in Settings / Lists. Also new is the interface for selecting the quick action label selection for selected transactions.   
+   
+### New Features   
+ETD-1263 [portfolio] Comparison of the balance of the main asset accounts with the quantity in open positions.   
+ETD-1338 [transactions] Duplicate the transaction.   
+ETD-1386 [modals] Manually toggle modal window to pop-up and back.   
+ETD-1392 [settings] List of Statuses.   
+ETD-1253 [settings] List of labels.   
+   
+### Improvements   
+ETD-216 [container] Delete job for connection synchronization.   
+ETD-641 [connectors] Optimize state of synchronizations.   
+ETD-1318 [transactions] Merge the fee information with transaction details.   
+ETD-1337 [transactions] Set filter and bulk actions active even without container selection.   
+ETD-1340 [container] Update Simplecoin CSV format.   
+ETD-1356 [transactions] Refresh list after quick action.   
+ETD-1363 [buckets] Bucket detail.   
+ETD-1364 [transaction] Quick action: Add note.   
+ETD-1385 [transactions] Open the Contents menu by right-clicking anywhere on the transaction line.   
+ETD-1397 [transactions] Click on the line to the record detail.   
+ETD-1402 [exports] Optimize exported file naming.   
+   
+### Bug Fixes   
+ETD-1354 [reports] Accounting report does not contain labels.   
+ETD-1401 [connectors] Coinmate.API don't connect.   
+ETD-1408 [transactions] Deleting the content type parameter closes the filter interface.   
+   
 ## Version 2024.08.021149   
    
 After a long time, you can get ready for a bunch of exciting news and improvements that we will be delivering in the coming months.   
