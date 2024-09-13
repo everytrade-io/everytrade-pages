@@ -2,6 +2,43 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
    
+## Version 2024.09.131406   
+   
+### Major Transaction List Improvements   
+- The order of the columns has been changed to better reflect priorities.   
+- The Quantity, Unit Price and Total Price values have been split into separate columns.   
+- Bound transactions are now displayed without date and time information. The time of the main transaction applies to them.   
+- A new Status column is displayed by default in Buckets.   
+- The display of columns can now be configured by the user. The driver now provides only default columns. Later the options will be extended to more values. In the next version it will be possible to change the order of columns in a user-defined way.   
+- The appearance of the table header and footer has been improved in.   
+   
+### Introducing the new Transaction Status feature   
+- The purpose of Status is to provide information on the status of transaction processing.   
+- Typical applications are DEPOSIT and WITHDRAWAL transactions. When you identify transactions as TRANSFERS within a portfolio. Or it is a movement outside of your portfolio that may be considered a tax event.
+DEPOSIT and WITHDRAWAL transactions can actually have other meanings, such as PAYMENT, SWAP, LOAN, GIFT, .... And these transactions must be identified and manually converted to the appropriate type.   
+- This status allows analysts and accountants to track the current status of transaction processing.   
+- The status of each transaction type can now be set in the transaction details.   
+- The status can also be changed from the transaction list. Either individually via the transaction context menu or in bulk via quick actions of selected transactions. In the next release, it will also be possible to change the status via a bulk action.   
+- Filtering has been extended to filter by status.   
+- By default, a separate Status column is displayed in buckets in the transaction list. It is hidden in containers and must be manually displayed using the new Show Columns feature.   
+- The default status list is fixed by default and cannot be edited. However, you can fully create and edit new statuses to suit your needs. The administration can be found in Settings / Lists / Statuses.   
+   
+### New Features   
+ETD-1339 [transactions] Display Columns.   
+ETD-1410 [transactions] Status in transaction detail and on transaction list.   
+ETD-1411 [transactions] Change Status at Context menu & Quick action.   
+   
+### Improvements   
+ETD-1335 [transactions] Change the order of columns in the transaction list.   
+ETD-1387 [transactions] Conversion option in transaction context menu.   
+ETD-1406 [transactions] State Save and Stay on New Transaction.   
+ETD-1419 [transactions] Filter by status.   
+ETD-1422 [transactions] Change the fee information in the transaction list.   
+   
+### Bug Fixes   
+ETD-1033 [transactions] Errors in bulk action set label.   
+ETD-1401 [connectors] Coinmate.API don't connect.   
+   
 ## Version 2024.09.051024   
    
 Here are some useful features and enhancements for an advanced way of working.   
