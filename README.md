@@ -2,6 +2,58 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
    
+## Version 2024.12.021152   
+   
+A page with an overview and comparison of price plans. You cannot currently select a price plan. The choice will be available from 2025. Until then, a plan with 20,000 transactions is available to all users free of charge.   
+   
+Change of ownership of the organization. Allows you to transfer rights to another registered account. You can make the transfer by going to the organization's member list and changing the permissions to Owner. Completion requires approval of the original and new owner through a link in the transaction email.   
+   
+Made optimizations to stability and performance of portfolio calculation and transaction sheet. The application is now stable and tested to process 2.5 Mil transactions in the portfolio.   
+   
+### New Features   
+ETD-1429 [pricing] Plans overview page.   
+ETD-761 [organizations] Change of Owner.   
+   
+### Improvements   
+ETD-1251 [portfolios] Integration of the portfolio sharing dialog into a tab in portfolio editing.   
+ETD-1303 [organizations] Organizations list pagination.   
+ETD-1384 [imports] Update import parser with XLSX support.   
+ETD-1403 [buckets] Manually change bucket order.   
+ETD-1404 [buckets] Export transaction list.   
+ETD-1405 [transactions] Selecting columns for transaction list export.   
+ETD-1409 [navigation] Update footer style.   
+ETD-1412 [transactions] New Bulk actions - Setup Status, Note, Bucket.   
+ETD-1413 [buckets] Bulk actions in buckets.   
+ETD-1421 [buckets] Include bundled subtransactions in the add to bucket modal.   
+ETD-1428 [portfolio] Dashboard calculation performance optimization.   
+ETD-1436 [portfolio] Optimalization - PortfolioTransactionRepository.   
+ETD-1440 [accounts] Case sensitivity when creating accounts.   
+ETD-1443 [pairs] Add new symbols 24/10.   
+ETD-1444 [currencies] Add Dirham (AED) currency.   
+ETD-1453 [transactions] Valuation of WB format deposit.   
+ETD-1456 [pairs] Add new symbols 24/11.   
+ETD-1473 [containers] ADA correct number length in CAS format.   
+   
+### Bug Fixes   
+ETD-807 [connectors] API connector turns on automatic updates after running manual updates.   
+ETD-1033 [transactions] Errors in bulk action set label.   
+ETD-1211 [transactions] If the portfolio filter is not active, the transaction list contains all transactions of the organization instead of the portfolio containers (without using filters).   
+ETD-1357 [transaction] Manual conversion of deposit to reward transaction sets incorrect acquisition currency.   
+ETD-1407 [container] Optimize number of requests to Asset account to another containers in background.   
+ETD-1416 [containers] Container selection does not apply to all rows in the data manager.   
+ETD-1417 [asset-accounts] Difference between account and open position.   
+ETD-1424 [transaction] Cannot delete subtransaction.   
+ETD-1431 [transactions] Remove status in quick action removes all other status types in transactions.   
+ETD-1432 [containers] Fix supported date format in WhaleBooks format.   
+ETD-1433 [registration] After completing the account registration, the guide does not turn on.   
+ETD-1438 [modals] Transaction window on mobile device.   
+ETD-1441 [connectors] Coinmate API, Trying to import too many transactions - limit: 15000.   
+ETD-1447 [users] The user's asset accounts are not connected.   
+ETD-1448 [transactions] Cannot add a manually entered transaction.   
+ETD-1449 [transactions] Whalebooks export - shifted sorting into columns.   
+ETD-1452 [containers] Container reorder after name change, long response time.   
+ETD-1467 [organizations] Text error.   
+   
 ## Version 2024.09.131406   
    
 ### Major Transaction List Improvements   
