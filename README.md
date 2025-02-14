@@ -1,6 +1,13 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes   
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
+
+## Version 2025.02.142010
+
+New cryptocurrency time test tax rule for the Czech Republic.
+
+### Improvements
+ETD-1555 [tax-rules] New TAX Rul Set - 3year time test, Czech Republic tax residence.
    
 ## Version 2024.12.021152   
    
