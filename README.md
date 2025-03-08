@@ -1,7 +1,105 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes   
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
-
+   
+## Version 2025.03.080749   
+   
+We have been supporting rules and calculations with the time test for a long time. Now we calculate detailed time test values directly on the portfolio. Specifically, for each open and closed position we express the amount of a particular cryptocurrency and its realized gain/loss within the time test. You can thus quickly learn how much of each cryptocurrency meets the time test according to your tax residency rules. And reflect the information in your strategy based on that. In the Tax Report, in addition to the tax base, we also list the total value of the cryptocurrency that meets the time test and was exempt from tax.   
+   
+Important note: If you are trading, the time test can in principle be calculated using the FIFO, HIFO, LIFO methods for the valuation of the acquisition cost. In order to correctly transfer the time test information, you need to reload the portfolio balances from the beginning of your history. This is from the oldest portfolio to the most recent.   
+   
+It is now possible to copy portfolio balances between different costing methods. Specifically between FIFO, HIFO, LIFO models. For example, if you need to switch between HIFO > LIFO, you no longer need to change the methodology of your entire history to do so. But instead continuously build up through the next period. Without making changes to previous periods.   
+   
+In the tax rules settings, we have added a default FIAT currency in which newly imported remuneration transactions will be valued. Specifically STAKE REWARD, REWARD, EARN, AIRDROP, FORK. A new section called Valuation has been added in the details of these transaction types. It contains the pre-existing acquisition values of the valuation transaction. In addition, it now contains an editable FIAT currency in which the transaction will be valued. This allows you to individually decide on the global and individual currency settings for the valuation of reward type transactions.   
+   
+In cooperation with professional users, we have designed and created an accounting report in the new format of the accounting software ABRA Flexi. This supports other accounting software into which you can import crypto transactions in native format.   
+   
+The Binance API connector now offers the preference to synchronize without having to specify traded pairs. The feature is experimental. And only available to customers with paid pricing plans. Please also note that due to the inefficiency of the entire Binance API, it is advisable to back up all your transactions to CSV exports. BUT, remember that there are multiple Binance exports available by transaction type.   
+   
+By saving your user settings, your interface will be the same as you left it last time you logged in. And that includes the last positions of active portfolios, organizations, tables and more. Wherever you log in.   
+   
+The application is being prepared for the introduction of pricing plans. All existing accounts have undergone a migration of existing plan management data from the organization to the application account. You will now see your account with Obsolete FREE, PRO, TRIAL pricing plans. When the application is completely ready for this change, you will be notified when your temporary pricing plan is about to expire. And you will be prompted to manually migrate to the new price plan type. The price plan overview and comparison page has also been updated. Explanatory information about each feature has been added.   
+   
+### New Features   
+ETD-39 [connectors] Supported traded currency pairs in the Binance connector.   
+ETD-261 [my profile] Storing the user interface configuration.   
+ETD-1414 [rewards] Currency of Reward Acquisition.   
+ETD-1466 [connectors] KvaPay API.   
+ETD-1500 [portfolios] Copying portfolio balances between portfolios with the FIFO, HIFO, LIFO purchase price calculation method.   
+ETD-1511 [imports] KvaPay CSV support.   
+ETD-1517 [reports] ABRA Flexi Accounting Report.   
+ETD-1546 [containers] Pocket app CSV import.   
+ETD-1574 [containers] Add support for Trezor Suite CSV format.   
+ETD-1578 [containers] Change invest XLSX support.   
+ETD-1587 [reports] Time test value in the Tax Statement Summary.   
+   
+### Improvements   
+ETD-339 [account] More attached files in the contact form.   
+ETD-1156 [asset accounts] Asset Accounts mobile layout optimization.   
+ETD-1158 [reports] Reports mobile layout optimization.   
+ETD-1159 [organizations] Organizations & Help mobile layout optimization.   
+ETD-1256 [connectors] Improvements to the blockchain connector interface.   
+ETD-1396 [account] Pricing plans.   
+ETD-1398 [subscriptions] Control and display of price plans.   
+ETD-1435 [pricing] Set Up Subscription.   
+ETD-1462 [pairs] Add new symbols 24/11.   
+ETD-1469 [asset accounts] The number of transactions is not displayed.   
+ETD-1471 [transactions] New columns Created and Updated in the transaction list.   
+ETD-1474 [account] User Account Upgrade Subscription Tab.   
+ETD-1486 [subscription] ThankYou & Something went wrong pages.   
+ETD-1487 [connectors] Logging a user who created a manual action to synchronize a container.   
+ETD-1488 [subscriptions] User migration to new plans system.   
+ETD-1507 [pairs] Add new symbols 25/01.   
+ETD-1515 [transactions] Unification of names and inputs in transaction details.   
+ETD-1524 [pairs] Add new symbols 25/01.   
+ETD-1526 [account] Save consent to terms of use.   
+ETD-1527 [subscriptions] Information modals on the expiry of the original price plans.   
+ETD-1532 [subscriptions] Add new Enterprise plan.   
+ETD-1591 [subscriptions] Improved price plan comparison.   
+ETD-1602 [transactions] For Stake and Unstake transactions, do not write zero values for Unit Price and Total on the transaction sheet.   
+   
+### Bug Fixes   
+ETD-1401 [connectors] Coinmate.API don't connect.   
+ETD-1448 [errors] Cannot add a manually entered transaction.   
+ETD-1461 [portfolio] Wrong date for balance display.   
+ETD-1468 [transactions] Unwritten value of Source in column.   
+ETD-1475 [transactions] Duplicate transactions in Coinbase API.   
+ETD-1476 [connectors] Duplicate transactions in ETH blockchain.   
+ETD-1477 [transactions] Deposit and Withdrawal PRO transactions are not recorded - Coinbase API and CSV.   
+ETD-1479 [accounting-setings] The money-on-the-go account should only show FIAT sub-accounts.   
+ETD-1482 [portfolios] Portfolio does not load.   
+ETD-1484 [portfolio] Rounding of FIAT currencies.   
+ETD-1485 [transactions] Deleting transactions in the container is too slow.   
+ETD-1505 [support] Unable to send contact form.   
+ETD-1509 [organizations] Application error when activating a link from an invitation to join an organization.   
+ETD-1510 [organizations] Only an existing member of the organization can become an owner of the organization.   
+ETD-1512 [login] Password reset link is broken.   
+ETD-1513 [support] Attachments from support form cannot be opened.   
+ETD-1516 [connectors] API connection with ETH connector cannot be created.   
+ETD-1520 [imports] CSV from Kraken is not loading correctly.   
+ETD-1521 [connectors] Incorrect currency pair designation in Binance API.   
+ETD-1522 [users] The account displays error conditions to the user.   
+ETD-1525 [subscription] Corrections to wording on the price plan comparison page.   
+ETD-1533 [organizations] Creating a new organisation will not save it.   
+ETD-1534 [containers] When importing a CSV file, the loader on the container is not terminated.   
+ETD-1535 [connectors] Coinmate API can´t connect.   
+ETD-1536 [subscriptions] Change plan selection when creating a new organization.   
+ETD-1541 [portfolios] Dashboard error - resource is null.   
+ETD-1544 [connectors] Binance API form is not working.   
+ETD-1567 [frontend] Dashboard request does not start.   
+ETD-1572 [connectors] Display the correct user in LOG.   
+ETD-1581 [organizations] Transactional email with organization owner transfer does not display correct pricing plans.   
+ETD-1583 [subscriptions] If the Free plan is active, set the Add-ons configuration button inactive.   
+ETD-1586 [subscriptions] Plan selection shows the active Free plan when the Obsolete Free plan is active.   
+ETD-1592 [portfolio] Asset account balances are not read.   
+ETD-1593 [user-account] A newly created user is not asked to fill in tax residency.   
+ETD-1598 [portfolios] Show the costing method of an existing portfolio when the current tax rule no longer supports that method.   
+ETD-1599 [portfolios] The link to the source portfolio of balances opens the current portfolio, not the source portfolio.   
+ETD-1600 [portfolio] Invalid currency of the realized profit from the time test in a closed position.   
+ETD-1604 [transactions] When duplicating a transaction, the daily rate of the transaction must not be automatically loaded.   
+ETD-1605 [frontend] Padding the footer from the page content.   
+ETD-1606 [subscription] Disable plan selection buttons.   
+   
 ## Version 2025.02.142010
 
 New cryptocurrency time test tax rule for the Czech Republic.
