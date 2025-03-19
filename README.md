@@ -2,6 +2,44 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
    
+## Version 2025.03.191532   
+   
+All transactions now include an address section (Recipient or Sender). This ensures that the address information of the transaction is retained when DEPOSIT and WITHDRAWAL transactions are converted to other types, such as various rewards, buy/sell transactions, or payments. The address can be displayed as an optional column on the transaction list and can also be exported within the transaction list.   
+   
+Based on feedback from the accountants, we have added options for user flexibility to modify the chart of accounts to provide maximum usage. At the same time, we assume sufficient competence of the user making the setup changes.   
+- You can create your own new main account.   
+- For each main account you can individually decide whether to use dynamic sub-accounts or not. The original option to globally enable or disable the use of sub-accounts has been removed and the current settings have been migrated to the new settings.   
+- If a master account does not use dynamic sub-accounts, you can set a static sub-account number for it.   
+- You can edit the debit and credit account numbers in the pre-accounting.   
+   
+We have extended the functionality of the Addresses tab in the Asset Account Settings. You can automatically convert the type of the original transaction based on a match between the asset account address in the container and the transaction address.  The new transaction type can be set separately for deposits and withdrawals. Transactions can also be automatically labeled based on the address. The converted transactions then retain their identity for filtering, exporting and reporting.   
+   
+### New Features   
+ETD-1446 [transactions] Address details for all transaction types.   
+ETD-1480 [accounting-settings] Create new Account.   
+ETD-1481 [accounting-setings] The use of analytical accounts in the chart of accounts is determined by the setting of the main account.   
+ETD-1483 [accounting-settings] Edit Pre-Accounting.   
+ETD-1548 [accounting-settings] Static analytical account number for the main account.   
+ETD-1551 [asset-accounts] Selecting the type of automatic transaction conversion when the asset and transaction account address match.   
+ETD-1552 [asset-accounts] Assign a label to a transaction when the asset and transaction account address match.   
+   
+### Improvements   
+ETD-1075 [pairs] Identification of stable coins.   
+ETD-1400 [subscription] Interface customization for pricing plans.   
+ETD-1589 [pairs] Add stablecoins.   
+ETD-1594 [subscriptions] Improve the free plan configurator.   
+ETD-1613 [transactions] Transaction type after conversion by asset account save to database.   
+   
+### Bug Fixes   
+ETD-1531 [portfolio] Portfolio time filter returns an error.   
+ETD-1550 [asset-accounts] Adding unique address validation in the asset account address input.   
+ETD-1577 [reports] Accounting report - crypto fee in 3rd currency - change generated account.   
+ETD-1584 [organizations] The maximum number of transactions does not correspond to the current pricing plan.   
+ETD-1607 [settings] The tax rule for Other tax residence is not saved.   
+ETD-1609 [containers] Identify ETH2 symbol from Anycoin import as ETH.   
+ETD-1610 [transactions] Transactions cannot be saved.   
+ETD-1616 [users] The account displays error conditions to the user.   
+   
 ## Version 2025.03.080749   
    
 We have been supporting rules and calculations with the time test for a long time. Now we calculate detailed time test values directly on the portfolio. Specifically, for each open and closed position we express the amount of a particular cryptocurrency and its realized gain/loss within the time test. You can thus quickly learn how much of each cryptocurrency meets the time test according to your tax residency rules. And reflect the information in your strategy based on that. In the Tax Report, in addition to the tax base, we also list the total value of the cryptocurrency that meets the time test and was exempt from tax.   
