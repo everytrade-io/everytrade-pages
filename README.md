@@ -13,6 +13,8 @@ Based on feedback from the accountants, we have added options for user flexibili
 - You can edit the debit and credit account numbers in the pre-accounting.   
    
 We have extended the functionality of the Addresses tab in the Asset Account Settings. You can automatically convert the type of the original transaction based on a match between the asset account address in the container and the transaction address.  The new transaction type can be set separately for deposits and withdrawals. Transactions can also be automatically labeled based on the address. The converted transactions then retain their identity for filtering, exporting and reporting.   
+
+For more information visit [extended description of the main news](https://generalbytes.atlassian.net/wiki/x/DYAR6)
    
 ### New Features   
 ETD-1446 [transactions] Address details for all transaction types.   
