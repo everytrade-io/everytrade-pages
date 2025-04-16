@@ -26,7 +26,7 @@ ETD-1527 [subscriptions] Information modals on the expiry of the original price 
 ETD-1539 [help] Update Coinmate help.   
 ETD-1540 [help] Creating help for KvaPay.   
 ETD-1608 [currencies] Render and RNDR currency merge.   
-ETD-1612 [imports] Binance CSV import upgrade (Coingarage).   
+ETD-1612 [imports] Binance CSV import upgrade.   
 ETD-1618 [pairs] Add new symbols 25/03.   
 ETD-1624 [frontend] Various improvements.   
 ETD-1637 [subscriptions] Enable Select Plan buttons.   
