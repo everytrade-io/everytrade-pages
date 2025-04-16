@@ -2,6 +2,79 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
    
+## Version 2025.04.16….   
+The introduction of subscriptions and new price plans is the main innovation of this version. You can choose from 4 plans, namely Free, Personal, Company and Accountant. Each plan is tailored to the needs of a specific group of users. We have prepared a complete guide to the pricing plan options.   
+   
+As of April 14, 2025, new Terms and Conditions and Privacy Policy will come into effect to reflect the introduction of the new pricing plans.   
+   
+We have added support for several new CSV formats, namely Wallet of Satoshi, Trezor Suite and BTCPay Server. For more information on exporting, please refer to the Help section.   
+   
+After the transaction list, you can now choose to export only the active columns. At the same time, the export will respect the order of the columns as set in the transaction list.   
+   
+For more information visit [extended description of the main news](https://generalbytes.atlassian.net/wiki/spaces/WBKB/pages/3951132673/)   
+   
+### New Features   
+ETD-1054 [subscription] Lemon Squeezy integration for subscription management and customer portal.   
+ETD-1573 [imports] Wallet of Satoshi CSV support.   
+ETD-1574 [containers] Add support for Trezor Suite CSV format.   
+ETD-1579 [imports] BTCPay Server CSV support.   
+ETD-1597 [exports] Export only active columns.   
+ETD-1636 [general] New Terms of Use and Privacy Policy effective April 14, 2025.   
+   
+### Improvements   
+ETD-1527 [subscriptions] Information modals on the expiry of the original price plans.   
+ETD-1539 [help] Update Coinmate help.   
+ETD-1540 [help] Creating help for KvaPay.   
+ETD-1608 [currencies] Render and RNDR currency merge.   
+ETD-1612 [imports] Binance CSV import upgrade (Coingarage).   
+ETD-1618 [pairs] Add new symbols 25/03.   
+ETD-1624 [frontend] Various improvements.   
+ETD-1637 [subscriptions] Enable Select Plan buttons.   
+ETD-1640 [subscriptions] Canceled the subscription due to the failed payment.   
+ETD-1641 [subscriptions] Do not delete account before manually cancelling subscription.   
+ETD-1645 [reports] Add Status to WhaleBooks Accounting report.   
+ETD-1646 [subscriptions] Disable the Manage and Order Price Plans buttons in the Enterprise plan.   
+ETD-1649 [help] Creating help for BTCPay server.   
+ETD-1651 [log-out] Redirect to the home page after logging out.   
+ETD-1652 [chart-of-accounts] Set the number of digits in the subaccount number to 3.   
+ETD-1657 [pricing] Redirect to price list after selecting a plan without logging in.   
+ETD-1660 [subscriptions] Changes to the thank you pages.   
+ETD-1662 [subscriptions] The configurator will no longer display the trial badge when upgrading and downgrading a plan.   
+ETD-1663 [subscriptions] Disable the ability to cancel an already cancelled subscription.   
+ETD-1665 [subscriptions] Text proofreading.   
+ETD-1667 [subscription] Renew a cancelled subscription.   
+ETD-1668 [subscription] Downgrade to the Free plan is only possible through cancellation of the subscription.   
+ETD-1671 [subscription] Loading screen.   
+ETD-1673 [subscriptions] Terms of use and privacy policy links in the order configuration.   
+ETD-1674 [help] Subscription Tab.   
+   
+### Bug Fixes   
+ETD-1514 [buckets] Transactions stored in the bucket are not available in the transaction matching dialog.   
+ETD-1559 [transactions] Transactions in bucket cannot be deleted.   
+ETD-1580 [reports] Tax report - bounded crypto-fee in Sales transaction.   
+ETD-1611 [transactions] In the transaction filters and asset accounts on the container, do not display the currency of the reward valuation if it is taxed at the time of sale.   
+ETD-1619 [containers] Wrong CSV container.   
+ETD-1620 [translation] Wrong wording in the Slovak version of the app.   
+ETD-1621 [settings] Individual main account cannot be set up from the chart of accounts.   
+ETD-1622 [frontend] Numeric enter does not respond.   
+ETD-1623 [users] The application is not working for the user.   
+ETD-1625 [subscriptions] Incorrect return link from Plan Configurator.   
+ETD-1626 [portfolios] Copying new portfolio balances resets the cost calculation method.   
+ETD-1627 [subscriptions] Add-ons configurator returns error.   
+ETD-1630 [subscriptions] Cancel the subscription.   
+ETD-1631 [subscriptions] General errors in the configurator.   
+ETD-1632 [subscriptions] No thank you page after upgrading or downgrading plan.   
+ETD-1633 [subscriptions] Incorrect credit value after plan downgrade.   
+ETD-1634 [accounts] Setting up new plans for newly registered accounts.   
+ETD-1642 [subscriptions] During the trial period, change the badge to trial on the actual plan type.   
+ETD-1647 [connectors] Wrong transactions from BTC blockchain API.   
+ETD-1648 [connectors] Errors in Kraken API connection.   
+ETD-1650 [transactions] Format date and time in XLSX export as Date data type.   
+ETD-1664 [subscriptions] When upgrading from Trial version, the credit is incorrectly counted.   
+ETD-1666 [help] Broken App Wizard interface.   
+ETD-1675 [subscription] Set Up Subscription does not show dates.   
+ETD-1676 [subscriptions] Renewing the Trial Plan will deduct payment for the entire plan.   
+   
 ## Version 2025.03.191532   
    
 All transactions now include an address section (Recipient or Sender). This ensures that the address information of the transaction is retained when DEPOSIT and WITHDRAWAL transactions are converted to other types, such as various rewards, buy/sell transactions, or payments. The address can be displayed as an optional column on the transaction list and can also be exported within the transaction list.   
@@ -13,7 +86,7 @@ Based on feedback from the accountants, we have added options for user flexibili
 - You can edit the debit and credit account numbers in the pre-accounting.   
    
 We have extended the functionality of the Addresses tab in the Asset Account Settings. You can automatically convert the type of the original transaction based on a match between the asset account address in the container and the transaction address.  The new transaction type can be set separately for deposits and withdrawals. Transactions can also be automatically labeled based on the address. The converted transactions then retain their identity for filtering, exporting and reporting.   
-
+   
 For more information visit [extended description of the main news](https://generalbytes.atlassian.net/wiki/x/DYAR6)
    
 ### New Features   
