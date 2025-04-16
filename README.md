@@ -2,7 +2,7 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
    
-## Version 2025.04.16….   
+## Version 2025.04.161306   
 The introduction of subscriptions and new price plans is the main innovation of this version. You can choose from 4 plans, namely Free, Personal, Company and Accountant. Each plan is tailored to the needs of a specific group of users. We have prepared a complete guide to the pricing plan options.   
    
 As of April 14, 2025, new Terms and Conditions and Privacy Policy will come into effect to reflect the introduction of the new pricing plans.   
@@ -11,7 +11,7 @@ We have added support for several new CSV formats, namely Wallet of Satoshi, Tre
    
 After the transaction list, you can now choose to export only the active columns. At the same time, the export will respect the order of the columns as set in the transaction list.   
    
-For more information visit [extended description of the main news](https://generalbytes.atlassian.net/wiki/spaces/WBKB/pages/3951132673/)   
+For more information visit [extended description of the main news](https://generalbytes.atlassian.net/wiki/x/AYCB6w)  
    
 ### New Features   
 ETD-1054 [subscription] Lemon Squeezy integration for subscription management and customer portal.   
