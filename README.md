@@ -2,6 +2,69 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
    
+## Version 2025.06.30xxxx   
+In addition to the time test, a value test is now also available in the portfolio. A rule has been added for the Czech Republic, which defines the value test for individuals from income of CZK 100,000 per calendar year, excluding income from the sale of stablecoins. The value test is always applied first, and only after it has been exceeded is the time test verified. The tax return now includes a designation of transactions that meet the value or time test and constitute a zero tax base. The interface of the dialog window for editing tax rules has been optimized.   
+   
+The list of actions for transactions has been redesigned in the data manager. A new group called Control has been added, which brings together control mechanisms for verifying transactions. These include Duplicate Transactions (searches for duplicate transactions), Negative Position (searches for transactions causing a negative position), Unit Price (searches for transactions with a unit price outside the expected tolerance) and Fee Value (searches for transactions with a fee value outside the expected tolerance). A new tab called Check has been added to Settings. Here you can set tolerance limits for unit price and fee value deviations. Checks must be run manually on demand. The results are displayed in the optional Check column. You can filter using the parameters found in the filter.   
+   
+For audit trail purposes, transaction version history is now available. Each time a transaction is saved, a new version is created. The time and author of the change are stored. You can browse between versions using the controller in the details of each transaction. The Version and Edited columns are now available in the transaction list, where you can record this information.   
+   
+For more information visit [extended description of the main news](https://generalbytes.atlassian.net/wiki/x/AYAg8g)   
+   
+### New Features   
+ETD-1504 [tax-rules] TAX Rule - Revenue limit test.   
+ETD-1556 [payments] Payments Currency Valuation.   
+ETD-1568 [transactions] New Partner and Reference parameters for all transaction types.   
+ETD-1658 [inspect] Duplicate transaction alerts.   
+ETD-1659 [inspect] Transactions causing a short stock position.   
+ETD-1679 [transactions] Transaction version.   
+ETD-1682 [accounting-settings] Inspect Limits.   
+ETD-1683 [inspect] Unit price rate deviation.   
+ETD-1685 [inspect] Fee value.   
+   
+### Improvements   
+ETD-1503 [reports] Marking of records with applied tax exemption in TAX Statement.   
+ETD-1506 [reports] Identification of transactions included in the value test in the Tax Statement.   
+ETD-1557 [pairs] Marking of Stablecoins.   
+ETD-1588 [portfolio] Total revenue from trades.   
+ETD-1635 [pairs] MultiversX (Elrond) and Elrond currency merge.   
+ETD-1638 [pairs] Add new symbols 25/04.   
+ETD-1670 [subscription] Discount codes.   
+ETD-1672 [subscriptions] Checkout screen when changing the plan.   
+ETD-1691 [asset-accounts] Extend transaction conversion by address to BUY / SELL.   
+ETD-1696 [asset-accounts] Minor improvements in asset accounts.   
+ETD-1703 [portfolio] Market valuation of cryptocurrencies in a time test.   
+ETD-1708 [organization] CZECH - NP - disable AVCO method.   
+ETD-1711 [tax-rules] The AVCO cost calculation method is not available for individuals from January 1, 2025 (CZ-NP-2025/01/01).   
+ETD-1712 [tax-rules] Dividing content into sections in the modal window for editing the tax ruleset.   
+ETD-1713 [chart-of-account] Add a note in the pre-accounting detail dialog box.   
+ETD-1726 [portfolios] For natural persons, rename Revenues to Proceeds.   
+   
+### Bug Fixes   
+ETD-1687 [connectors] Bitstamp API can´t connect.   
+ETD-1689 [inputs] Inserting from the clipboard overwrites the content of the input.   
+ETD-1690 [reports] ABRA Flexi accounting report shows limitations in higher plans.   
+ETD-1692 [organizations] Correction of transaction count listing location.   
+ETD-1693 [connectors] Kraken API error when aggregating fees.   
+ETD-1694 [transactions] Fix buttons in transaction details on mobile breakpoint.   
+ETD-1695 [portfolios] Time lag in asset account balances in the portfolio.   
+ETD-1697 [transactions] The filter remembers the settings but does not filter.   
+ETD-1699 [transactions] Applying status to a Transfer transaction affects transaction identification.   
+ETD-1701 [subscriptions] Plan status does not respond to repeated failed payments.   
+ETD-1704 [asset-accounts] User can't create new Asset accounts.   
+ETD-1705 [subscriptions] Timeout before checkout if the user does not have a defined username.   
+ETD-1707 [reports] Specific accounting reports are not exported.   
+ETD-1709 [transactions] Exporting transactions in active column format does not export related columns correctly.   
+ETD-1710 [transactions] Deleting a Fee from the context menu deletes the whole transaction.   
+ETD-1714 [asset-accounts] The asset account transaction sheet for saving transaction changes is not updated.   
+ETD-1721 [transactions] After running the Inspect action on a large number of transactions, there is a long delay before the loader appears.   
+ETD-1724 [reports] Tax Statement cannot be downloaded.   
+ETD-1725 [reports] Submitting the form "I am looking for an accountant" returns an error.   
+ETD-1727 [reports] Optimization of the ABRA Flexi accounting report format.   
+ETD-1729 [reports] A non-binding fee in crypto is charged with a pre-accounting of the FIAT fee.   
+ETD-1730 [chart-of-accounts] Duplicate symbol in analytical accounts.   
+ETD-1731 [transactions] Transactions of the type Unbound Fee and Revard do not save currency changes.   
+   
 ## Version 2025.04.161306   
 The introduction of subscriptions and new price plans is the main innovation of this version. You can choose from 4 plans, namely Free, Personal, Company and Accountant. Each plan is tailored to the needs of a specific group of users. We have prepared a complete guide to the pricing plan options.   
    
