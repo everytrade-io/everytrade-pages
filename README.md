@@ -2,14 +2,16 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
    
-## Version 2025.06.30xxxx   
+## Version 2025.07.021228   
 In addition to the time test, a value test is now also available in the portfolio. A rule has been added for the Czech Republic, which defines the value test for individuals from income of CZK 100,000 per calendar year, excluding income from the sale of stablecoins. The value test is always applied first, and only after it has been exceeded is the time test verified. The tax return now includes a designation of transactions that meet the value or time test and constitute a zero tax base. The interface of the dialog window for editing tax rules has been optimized.   
    
 The list of actions for transactions has been redesigned in the data manager. A new group called Control has been added, which brings together control mechanisms for verifying transactions. These include Duplicate Transactions (searches for duplicate transactions), Negative Position (searches for transactions causing a negative position), Unit Price (searches for transactions with a unit price outside the expected tolerance) and Fee Value (searches for transactions with a fee value outside the expected tolerance). A new tab called Check has been added to Settings. Here you can set tolerance limits for unit price and fee value deviations. Checks must be run manually on demand. The results are displayed in the optional Check column. You can filter using the parameters found in the filter.   
    
 For audit trail purposes, transaction version history is now available. Each time a transaction is saved, a new version is created. The time and author of the change are stored. You can browse between versions using the controller in the details of each transaction. The Version and Edited columns are now available in the transaction list, where you can record this information.   
    
-For more information visit [extended description of the main news](https://generalbytes.atlassian.net/wiki/x/AYAg8g)   
+For more information visit
+EN [extended description of the main news](https://generalbytes.atlassian.net/wiki/x/AYBa8w)    
+CZ [extended description of the main news](https://generalbytes.atlassian.net/wiki/x/AYAg8g)   
    
 ### New Features   
 ETD-1504 [tax-rules] TAX Rule - Revenue limit test.   
@@ -64,6 +66,12 @@ ETD-1727 [reports] Optimization of the ABRA Flexi accounting report format.
 ETD-1729 [reports] A non-binding fee in crypto is charged with a pre-accounting of the FIAT fee.   
 ETD-1730 [chart-of-accounts] Duplicate symbol in analytical accounts.   
 ETD-1731 [transactions] Transactions of the type Unbound Fee and Revard do not save currency changes.   
+ETD-1734 [portfolios] Round the realized value of the time test in a closed position.   
+ETD-1735 [organizations] Organization change randomly returns frontend error.   
+ETD-1739 [tax-rules] Payment and reward preferences cannot be edited.   
+ETD-1744 [tax-rules] After editing the rules, the current rule is removed.   
+ETD-1750 [transactions] Specific transactions cannot be deleted.   
+ETD-1752 [transactions] The transaction does not save the unit price change.   
    
 ## Version 2025.04.161306   
 The introduction of subscriptions and new price plans is the main innovation of this version. You can choose from 4 plans, namely Free, Personal, Company and Accountant. Each plan is tailored to the needs of a specific group of users. We have prepared a complete guide to the pricing plan options.   
