@@ -3,13 +3,13 @@ NOTE: To get notified quickly about new releases and other important information
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
    
 ## Version 2025.07.021228   
-In addition to the time test, a value test is now also available in the portfolio. A rule has been added for the Czech Republic, which defines the value test for individuals from income of CZK 100,000 per calendar year, excluding income from the sale of stablecoins. The value test is always applied first, and only after it has been exceeded is the time test verified. The tax return now includes a designation of transactions that meet the value or time test and constitute a zero tax base. The interface of the dialog window for editing tax rules has been optimized.   
+In addition to the time test, a value test is now also available in the portfolio. A rule has been added for the Czech Republic, which defines the value test for individuals from income of CZK 100 000 per calendar year, excluding income from the sale of stablecoins. The value test is always applied first, and only after it has been exceeded is the time test verified. The tax return now includes a designation of transactions that meet the value or time test and constitute a zero tax base. The interface of the dialog window for editing tax rules has been optimized.   
    
 The list of actions for transactions has been redesigned in the data manager. A new group called Control has been added, which brings together control mechanisms for verifying transactions. These include Duplicate Transactions (searches for duplicate transactions), Negative Position (searches for transactions causing a negative position), Unit Price (searches for transactions with a unit price outside the expected tolerance) and Fee Value (searches for transactions with a fee value outside the expected tolerance). A new tab called Check has been added to Settings. Here you can set tolerance limits for unit price and fee value deviations. Checks must be run manually on demand. The results are displayed in the optional Check column. You can filter using the parameters found in the filter.   
    
 For audit trail purposes, transaction version history is now available. Each time a transaction is saved, a new version is created. The time and author of the change are stored. You can browse between versions using the controller in the details of each transaction. The Version and Edited columns are now available in the transaction list, where you can record this information.   
    
-For more information visit
+For more information visit   
 EN [extended description of the main news](https://generalbytes.atlassian.net/wiki/x/AYBa8w)    
 CZ [extended description of the main news](https://generalbytes.atlassian.net/wiki/x/AYAg8g)   
    
