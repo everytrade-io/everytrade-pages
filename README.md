@@ -1,6 +1,62 @@
 # [WhaleBooks](https://whalebooks.com/) - Release Notes   
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
+
+## Version 2025.08.122223
+
+### Summary   
+**Crypto / crypto exchange valuation** - new setting to determine whether transactions are valued based on what I am buying (originally) or what I am selling (new, default for the Czech Republic from January 1, 2025).   
+**Sorting records** - manual sorting of columns in tables with saving to user preferences.   
+**Transaction type conversion** - change the transaction type via conversion with the option to return to the original version.   
+**WhaleBooks format v3.3** - the Rebate column has been removed, and the Partner and Reference columns have been added.   
+**Setting the transaction partner by address** - automatic completion of the Partner data in the transaction based on a predefined address.   
+**Pre-accounting of payments** - new agenda for incoming and outgoing payments, option of user extension and setting of default pre-accounting.   
+**Stocking / removing from stock in the accounting report** - user definition of reporting for these transactions.   
+**Increased limits for accounting reports** - limit increased to 200,000 lines; if the limit is exceeded, the file is split into multiple files.   
+**Asset account output** - now in XLSX format instead of CSV.   
+**Tax residences** - residence for Spain added.   
+   
+### For more information visit   
+EN [extended description of the main news] [https://generalbytes.atlassian.net/wiki/x/AYBB9w]   
+CZ [extended description of the main news] [https://generalbytes.atlassian.net/wiki/x/BQA59w]   
+   
+### New Features   
+ETD-134 [application] Sorting records.   
+ETD-1011 [portfolios] Validation of crypto/crypto exchange pricing.   
+ETD-1288 [accounting-settings] Evidence of Payment types.   
+ETD-1415 [transactions] Transaction type conversion.   
+   
+### Improvements   
+ETD-1733 [containers] WhaleBooks format v3.3 update (API, CSV).   
+ETD-1737 [reports] Extend the accounting report with the Reference and Partner parameters.   
+ETD-1738 [asset-accounts] Setting the Transaction Partner when converting by address.   
+ETD-1751 [portfolio] Unification of indicator priorities.   
+ETD-1753 [pairs] Add new symbols 25/07.   
+ETD-1756 [organization] New Tax Residence - Spain.   
+ETD-1762 [reports] Configuration of Acquisition and Disposal transactions in the accounting report.   
+ETD-1763 [reports] Extension of the ABRA Flexi accounting report with variable symbol data.   
+ETD-1766 [reports] Automatically split the accounting report into multiple output files when the maximum number of lines is reached.   
+ETD-1767 [reports] Export asset accounts change output format from CSV to XLSX.   
+ETD-1768 [transactions] Add loader when exporting transactions.   
+ETD-1781 [help] WhaleBooks format 3.3. help.   
+   
+### Bug Fixes   
+ETD-1723 [testing] Tests do not Report page loading errors and non-functional Tax report.   
+ETD-1740 [portfolios] The portfolio does not copy AVCO balances.   
+ETD-1741 [portfolios] Copying FIFO portfolio balances does not transfer time test information.   
+ETD-1745 [transactions] The modal transaction is closed in response to the Enter key.   
+ETD-1746 [portfolios] The portfolio does not copy Asset Accounts balances.   
+ETD-1749 [settings] Tax rules fixes.   
+ETD-1754 [transactions] Duplicating and saving a transaction does not save the Reference and Partner parameters.   
+ETD-1764 [transactions] Unit price conversion causes an error when saving a transaction.   
+ETD-1765 [reports] In the specific case of ABRA Flexi, the accounting report ends with an error.   
+ETD-1773 [frontend] The reports page returns an error.   
+ETD-1778 [transaction] Bulk transaction price setting returns an error.   
+ETD-1782 [containers] Only one dimension must be selected.   
+ETD-1785 [transactions] Bulk & Quick actions creates but does not select a transaction version.   
+ETD-1789 [transactions] A manually created transaction does not save a link to a fee.   
+ETD-1791 [help] Size of supported transaction log formats.   
+ETD-1792 [transactions] Rewards - valuation in FIAT is not fixed.   
    
 ## Version 2025.07.021228   
 In addition to the time test, a value test is now also available in the portfolio. A rule has been added for the Czech Republic, which defines the value test for individuals from income of CZK 100 000 per calendar year, excluding income from the sale of stablecoins. The value test is always applied first, and only after it has been exceeded is the time test verified. The tax return now includes a designation of transactions that meet the value or time test and constitute a zero tax base. The interface of the dialog window for editing tax rules has been optimized.   
