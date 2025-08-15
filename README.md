@@ -17,8 +17,8 @@ NEW: Meet other users and join [WhaleBooks Community channel](https://signal.gro
 **Tax residences** - residence for Spain added.   
    
 ### For more information visit   
-EN [extended description of the main news] [https://generalbytes.atlassian.net/wiki/x/AYBB9w]   
-CZ [extended description of the main news] [https://generalbytes.atlassian.net/wiki/x/BQA59w]   
+EN [extended description of the main news](https://generalbytes.atlassian.net/wiki/x/AYBB9w)   
+CZ [extended description of the main news](https://generalbytes.atlassian.net/wiki/x/BQA59w)   
    
 ### New Features   
 ETD-134 [application] Sorting records.   
