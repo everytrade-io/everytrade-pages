@@ -2,6 +2,234 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
 
+## Version 2026.05.311852   
+
+### Summary   
+...   
+   
+### New Features   
+ETD-1427 [chart-of-account] Extension of pre-accounting for REBATE   
+ETD-1554 [transactions] Payment type transactions   
+ETD-1569 [invoices] New category Invoices in Data Manager   
+ETD-1570 [invoices] New Transaction Type Invoice   
+ETD-1720 [portfolios] Development of a time test for warehouse stock   
+ETD-1769 [transactions] Bulk conversion of transactions   
+ETD-1775 [pricing] WhaleBooks Enterprise plan landing page   
+ETD-1783 [connectors] DASE API support   
+ETD-1809 [containers] CSV file import guide   
+ETD-1817 [containers] CSV file import profile   
+ETD-1908 [reporting] User statistics reporting   
+ETD-1909 [reporting] Logging report requests   
+ETD-1946 [reports] Accounting report - payments - new line in report   
+ETD-2004 [account] Login history   
+ETD-2050 [datamanager] Folder of connectors / containers   
+ETD-2075 [transactions] Invity Finance format - Non/Custodial Buy, Turbo Buy   
+ETD-2104 [quantum] Verify Bitcoin address for quantum resistance   
+   
+### Improvements   
+ETD-769 [containers] Skip the CSV import lines if you don't identify a known header   
+ETD-1553 [tables] Completion of the transition to a single action system for rows in tables   
+ETD-1560 [transactions] Transaction context menu optimization   
+ETD-1561 [subscriptions] Add-ons configuration   
+ETD-1563 [imports] Binance CSV imports upgrade   
+ETD-1564 [transactions] New columns of the payment in the list of transactions   
+ETD-1565 [reports] Payments on Accounting report   
+ETD-1614 [portfolio] Limit the portfolio time filter to the portfolio period only   
+ETD-1615 [imports] Coinbase CSV imports upgrade - three extra lines   
+ETD-1688 [users] Deleting accounts   
+ETD-1698 [tables] Add reset columns to original settings   
+ETD-1728 [transactions] Dynamic filter parameters depending on transaction content   
+ETD-1748 [portfolios] Maximum limit for applying the time test   
+ETD-1757 [api] Downloading tax reports in the API for third parties   
+ETD-1758 [api] Copying portfolio balances in the API for third-party applications   
+ETD-1760 [api] API key details   
+ETD-1761 [api] API usage overview   
+ETD-1771 [transactions] Quick conversion of transactions   
+ETD-1772 [api] Creating a container   
+ETD-1774 [transactions] Info section in transaction details   
+ETD-1776 [frontend] Implementation of a new design system   
+ETD-1784 [containers] Anycoin and DASE format resolution   
+ETD-1787 [api] Administrative overview of API key requests   
+ETD-1788 [api] Storing API keys for third-party applications   
+ETD-1790 [pairs] Add new symbols 25/10   
+ETD-1798 [reports] Tax-exempt transactions   
+ETD-1801 [invoices] Column settings   
+ETD-1802 [invoices] Portfolio filter   
+ETD-1803 [invoices] Extension and modification of column names   
+ETD-1804 [invoices] Export table   
+ETD-1807 [settings] Adding main accounts for payment accounting   
+ETD-1813 [settings] Expanding the list Account description   
+ETD-1814 [settings] Setting default payment pre-accounts   
+ETD-1816 [help] Binance help improvements   
+ETD-1822 [asset-accounts] Conversion of deposit / withdrawal to payment via address   
+ETD-1824 [transactions] Specifying the account number in pre-accounting in a transaction   
+ETD-1830 [transactions] Extension of the modal for selecting the corresponding invoice   
+ETD-1835 [invoices] Bound payment on invoice statement   
+ETD-1860 [transactions] Include valuation in the payment summary   
+ETD-1882 [emails] Email templates upgrade   
+ETD-1892 [invoices] View a preview of the bound payment in the invoice details   
+ETD-1893 [transactions] Preview a linked invoice in the payment details   
+ETD-1896 [styles] New preview input style   
+ETD-1898 [chart-of-account] Delete sub-account manually, analyze transactions on sub-accounts   
+ETD-1900 [chart-of-account] Optimization of modal windows in the chart of accounts interface   
+ETD-1907 [pricing] Set Personal plan as Most-Popular   
+ETD-1910 [imports] OKX CSV imports upgrade   
+ETD-1912 [currencies] Currency symbols update   
+ETD-1915 [pricing] Summary of capacity expansion order   
+ETD-1918 [transactions] Improved readability of transaction details when scrolling   
+ETD-1920 [pairs] Add new symbols 26/01   
+ETD-1922 [connectors] Coinmate API improvements   
+ETD-1923 [frontend] Fixing the fluid layout of the public part of the website   
+ETD-1924 [pricing] Update to the price plan page content   
+ETD-1931 [api] Customer customization of TAX Statement logos   
+ETD-1932 [login] Login only via the login page, not via modal   
+ETD-1939 [api] Receive transactions as an array of 100 records in an API request   
+ETD-1942 [api] Add the organization's portfolio field to the organization's API response   
+ETD-1943 [pricing] Variable for the length of the trial period   
+ETD-1953 [transactions] Highlight negative balances in red   
+ETD-1954 [transactions] Modifications to the invoice modal window for linking   
+ETD-1955 [transactions] Add check for negative balance   
+ETD-1956 [transactions] Transfer the balance value of the attached invoice to the value of the attached invoice in the payment details   
+ETD-1964 [api] Expansion of report types in API communication for third parties   
+ETD-1983 [pricing] Improvements to the pricing page   
+ETD-1992 [pricing] No purchase if nothing is selected   
+ETD-1996 [imports] WhaleBooks format update to version 3.3.1 - addition of payment transactions   
+ETD-1997 [help] WhaleBooks CSV/API format help update v3.3.1   
+ETD-2010 [imports] Bitmex CSV import format upgrade   
+ETD-2013 [connectors] Downloading archived transactions (before 2022) from Coinmate API   
+ETD-2022 [portfolio] Rule for preselecting the default FIAT currency of a new portfolio   
+ETD-2028 [connectors] There are too many requests to the History endpoint of the Coinmate API connector   
+ETD-2031 [urls] Language separators in the URL address of the public part of the website   
+ETD-2034 [transactions] Expand the list of payment transaction conversions to include Buy and Sale   
+ETD-2035 [imports] KuCoin CSV imports upgrade   
+ETD-2036 [imports] Coinbase CSV imports upgrade - new types of transactions   
+ETD-2037 [help] Edit the help hub, insert videos, add a link to the knowledge base in Confluence   
+ETD-2038 [administration] Automatic change of plan status after expiration   
+ETD-2039 [administration] Export monthly login log   
+ETD-2051 [pairs] Add new symbols 26/03   
+ETD-2053 [account] Show confirmation after changing password   
+ETD-2054 [portfolio] Displaying decimal places in the overview   
+ETD-2055 [imports] Revolut CSV imports upgrade   
+ETD-2066 [portfolio] Specifying the portfolio selection criteria depending on whether the portfolios exist or not   
+ETD-2067 [imports] Trezor CSV import improvements   
+ETD-2068 [imports] KuCoin CSV import improvements   
+ETD-2082 [pairs] Add new symbols 26/04   
+ETD-2083 [help] Changes to the Coinbase help text   
+ETD-2085 [containers] Change the container log output format to XLSX   
+ETD-2087 [imports] Revolut import improvements   
+ETD-193 [connectors] OKX - deposits and withdrawals   
+   
+### Bug Fixes   
+ETD-982 [reports] Differences between Portfolio and Tax Statement for cryptocurrency bound fees   
+ETD-1045 [portfolios] Portfolio time filter include also trx before start of time filter   
+ETD-1120 [reports] SC9 - AVCO - double bounded crypto fee in portfolio calculation   
+ETD-1144 [connectors] Bitfinex API can't be connected   
+ETD-1215 [reports] Represent the EARNING transaction as EARN in the tax statement   
+ETD-1230 [containers] Transaction Manager doesn't display an alert for incorrectly imported fees   
+ETD-1425 [emails] Email subjects are not localized   
+ETD-1794 [portfolios] Portfolios are showing wrong unit prices for cryptocurrencies   
+ETD-1795 [portfolios] Portfolio error   
+ETD-1799 [invoices] Deleting a container and data about transactions in the container   
+ETD-1810 [setting] Choosing language resets the form   
+ETD-1811 [help] Walkthrough functionality never ends   
+ETD-1818 [portfolios] Incorrect display of a time test   
+ETD-1819 [transactions] Improved transaction detail performance   
+ETD-1820 [invoices] Assigning a container in invoices removes containers in transactions and vice versa   
+ETD-1821 [transactions] Improving transaction-to-payment conversion   
+ETD-1823 [transactions ] FEE and REBATE transactions cannot be created   
+ETD-1825 [transactions] Errors linking payment transactions & invoices   
+ETD-1826 [transactions] Errors in transaction pre-accounting   
+ETD-1827 [transactions] Unit price is not loaded when changing the type of a new transaction   
+ETD-1831 [transactions] Payment / invoice balance is not counted   
+ETD-1832 [transactions] Unwanted parameter changes Value when linking transactions   
+ETD-1833 [transactions] The inputs Value and Remaining lack currency information   
+ETD-1834 [containers] Cannot delete container connected to invoices   
+ETD-1836 [transactions] Loading another invoice for payment will overwrite the existing invoice   
+ETD-1837 [transactions] Update the fixed payment valuation value when manually changing the quantity   
+ETD-1838 [transactions] Pre-accounting in a transaction only controls invoices   
+ETD-1859 [reports] Accounting report - export by 50trx due to user setting   
+ETD-1861 [transactions] Displaying manually adjusted payment values vs. calculated unit prices   
+ETD-1881 [portfolios] Time test for portfolio does not count   
+ETD-1883 [transactions] The transaction filter does not offer all parameters when the portfolio filter is enabled   
+ETD-1891 [invoices] The bound payment transaction takes over the invoice data on the statement   
+ETD-1895 [account] After automatic account logout, the loader does not close on the homepage   
+ETD-1897 [reports] The accounting report does not use sub-accounts in a specific combination in the pre-accounting   
+ETD-1899 [chart-of-account] New payment pre-accounting will not be saved   
+ETD-1901 [portfolios] The program displays an error window in the client's portfolio   
+ETD-1902 [api] OKX api is not working   
+ETD-1904 [reports] Tax report - remove line - fee application   
+ETD-1905 [imports] Ignore transactions with negative unit value   
+ETD-1906 [organizations] The organization name defined by the user in the account creation wizard is not transferred to the newly created organization   
+ETD-1913 [frontend] Correction of minor errors   
+ETD-1914 [portfolios] After logging out a new user, the Walkthrough portfolio is not saved   
+ETD-1919 [transactions] Corresponding invoice data on the payment statement   
+ETD-1934 [transactions] Checking for duplicate transactions between different sources is not reliable   
+ETD-1935 [transactions] Overlapping drop-down menus   
+ETD-1936 [transactions] Conversion of deposit / withdrawal to transfer will not be saved   
+ETD-1937 [transactions] Canceling a transaction type in bulk editing returns a white screen   
+ETD-1952 [transactions] The invoice created in the payment details has the opposite name in the transaction list   
+ETD-1961 [account] Registration with Google account ends with an error   
+ETD-1962 [account] Changing the language in the initial account settings will delete any data already entered   
+ETD-1976 [organizations] Incorrect designation of the organization's status if its owner is in Trial status   
+ETD-1977 [reports] Accounting report - Payment fee - switch line Acquisition and Disposal   
+ETD-1978 [transactions] It is not possible to enter a fee in fiat currency   
+ETD-1982 [pricing] Expiration of obsolete plan does not verify frontend on backend   
+ETD-1984 [footer] The page contains an incorrect GB logo without a frame   
+ETD-1985 [pricing] Unable to submit the Enterprise Plan contact form   
+ETD-1986 [reports] Valuation of disposal transactions depending on the accounting report period   
+ETD-1988 [navigation] Masks of content that is loaded or calculated during scrolling cover the main menu   
+ETD-1989 [pricing] The content of the pricing plans page does not load   
+ETD-1990 [reports] The accounting report incorrectly uses the analytical account in the MD column of the SELL transaction   
+ETD-1991 [pricing] Unable to proceed to payment   
+ETD-1993 [portfolios] Portfolio is showing wrong unit price for cryptocurrencies   
+ETD-1994 [api] The API for third-party applications returns an error HTML page instead of a response   
+ETD-1995 [transactions] FEE transactions cannot be duplicated   
+ETD-2000 [users] After creating a new account, the application wizard does not start and does not create a walkthrough portfolio   
+ETD-2014 [support] Unable to open attachment from support ticket   
+ETD-2015 [api] Unauthorized access to portfolio results when calling the API endpoint   
+ETD-2016 [portfolio] Unwanted bold font in portfolio content   
+ETD-2017 [reports] The Tax Report contains a summary of inactive tax rules   
+ETD-2018 [reports] Incorrectly calculated fees in the tax report   
+ETD-2019 [rate-server] Termination of the conversion of the Bulgarian FIAT currency BGN as of December 31, 2025   
+ETD-2020 [reports] Incorrect tax base in the report   
+ETD-2021 [transactions] A new unsaved transaction is constantly refreshed to its original state and cannot be completed   
+ETD-2023 [users] User cannot login   
+ETD-2024 [connectors] Duplicate transactions in Coinmate API   
+ETD-2025 [reports] An accounting report is not generated if the payment does not have a price and currency entered   
+ETD-2029 [portfolios] Incorrect calculation of the time test   
+ETD-2030 [connectors] The old Xpub does not download all contained transactions   
+ETD-2033 [reports] The accounting report in Pohoda format does not generate pre-accounting for analytical sub-accounts   
+ETD-2042 [subscription] Cannot select a new plan   
+ETD-2043 [subscription] User has several pricing plans at the same time   
+ETD-2046 [connectors] Ethereum Blockchain API won't connect from on-premise installation   
+ETD-2048 [transactions] Deleting a payment does not break the link to the invoice   
+ETD-2052 [urls] After changing the URL format, links from transactional emails stopped working   
+ETD-2056 [transactions] Transaction filtering is not working correctly   
+ETD-2059 [login] The user cannot login - capital letter in the email address   
+ETD-2060 [reports] Report the payment amount in the accounting report in the transaction currency, not in the portfolio currency   
+ETD-2061 [users] Unable to login, change password   
+ETD-2064 [transactions] Calculation of the transaction balance: The "Payment" transaction does not correctly calculate the value when the payment currency is changed   
+ETD-2065 [transactions] Switching portfolios in DataManager causes the transaction statement to become unavailable   
+ETD-2070 [connectors] Coinmate API can´t connect   
+ETD-2071 [monitoring] Do not send a message to Sentry regarding the expiration of the access token   
+ETD-2073 [connectors] Incorrectly imported transactions in the Anycoin CSV   
+ETD-2074 [reports] A PDF report printed from Acrobat Reader on Mac OS has a black background   
+ETD-2076 [reports] Negative value in the time test   
+ETD-2077 [invoices] The invoice balance does not update after the invoice amount is changed   
+ETD-2080 [containers] Correction to the "Received" transaction type identifier   
+ETD-2081 [reports] Accounting report - disposal trx. - unit price - Invity CZ deviation of unit price   
+ETD-2091 [portfolios] The client cannot enter the initial portfolio balances   
+ETD-2108 [connectors] Etherscan API Changes   
+ETD-2111 [portfolios] I will not save the portfolio in the "Other" section   
+ETD-2114 [transactions] Transaction detail returns Unexpected Application Error!   
+ETD-2116 [transactions] The transaction statement export does not include unit prices or payment amounts   
+ETD-2118 [transactions] The portfolio filter uses an inappropriate active selection strategy   
+ETD-2119 [content] Natural sorting of content in dropdown menus   
+ETD-2121 [organization] Error when leaving the organization   
+ETD-2124 [settings] Deleting a document type in the accounting software returns an error   
+ETD-2127 [organizations] Error deleting the account's parent organization   
+   
+   
 ## Version 2025.08.122223
 
 ### Summary   
