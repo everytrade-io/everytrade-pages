@@ -23,7 +23,6 @@ ETD-1909 [reporting] Logging report requests
 ETD-1946 [reports] Accounting report - payments - new line in report   
 ETD-2004 [account] Login history   
 ETD-2050 [datamanager] Folder of connectors / containers   
-ETD-2075 [transactions] Invity Finance format - Non/Custodial Buy, Turbo Buy   
 ETD-2104 [quantum] Verify Bitcoin address for quantum resistance   
    
 ### Improvements   
