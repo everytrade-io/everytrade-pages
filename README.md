@@ -15,7 +15,7 @@ ETD-1720 [portfolios] Development of a time test for warehouse stock
 ETD-1748 [portfolios] Maximum limit for applying the time test   
 ETD-1769 [transactions] Bulk conversion of transactions   
 ETD-1775 [pricing] WhaleBooks Enterprise plan landing page   
-ETD-1777 [frontend] Dark mode
+ETD-1777 [frontend] Dark mode   
 ETD-1783 [connectors] DASE API support   
 ETD-1809 [containers] CSV file import guide   
 ETD-1817 [containers] CSV file import profile   
