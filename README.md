@@ -12,6 +12,7 @@ ETD-1554 [transactions] Payment type transactions
 ETD-1569 [invoices] New category Invoices in Data Manager   
 ETD-1570 [invoices] New Transaction Type Invoice   
 ETD-1720 [portfolios] Development of a time test for warehouse stock   
+ETD-1748 [portfolios] Maximum limit for applying the time test   
 ETD-1769 [transactions] Bulk conversion of transactions   
 ETD-1775 [pricing] WhaleBooks Enterprise plan landing page   
 ETD-1777 [frontend] Dark mode
@@ -35,10 +36,8 @@ ETD-1564 [transactions] New columns of the payment in the list of transactions
 ETD-1565 [reports] Payments on Accounting report   
 ETD-1614 [portfolio] Limit the portfolio time filter to the portfolio period only   
 ETD-1615 [imports] Coinbase CSV imports upgrade - three extra lines   
-ETD-1688 [users] Deleting accounts   
 ETD-1698 [tables] Add reset columns to original settings   
 ETD-1728 [transactions] Dynamic filter parameters depending on transaction content   
-ETD-1748 [portfolios] Maximum limit for applying the time test   
 ETD-1757 [api] Downloading tax reports in the API for third parties   
 ETD-1758 [api] Copying portfolio balances in the API for third-party applications   
 ETD-1760 [api] API key details   
@@ -48,8 +47,6 @@ ETD-1772 [api] Creating a container
 ETD-1774 [transactions] Info section in transaction details   
 ETD-1776 [frontend] Implementation of a new design system   
 ETD-1784 [containers] Anycoin and DASE format resolution   
-ETD-1787 [api] Administrative overview of API key requests   
-ETD-1788 [api] Storing API keys for third-party applications   
 ETD-1790 [pairs] Add new symbols 25/10   
 ETD-1798 [reports] Tax-exempt transactions   
 ETD-1801 [invoices] Column settings   
@@ -71,7 +68,6 @@ ETD-1893 [transactions] Preview a linked invoice in the payment details
 ETD-1896 [styles] New preview input style   
 ETD-1898 [chart-of-account] Delete sub-account manually, analyze transactions on sub-accounts   
 ETD-1900 [chart-of-account] Optimization of modal windows in the chart of accounts interface   
-ETD-1907 [pricing] Set Personal plan as Most-Popular   
 ETD-1910 [imports] OKX CSV imports upgrade   
 ETD-1912 [currencies] Currency symbols update   
 ETD-1915 [pricing] Summary of capacity expansion order   
@@ -120,7 +116,6 @@ ETD-2087 [imports] Revolut import improvements
 ### Bug Fixes   
 ETD-982 [reports] Differences between Portfolio and Tax Statement for cryptocurrency bound fees   
 ETD-1045 [portfolios] Portfolio time filter include also trx before start of time filter   
-ETD-1120 [reports] SC9 - AVCO - double bounded crypto fee in portfolio calculation   
 ETD-1144 [connectors] Bitfinex API can't be connected   
 ETD-1215 [reports] Represent the EARNING transaction as EARN in the tax statement   
 ETD-1230 [containers] Transaction Manager doesn't display an alert for incorrectly imported fees   
@@ -209,7 +204,6 @@ ETD-2061 [users] Unable to login, change password
 ETD-2064 [transactions] Calculation of the transaction balance: The "Payment" transaction does not correctly calculate the value when the payment currency is changed   
 ETD-2065 [transactions] Switching portfolios in DataManager causes the transaction statement to become unavailable   
 ETD-2070 [connectors] Coinmate API can´t connect   
-ETD-2071 [monitoring] Do not send a message to Sentry regarding the expiration of the access token   
 ETD-2073 [connectors] Incorrectly imported transactions in the Anycoin CSV   
 ETD-2074 [reports] A PDF report printed from Acrobat Reader on Mac OS has a black background   
 ETD-2076 [reports] Negative value in the time test   
