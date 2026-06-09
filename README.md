@@ -14,6 +14,7 @@ ETD-1570 [invoices] New Transaction Type Invoice
 ETD-1720 [portfolios] Development of a time test for warehouse stock   
 ETD-1769 [transactions] Bulk conversion of transactions   
 ETD-1775 [pricing] WhaleBooks Enterprise plan landing page   
+ETD-1777 [frontend] Dark mode
 ETD-1783 [connectors] DASE API support   
 ETD-1809 [containers] CSV file import guide   
 ETD-1817 [containers] CSV file import profile   
@@ -23,6 +24,7 @@ ETD-2050 [datamanager] Folder of connectors / containers
 ETD-2104 [quantum] Verify Bitcoin address for quantum resistance   
    
 ### Improvements   
+ETD-193 [connectors] OKX - deposits and withdrawals   
 ETD-769 [containers] Skip the CSV import lines if you don't identify a known header   
 ETD-1427 [chart-of-account] Extension of pre-accounting for REBATE   
 ETD-1553 [tables] Completion of the transition to a single action system for rows in tables   
@@ -114,7 +116,6 @@ ETD-2082 [pairs] Add new symbols 26/04
 ETD-2083 [help] Changes to the Coinbase help text   
 ETD-2085 [containers] Change the container log output format to XLSX   
 ETD-2087 [imports] Revolut import improvements   
-ETD-193 [connectors] OKX - deposits and withdrawals   
    
 ### Bug Fixes   
 ETD-982 [reports] Differences between Portfolio and Tax Statement for cryptocurrency bound fees   
