@@ -8,7 +8,6 @@ NEW: Meet other users and join [WhaleBooks Community channel](https://signal.gro
 ...   
    
 ### New Features   
-ETD-1427 [chart-of-account] Extension of pre-accounting for REBATE   
 ETD-1554 [transactions] Payment type transactions   
 ETD-1569 [invoices] New category Invoices in Data Manager   
 ETD-1570 [invoices] New Transaction Type Invoice   
@@ -18,8 +17,6 @@ ETD-1775 [pricing] WhaleBooks Enterprise plan landing page
 ETD-1783 [connectors] DASE API support   
 ETD-1809 [containers] CSV file import guide   
 ETD-1817 [containers] CSV file import profile   
-ETD-1908 [reporting] User statistics reporting   
-ETD-1909 [reporting] Logging report requests   
 ETD-1946 [reports] Accounting report - payments - new line in report   
 ETD-2004 [account] Login history   
 ETD-2050 [datamanager] Folder of connectors / containers   
@@ -27,6 +24,7 @@ ETD-2104 [quantum] Verify Bitcoin address for quantum resistance
    
 ### Improvements   
 ETD-769 [containers] Skip the CSV import lines if you don't identify a known header   
+ETD-1427 [chart-of-account] Extension of pre-accounting for REBATE   
 ETD-1553 [tables] Completion of the transition to a single action system for rows in tables   
 ETD-1560 [transactions] Transaction context menu optimization   
 ETD-1561 [subscriptions] Add-ons configuration   
