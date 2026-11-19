@@ -2,7 +2,7 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
 
-## Version VERSION_PLACEHOLDER   
+## Version 2026.10.310754   
    
 ### Summary   
 **Stocks (beta)** - You can now record stock transactions and see them in the dashboard, the tax statement and accounting reports alongside crypto.   
