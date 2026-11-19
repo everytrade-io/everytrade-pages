@@ -2,6 +2,90 @@
 NOTE: To get notified quickly about new releases and other important information join our [WhaleBooks Telegram channel](https://t.me/whalebooks).   
 NEW: Meet other users and join [WhaleBooks Community channel](https://signal.group/#CjQKIMPn0vQhrkiu12KtqYl1AS-de2EZA2mtG7N8usA2FrnyEhAZorgA3oCTtJ8ZLjZw7MOV).   
 
+## Version VERSION_PLACEHOLDER   
+   
+### Summary   
+**Stocks (beta)** - You can now record stock transactions and see them in the dashboard, the tax statement and accounting reports alongside crypto.   
+**Data quality check** - A new Inspect page and warnings in the dashboard and Data Manager flag suspicious crypto data, and a data check runs before every report download.   
+**New imports and connectors** - ByBit EU Funding and Unified Trading CSV, the new Bitstamp CSV export, Šrajtofle CSV exports (including the 9-column variant) and DASE Basic CSV can now be imported.   
+**Invoices CSV import** - Invoices can be imported from a CSV file, including the ABRA export format.   
+**Official exchange rates** - Fiat conversions use official central bank rates first (CNB, then ECB), and the last CNB fixing also applies on weekends and holidays.   
+**Calculation accuracy** - Fixes for AVCO fees, fees paid in a third cryptocurrency, linked portfolio balance transfers, phantom reward positions and the tax-exempt income limit make dashboard and report figures more accurate.   
+**Connector reliability** - The Coinbase, Coinmate, Kraken, DASE, Ethereum and Litecoin connections synchronize correctly again, and failed syncs are now reported clearly.   
+**Easier onboarding** - Creating your first organization and portfolio is simpler, with a clearer choice of cost-basis method and quick picks for the accounting period.   
+**Crypto tax guides** - New public crypto tax guides and a simple tax calculator for private individuals.   
+**Performance** - The application and reports load faster.   
+**Security hardening** - Authentication, organization access checks, public endpoints, subscriptions and connector URLs were hardened.   
+   
+### New Features   
+ETD-517 [imports] ByBit EU CSV import (Funding and Unified Trading)   
+ETD-2109 [stocks] Add the ability to enter stock transactions   
+ETD-2178 [imports] Bitstamp new CSV export format support   
+ETD-2182 [imports] Šrajtofle CSV import support   
+ETD-2186 [invoices] Invoices import from CSV file   
+ETD-2214 [inspect] Data quality check for crypto - dashboard warnings and Inspect page   
+   
+### Improvements   
+ETD-2136 [settings] Explain why default statuses have no action menu   
+ETD-2140 [performance] AVCO calculation - limit scale growth in decimal multiplication   
+ETD-2143 [pairs] Add new symbols 26/06   
+ETD-2147 [pairs] Add new symbols 26/06   
+ETD-2156 [portfolios] Specific error message when the accounting currency is not allowed by the tax rule set   
+ETD-2163 [pairs] Add new symbols 26/07   
+ETD-2164 [onboarding] New user onboarding UX - organization and portfolio setup   
+ETD-2167 [connectors] Show the reason for skipped rows in the connector download log   
+ETD-2187 [labels] Unify label filtering across transaction views   
+ETD-2188 [performance] Faster application loading, crypto tax guides and a simple tax calculator   
+   
+### Bug Fixes   
+ETD-1254 [connectors] Clear error when an address of another blockchain is entered in the LTC connector   
+ETD-1855 [security] Security hardening of the certified accountant directory   
+ETD-1917 [security] Security hardening of session handling on sign-out   
+ETD-2110 [tax-rules] Tax-exempt income reporting limit applied and shown incorrectly in tax rules and reports   
+ETD-2134 [connectors] Coinbase Advanced Trade fills are not imported   
+ETD-2138 [security] Security hardening of organization detail editing permissions   
+ETD-2139 [security] Security hardening of access checks for bucket transactions   
+ETD-2141 [subscriptions] Add-on purchase fails with HttpClientErrorException   
+ETD-2145 [containers] Race condition in container and folder sequence numbering   
+ETD-2146 [reports] Accounting report header does not reconcile with closed positions for fees on crypto/crypto buys   
+ETD-2148 [reports] Fee in a third crypto currency is not handled correctly in reports   
+ETD-2149 [reports] Duplicate labels and inconsistent label order in reports   
+ETD-2150 [connectors] Coinbase connection fails with 401 Unauthorized   
+ETD-2152 [users] Nightly cleanup of unverified accounts fails   
+ETD-2153 [rate-server] Scheduled rate jobs fixed and XVC rates added   
+ETD-2155 [portfolios] Portfolio dashboard computation error does not identify the offending transaction   
+ETD-2157 [transactions] Transaction list fails when filtering by warnings and sorting by a computed column   
+ETD-2159 [connectors] Coinmate API withdrawals missing or duplicated   
+ETD-2165 [users] Nightly cleanup of unverified accounts fails when the user owns an organization   
+ETD-2168 [portfolios] AVCO fee values explode after covering a short position   
+ETD-2170 [subscriptions] Security hardening of subscription plan selection and payment processing   
+ETD-2171 [reports] Reward quote currency shows as a phantom open position   
+ETD-2173 [datamanager] Portfolio filter setting not persisted and fiat rounding differences in asset accounts   
+ETD-2174 [portfolios] Linked portfolios balance transfer and missing transaction types   
+ETD-2175 [portfolios] Dashboard fails when a reward fee makes cost or revenue negative   
+ETD-2179 [imports] Kraken and SimpleCoin CSV currency pair parsing   
+ETD-2183 [rates] Official central bank rates used first for fiat conversion   
+ETD-2191 [frontend] Serve prerendered pages at canonical URLs   
+ETD-2194 [asset-accounts] Wrong scale of account balance for open positions   
+ETD-2195 [security] Security hardening of request authentication   
+ETD-2197 [security] Security hardening of the API   
+ETD-2198 [security] Security hardening of payment webhook configuration   
+ETD-2200 [imports] Import of Šrajtofle CSV export with 9 columns   
+ETD-2202 [security] Security hardening of authorization checks between organizations   
+ETD-2203 [connectors] Kraken connection fails to synchronize; THB, MYR, IDR and SGD currencies added   
+ETD-2204 [rates] Incorrect CNB rates (e.g. USD/CZK) on days filled across publication gaps   
+ETD-2205 [security] Security hardening against automated access attempts   
+ETD-2206 [stocks] Stock prices taken from the wrong exchange listing   
+ETD-2207 [imports] Pending user cleanup fails and import files are not removed   
+ETD-2208 [security] Security hardening of public endpoints   
+ETD-2209 [rates] Official exchange rates follow Czech accounting rules and apply on weekends and holidays   
+ETD-2211 [security] Security hardening of URL-based exchange connectors   
+ETD-2215 [connectors] DASE API, DASE CSV and Ethereum API connector fixes   
+ETD-2216 [transactions] Fixes for import and background job errors   
+ETD-2217 [rates] Delisted coins handled and missing rates filled   
+ETD-2221 [organizations] Organization owner with a support account cannot manage invitations   
+ETD-2223 [exports] Transaction export with All/Active option fails   
+   
 ## Version 2026.05.311852   
 
 ### Summary   
